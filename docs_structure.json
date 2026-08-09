@@ -1,0 +1,69 @@
+{
+  "": [],
+  "\\上下文": [
+    "@ Mention.md",
+    "索引.md",
+    "规则.md",
+    "记忆.md"
+  ],
+  "\\事件": [
+    "MiniMax-M2.5限时免费体验.md",
+    "Qwen-Coder-Qoder限时免费体验活动.md",
+    "推荐条款与条件.md",
+    "推荐计划.md",
+    "限时优惠.md"
+  ],
+  "\\其他产品": [
+    "CLI快速上手.md",
+    "JetBrains插件概览.md",
+    "QoderWork概览.md"
+  ],
+  "\\快速入门": [
+    "产品概述.md",
+    "快速开始.md"
+  ],
+  "\\拓展能力": [
+    "Commands.md",
+    "Deeplinks.md",
+    "Hooks.md",
+    "MCP.md",
+    "Skills.md",
+    "自定义智能体.md"
+  ],
+  "\\支持": [
+    "FAQ.md",
+    "MCP常见问题.md",
+    "故障排查指南.md",
+    "终端执行异常.md"
+  ],
+  "\\用户指南": [
+    "Agent模式.md",
+    "Ask模式.md",
+    "Diff视图.md",
+    "Experts模式.md",
+    "Quest Mode.md",
+    "Repo Wiki.md",
+    "上下文压缩.md",
+    "工具.md",
+    "智能会话概述.md",
+    "智能问答.md",
+    "模型选择器.md",
+    "聊天概览.md",
+    "自定义模型.md",
+    "行间会话.md",
+    "行间建议预测NEXT.md"
+  ],
+  "\\账户": [
+    "Credits.md",
+    "Teams价格.md",
+    "价格.md",
+    "定价.md",
+    "开始使用Teams.md",
+    "成员和角色.md",
+    "账单.md"
+  ],
+  "\\配置": [
+    "快捷键.md",
+    "网络代理.md"
+  ]
+}
