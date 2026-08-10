@@ -1,58 +1,205 @@
 {
-  "": [],
-  "\\Account": [
-    "Billing.md",
-    "Credits.md",
-    "Getting-Started-with-Teams.md",
-    "Members-and-Roles.md",
-    "Pricing-Alternative.md",
-    "Pricing.md",
-    "Teams-Pricing.md"
-  ],
-  "\\Configuration": ["Network-Proxy.md", "Shortcuts.md"],
-  "\\Context": ["@ Mention.md", "Index.md", "Memory.md", "Rules.md"],
-  "\\Events": [
-    "Limited-Time-Offers.md",
-    "MiniMax-M2.5-Free-Trial.md",
-    "Qwen-Coder-Qoder-Free-Trial.md",
-    "Referral-Program.md",
-    "Referral-Terms-and-Conditions.md"
-  ],
-  "\\Extensions": [
-    "Commands.md",
-    "Custom-Agents.md",
-    "Deeplinks.md",
-    "Hooks.md",
-    "MCP.md",
-    "Skills.md"
-  ],
-  "\\OtherProducts": [
-    "CLI-Quick-Start.md",
-    "JetBrains-Plugin-Overview.md",
-    "QoderWork-Overview.md"
-  ],
-  "\\QuickStart": ["Product-Overview.md", "Quick-Start.md"],
-  "\\Support": [
-    "FAQ.md",
-    "MCP-FAQ.md",
-    "Terminal-Execution-Errors.md",
-    "Troubleshooting-Guide.md"
-  ],
-  "\\UserGuide": [
-    "Agent-Mode.md",
-    "Ask-Mode.md",
-    "Chat-Overview.md",
-    "Context-Compression.md",
-    "Custom-Models.md",
-    "Diff-View.md",
-    "Experts-Mode.md",
-    "Inline-Chat.md",
-    "Inline-Suggestions-NEXT.md",
-    "Model-Selector.md",
-    "Quest-Mode.md",
-    "Repo-Wiki.md",
-    "Smart-Chat-Overview.md",
-    "Smart-QA.md",
-    "Tools.md"
-  ]
+  "version": 2,
+  "schema": "repository-manifest-v1",
+  "name": "dev-toolkit-skills",
+  "kind": "skill-registry",
+  "sourceType": "github",
+  "repository": {
+    "provider": "github.com",
+    "repo": "dev-toolkit-skills",
+    "rootPath": ".",
+    "defaultSkillSource": "skills",
+    "defaultInstallPath": ".agents/skills"
+  },
+  "primarySkill": {
+    "name": "qoder-wiki",
+    "path": "skills/meta/qoder-wiki",
+    "installPath": ".agents/skills/qoder-wiki",
+    "entry": "SKILL.md"
+  },
+  "quickInstall": {
+    "repository": "https://github.com/<tu-usuario>/dev-toolkit-skills",
+    "clone": "git clone https://github.com/<tu-usuario>/dev-toolkit-skills.git",
+    "copy": "cp -r dev-toolkit-skills/skills/meta/qoder-wiki /tu-proyecto/.agents/skills/qoder-wiki"
+  },
+  "topLevelFolders": {
+    "skills": {
+      "path": "skills",
+      "categories": {
+        "design": {
+          "path": "skills/design",
+          "skills": [
+            "adapt",
+            "algorithmic-art",
+            "animate",
+            "audit",
+            "bolder",
+            "clarify",
+            "colorize",
+            "critique",
+            "delight",
+            "distill",
+            "frontend-design",
+            "impeccable",
+            "layout",
+            "optimize",
+            "overdrive",
+            "polish",
+            "quieter",
+            "shape",
+            "typeset",
+            "ui-ux-pro-max"
+          ]
+        },
+        "frontend": {
+          "path": "skills/frontend",
+          "skills": [
+            "frontend-react-best-practices",
+            "frontend-ui-engineering",
+            "react-2026",
+            "react-frontend",
+            "react-frontend-expert",
+            "react-router-framework-mode",
+            "seo-sitemap",
+            "tailwind-4-docs",
+            "tailwind-theme-builder",
+            "tailwind-v4-shadcn",
+            "tailwindcss",
+            "vite"
+          ]
+        },
+        "backend": {
+          "path": "skills/backend",
+          "skills": [
+            "clerk-react-router-patterns",
+            "sentry-react-router-framework-sdk",
+            "supabase",
+            "supabase-postgres-best-practices"
+          ]
+        },
+        "automation": {
+          "path": "skills/automation",
+          "skills": ["agent-browser", "agent-ui", "ai-automation-workflows"]
+        },
+        "platforms": {
+          "path": "skills/platforms",
+          "subfolders": {
+            "wix": {
+              "path": "skills/platforms/wix",
+              "skills": [
+                "wix-app",
+                "wix-auth",
+                "wix-design-system",
+                "wix-docs",
+                "wix-headless",
+                "wix-manage",
+                "wix-vibe-headless"
+              ]
+            }
+          }
+        },
+        "career": {
+          "path": "skills",
+          "skills": ["cv-builder-harvard", "cv-harvard-ats"]
+        },
+        "meta": {
+          "path": "skills/meta",
+          "skills": ["qoder-wiki", "skill-creator", "writing-great-skills"]
+        },
+        "root": {
+          "path": "skills",
+          "skills": [
+            "agent-graphs",
+            "docs-updater",
+            "ui-ux-pro-max",
+            "using-superpowers",
+            "version-release",
+            "video-editing"
+          ]
+        }
+      }
+    },
+    "prompts": {
+      "path": "prompts",
+      "categories": {
+        "audit": {
+          "path": "prompts/audit",
+          "promptFiles": ["prompt_auditoria.md"]
+        },
+        "docs": {
+          "path": "prompts/docs",
+          "promptFiles": ["prompt_mejorar_readme.md"]
+        },
+        "meta": {
+          "path": "prompts/meta",
+          "promptFiles": [
+            "prompt-organizar-skills-repo.md",
+            "prompt-skill-creator.md"
+          ]
+        }
+      }
+    },
+    "agentConfig": {
+      "path": ".agents",
+      "skills": ["skill-creator"]
+    }
+  },
+  "docsIndex": {
+    "": [],
+    "\\Account": [
+      "Billing.md",
+      "Credits.md",
+      "Getting-Started-with-Teams.md",
+      "Members-and-Roles.md",
+      "Pricing-Alternative.md",
+      "Pricing.md",
+      "Teams-Pricing.md"
+    ],
+    "\\Configuration": ["Network-Proxy.md", "Shortcuts.md"],
+    "\\Context": ["@ Mention.md", "Index.md", "Memory.md", "Rules.md"],
+    "\\Events": [
+      "Limited-Time-Offers.md",
+      "MiniMax-M2.5-Free-Trial.md",
+      "Qwen-Coder-Qoder-Free-Trial.md",
+      "Referral-Program.md",
+      "Referral-Terms-and-Conditions.md"
+    ],
+    "\\Extensions": [
+      "Commands.md",
+      "Custom-Agents.md",
+      "Deeplinks.md",
+      "Hooks.md",
+      "MCP.md",
+      "Skills.md"
+    ],
+    "\\OtherProducts": [
+      "CLI-Quick-Start.md",
+      "JetBrains-Plugin-Overview.md",
+      "QoderWork-Overview.md"
+    ],
+    "\\QuickStart": ["Product-Overview.md", "Quick-Start.md"],
+    "\\Support": [
+      "FAQ.md",
+      "MCP-FAQ.md",
+      "Terminal-Execution-Errors.md",
+      "Troubleshooting-Guide.md"
+    ],
+    "\\UserGuide": [
+      "Agent-Mode.md",
+      "Ask-Mode.md",
+      "Chat-Overview.md",
+      "Context-Compression.md",
+      "Custom-Models.md",
+      "Diff-View.md",
+      "Experts-Mode.md",
+      "Inline-Chat.md",
+      "Inline-Suggestions-NEXT.md",
+      "Model-Selector.md",
+      "Quest-Mode.md",
+      "Repo-Wiki.md",
+      "Smart-Chat-Overview.md",
+      "Smart-QA.md",
+      "Tools.md"
+    ]
+  }
 }
