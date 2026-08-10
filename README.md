@@ -20,16 +20,18 @@ Un repositorio personal de skills de agente organizadas por categoría de stack 
 dev-toolkit-skills/
 ├── README.md
 ├── prompts/
-│   ├── meta/          ← Crear y organizar skills
+│   ├── meta/          ← Creación, extracción y organización de skills
 │   ├── audit/         ← Auditoría de sistemas full-stack
 │   └── docs/          ← Mejorar documentación / README
 └── skills/
-    ├── design/        ← UI/UX, estética, diseño visual (17 skills)
+    ├── design/        ← UI/UX, estética, diseño visual (20 skills)
     ├── frontend/      ← React, Tailwind, Vite, SEO (12 skills)
     ├── backend/       ← Supabase, Auth, Monitoring (4 skills)
-    ├── automation/    ← Agentes, workflows, browser (3 skills)
-    ├── platforms/wix/ ← Skills específicas de Wix CLI (7 skills)
-    └── meta/          ← Crear/gestionar skills de agente (3 skills)
+    ├── automation/    ← Agentes, workflows, browser, release y edición (6 skills)
+    ├── platforms/wix/ ← Skills específicas de Wix CLI (8 skills)
+    ├── docs-cv/       ← CV/Harvard y ATS (2 skills)
+    ├── docs/          ← Documentación general y sincronización (1 skill)
+    └── meta/          ← Crear/gestionar skills de agente (4 skills)
 ```
 
 ---
@@ -120,8 +122,9 @@ dev-toolkit-skills/
 | Skill | Cuándo activarla | Stack |
 |---|---|---|
 | `skill-creator` | Crear una nueva skill desde cero: entrevista → SKILL.md → casos de prueba | Cualquiera |
-| `writing-great-skills` | Guía para escribir skills efectivas con buena descripción y triggers | Cualquiera |
+| `writing-great-skills` | Fundamentos y guía para escribir skills con buenas descripciones y triggers | Cualquiera |
 | `qoder-wiki` | Preguntas sobre Qoder: instalación, funciones, MCP, Skills, precios | Qoder |
+| `using-superpowers` | Regla operativa de invocación de skills y carga de context antes de responder | Cualquiera |
 
 ---
 
@@ -131,8 +134,8 @@ dev-toolkit-skills/
 |---|---|---|
 | `meta/prompt-skill-creator.md` | Guiar a Claude para crear una skill concreta con el proceso completo | Después de identificar una skill candidata |
 | `meta/prompt-organizar-skills-repo.md` | Analizar proyectos y extraer skills reutilizables | Al empezar un nuevo proyecto o hacer limpieza |
-| `audit/prompt_auditoria.md` | Auditoría full-stack integral (1,483 líneas): UX, seguridad, responsive, lógica | Revisar un sistema completo |
-| `docs/prompt_mejorar_readme.md` | Rediseñar README con badges, arquitectura Mermaid, variables de entorno | Documentar un proyecto |
+| `audit/prompt-auditoria.md` | Auditoría full-stack integral: arquitectura, UX, seguridad, rendimiento y operativa | Revisar un sistema completo |
+| `docs/prompt-mejorar-readme.md` | Sincronizar README y documentación con cambios de código | Documentar un proyecto |
 
 ---
 
@@ -182,10 +185,12 @@ Pega el contenido del SKILL.md como instrucciones en tu sesión de agente.
 | design | 20 |
 | frontend | 12 |
 | backend | 4 |
-| automation | 3 |
-| platforms/wix | 7 |
-| meta | 3 |
-| **Total skills** | **49** |
+| automation | 6 |
+| platforms/wix | 8 |
+| docs-cv | 2 |
+| docs | 1 |
+| meta | 4 |
+| **Total skills** | **57** |
 | **Total prompts** | **4** |
 
 ---
