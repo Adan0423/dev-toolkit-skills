@@ -10,6 +10,7 @@
 Un repositorio personal de skills de agente organizadas por categoría de stack — **no por proyecto de origen**. Cada skill es un patrón reutilizable que puede activarse en cualquier proyecto futuro que use el mismo stack.
 
 - **Skills** (`skills/`): Carpetas con `SKILL.md` que los agentes cargan automáticamente para tareas específicas.
+- **Skills Comprimidas** (`SKILL/`): Paquetes comprimidos (`.zip` y `.skill`) listos para compartir, desplegar o importar bajo demanda (21 skills).
 - **Prompts** (`prompts/`): Prompts de alto valor para tareas recurrentes (auditoría, documentación, meta-gestión de skills).
 - **Docs Index** (`docs_structure.json`): Manifest principal de uso rápido; expone el skill de documentación Qoder (`qoder-wiki`) y el mapa real de documentos disponibles en el repo para cargarlo en proyectos ajenos.
 
@@ -21,6 +22,7 @@ Un repositorio personal de skills de agente organizadas por categoría de stack 
 dev-toolkit-skills/
 ├── README.md
 ├── docs_structure.json        ← índice documental generado desde qoder-wiki/docs
+├── SKILL/                     ← Paquetes de skills comprimidos (.zip y .skill) (21 skills)
 ├── prompts/
 │   ├── meta/          ← Creación, extracción y organización de skills
 │   ├── audit/         ← Auditoría de sistemas full-stack
@@ -208,9 +210,35 @@ El archivo [docs_structure.json](docs_structure.json) funciona como manifest de 
 }
 ```
 
-### Opción D — Referenciar el SKILL.md directamente
+---
 
-Pega el contenido del SKILL.md como instrucciones en tu sesión de agente.
+## 📦 `SKILL/` — Paquetes de Skills Comprimidos (.zip / .skill)
+
+El directorio [`SKILL/`](SKILL/) alberga **21 paquetes de skills comprimidos** (`.zip` y `.skill`). Están optimizados para ser transportados, compartidos o importados de manera atómica en agentes y entornos de desarrollo:
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `algorithmic-art.zip` | `algorithmic-art` | `.zip` (19.4 KB) | Arte algorítmico y generativo con p5.js, flow fields y sistemas de partículas. |
+| `brand-guidelines.zip` | `brand-guidelines` | `.zip` (5.5 KB) | Aplica guías de marca oficiales de Anthropic, tipografías y paletas a cualquier artefacto. |
+| `canvas-design.zip` | `canvas-design` | `.zip` (2.59 MB) | Filosofía y creación de diseño visual artístico en PNG y PDF. |
+| `cv-harvard-ats.skill` | `cv-harvard-ats` | `.skill` (13.1 KB) | Creación, redacción y auditoría de CVs estilo Harvard optimizados para sistemas ATS. |
+| `doc-coauthoring.zip` | `doc-coauthoring` | `.zip` (6.0 KB) | Workflow estructurado para co-autoría y redacción colaborativa de documentación técnica. |
+| `frontend-design.zip` | `frontend-design` | `.zip` (7.8 KB) | Dirección estética distintiva e intencional al construir o rediseñar interfaces UI. |
+| `internal-comms.zip` | `internal-comms` | `.zip` (10.6 KB) | Redacción de comunicaciones internas corporativas (status reports, updates, FAQs, incident reports). |
+| `llm-api-development.zip` | `llm-api-development` | `.zip` (320.6 KB) | Desarrollo completo con Anthropic SDK y Claude API (streaming, tool use, MCP, prompt caching, tokens). |
+| `mcp-builder.zip` | `mcp-builder` | `.zip` (42.6 KB) | Guía y desarrollo de servidores MCP (Model Context Protocol) en Python (FastMCP) y Node/TypeScript. |
+| `mobile-app-engineering.skill` | `mobile-app-engineering` | `.skill` (5.4 KB) | Desarrollo móvil profesional para Expo / React Native, Android nativo (Kotlin/Compose) y KMP. |
+| `pdf.zip` | `pdf` | `.zip` (22.2 KB) | Manipulación integral de archivos PDF (extracción, OCR, unión, rotación, formularios, cifrado). |
+| `pptx.zip` | `pptx` | `.zip` (167.7 KB) | Creación, edición, extracción y formateo de presentaciones en formato PowerPoint (.pptx / .potx). |
+| `project-readme-documentation.skill` | `project-readme-documentation` | `.skill` (5.4 KB) | Análisis de repositorios reales y generación/mejora de README.md y documentación técnica basada en evidencias. |
+| `skill-creator.skill` | `skill-creator` | `.skill` (72.0 KB) | Creación, edición, evals y optimización de descripciones para skills de agente de IA. |
+| `slack-gif-creator.zip` | `slack-gif-creator` | `.zip` (16.3 KB) | Creación de GIFs animados optimizados para Slack con restricciones de tamaño y paleta. |
+| `software-project-architect-skill.zip` | `software-project-architect` | `.zip` (7.8 KB) | Arquitectura global de proyectos de software, estructuras limpias, monolitos, microservicios y monorepos. |
+| `theme-factory.zip` | `theme-factory` | `.zip` (121.8 KB) | Motor de temas (10 presets) para aplicar a slides, reportes, landing pages y artefactos HTML. |
+| `web-artifacts-builder.zip` | `web-artifacts-builder` | `.zip` (30.2 KB) | Suite para construir artefactos HTML complejos multi-componente con React, Tailwind CSS y shadcn/ui. |
+| `webapp-testing.zip` | `webapp-testing` | `.zip` (10.3 KB) | Pruebas de aplicaciones web locales con Playwright, capturas de pantalla y logs de navegador. |
+| `word-document-tools.zip` | `word-document-tools` | `.zip` (250.2 KB) | Creación, lectura, edición y manipulación de documentos de Microsoft Word (.docx / .dotx). |
+| `xlsx.zip` | `xlsx` | `.zip` (155.7 KB) | Procesamiento completo de hojas de cálculo (.xlsx, .csv, .tsv), fórmulas, gráficos y limpieza de datos. |
 
 ---
 
@@ -244,7 +272,9 @@ Pega el contenido del SKILL.md como instrucciones en tu sesión de agente.
 | docs-cv | 2 |
 | docs | 1 |
 | meta | 4 |
-| **Total skills** | **57** |
+| **SKILL/ (comprimidas)** | **21** |
+| **Total skills descomprimidas** | **57** |
+| **Total paquetes de skills** | **78** |
 | **Total prompts** | **4** |
 
 ---

@@ -142,6 +142,33 @@
     "agentConfig": {
       "path": ".agents",
       "skills": ["skill-creator"]
+    },
+    "compressedSkills": {
+      "path": "SKILL",
+      "format": "archive",
+      "files": [
+        "algorithmic-art.zip",
+        "brand-guidelines.zip",
+        "canvas-design.zip",
+        "cv-harvard-ats.skill",
+        "doc-coauthoring.zip",
+        "frontend-design.zip",
+        "internal-comms.zip",
+        "llm-api-development.zip",
+        "mcp-builder.zip",
+        "mobile-app-engineering.skill",
+        "pdf.zip",
+        "pptx.zip",
+        "project-readme-documentation.skill",
+        "skill-creator.skill",
+        "slack-gif-creator.zip",
+        "software-project-architect-skill.zip",
+        "theme-factory.zip",
+        "web-artifacts-builder.zip",
+        "webapp-testing.zip",
+        "word-document-tools.zip",
+        "xlsx.zip"
+      ]
     }
   },
   "docsIndex": {
