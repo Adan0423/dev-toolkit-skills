@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bases de datos: modelado y seguridad"
+  short_description: "SQL y NoSQL: esquemas, migraciones, permisos y revisión"
+  default_prompt: "Usa $database-engineering-suite para modelar o revisar esta base de datos y preparar cambios verificables."

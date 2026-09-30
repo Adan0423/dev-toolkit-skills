@@ -99,7 +99,7 @@ def category(name):
         return "desktop"
     if name in {"pdf", "pptx", "xlsx", "word-document-tools"}:
         return "documents"
-    if name in {"modern-software-architect", "software-project-architect", "scalable-database-architect"}:
+    if name in {"modern-software-architect", "software-project-architect", "scalable-database-architect", "database-engineering-suite"}:
         return "architecture"
     if name == "secure-software-auditor":
         return "security"
