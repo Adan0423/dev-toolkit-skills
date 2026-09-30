@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Ads: campañas y optimización"
+  short_description: "Search, Shopping, Performance Max y medición comercial"
+  default_prompt: "Usa $google-ads-specialist para preparar esta tarea de marketing con evidencia y resultados revisables."

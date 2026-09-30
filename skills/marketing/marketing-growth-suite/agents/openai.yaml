@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing: contenido y publicidad"
+  short_description: "Ideas, contenido, Meta Ads, Google Ads y TikTok Ads"
+  default_prompt: "Usa $marketing-growth-suite para esta tarea y carga solo la especialidad necesaria."

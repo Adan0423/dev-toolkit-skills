@@ -1,0 +1,4 @@
+platform,account,currency,attribution,conversion_event,period,campaign,spend,impressions,clicks,conversions,conversion_value
+meta,demo-only,PEN,7d_click_only,purchase,2026-09-01/2026-09-07,concept-a,120,6000,120,4,480
+meta,demo-only,PEN,7d_click_only,purchase,2026-09-01/2026-09-07,concept-a,80,4000,40,1,100
+google,demo-only,PEN,30d_click,purchase,2026-09-01/2026-09-07,intent-a,100,2000,50,2,300

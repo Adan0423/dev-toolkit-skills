@@ -166,6 +166,7 @@ def expected_family(name, specification):
             "supplemental_files_sha256": supplemental_hashes,
             "source_files_sha256": sources, "adaptations": sorted(set(adaptations))}
     display = {
+        "marketing-growth-suite": ("Marketing: contenido y publicidad", "Ideas, contenido, Meta Ads, Google Ads y TikTok Ads"),
         "react-engineering": ("React: ingeniería selectiva", "React por tarea: componentes, datos y rendimiento"),
         "tailwind-engineering": ("Tailwind: configuración y temas", "Tailwind por tarea: instalación, temas y shadcn"),
         "web-design-suite": ("Diseño web: especialidades", "Diseño por tarea: responsive, estilo y acabado"),
@@ -181,6 +182,11 @@ def expected_family(name, specification):
     expected["agents/openai.yaml"] = ui_text.encode("utf-8")
     provenance["generated_files"] = sorted(expected)
     expected["family-manifest.json"] = (json.dumps(provenance, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+    # Hand-authored references are packaged but never generated or overwritten.
+    for relative in specification.get("static_resources", []):
+        if relative in expected or relative == "SKILL.md":
+            raise ValueError(f"Recurso manual colisiona con archivo generado: {relative}")
+        expected[relative] = inside(family / relative, family).read_bytes()
     return family, expected
 
 
@@ -188,11 +194,36 @@ def package_files(family, expected):
     return {"SKILL.md": (family / "SKILL.md").read_bytes(), **expected}
 
 
+def package(name, files, check):
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]{0,63}", name):
+        raise ValueError(f"Nombre de paquete inválido: {name}")
+    output = ROOT / "SKILL" / f"{name}.zip"
+    same = False
+    if output.is_file():
+        with zipfile.ZipFile(output) as archive:
+            names = [f"{name}/{n}" for n in files]
+            same = (archive.testzip() is None and len(archive.namelist()) == len(names)
+                    and set(archive.namelist()) == set(names)
+                    and all(archive.read(f"{name}/{n}") == data for n, data in files.items()))
+    if check and not same:
+        raise ValueError(f"ZIP ausente, corrupto o desactualizado: {output}")
+    if not check and not same:
+        with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
+            for relative, data in sorted(files.items()):
+                archive.writestr(f"{name}/{relative}", data)
+    return output
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--family", help="Construir/comprobar únicamente una familia")
     args = parser.parse_args()
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
+    if args.family:
+        if args.family not in config:
+            parser.error("Familia desconocida")
+        config = {args.family: config[args.family]}
     planned = [(name, *expected_family(name, spec)) for name, spec in config.items()]
     # Validate every family before writing; paths are fixed by repository config.
     for name, family, expected in planned:
@@ -218,20 +249,14 @@ def main():
         if unexpected:
             raise ValueError(f"Archivos no mapeados en {name}: {sorted(unexpected)}; revisar antes de empaquetar")
         packaged = package_files(family, expected)
-        output = ROOT / "SKILL" / f"{name}.zip"
-        if args.check:
-            with zipfile.ZipFile(output) as archive:
-                if archive.testzip() is not None:
-                    raise ValueError(f"ZIP corrupto: {output}")
-                if set(archive.namelist()) != {f"{name}/{n}" for n in packaged}:
-                    raise ValueError(f"Entradas ZIP no coinciden: {output}")
-                for relative, data in packaged.items():
-                    if archive.read(f"{name}/{relative}") != data:
-                        raise ValueError(f"ZIP desactualizado: {name}/{relative}")
-        else:
-            with zipfile.ZipFile(output, "w", zipfile.ZIP_DEFLATED) as archive:
-                for relative, data in sorted(packaged.items()):
-                    archive.writestr(f"{name}/{relative}", data)
+        output = package(name, packaged, args.check)
+        if config[name].get("package_specialties"):
+            for relative in config[name]["specialties"].values():
+                source = inside(ROOT / relative, ROOT / "skills")
+                files = {p.relative_to(source).as_posix(): p.read_bytes()
+                         for p in sorted(source.rglob("*")) if p.is_file()
+                         and not set(p.relative_to(source).parts) & EXCLUDE and p.suffix != ".pyc"}
+                package(metadata(text(files["SKILL.md"]))[0]["name"], files, args.check)
         summary.append({"family": name, "specialties": len(config[name]["specialties"]),
                         "files": len(packaged), "entrypoint_lines": len(packaged["SKILL.md"].splitlines()),
                         "zip": output.relative_to(ROOT).as_posix()})

@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Ads: creatividad y campañas"
+  short_description: "Contenido nativo, Spark Ads y optimización en TikTok"
+  default_prompt: "Usa $tiktok-ads-specialist para preparar esta tarea de marketing con evidencia y resultados revisables."

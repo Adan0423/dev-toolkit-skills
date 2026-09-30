@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contenido y creatividad publicitaria"
+  short_description: "Copy, guiones UGC, visuales y calendarios de contenido"
+  default_prompt: "Usa $marketing-content-studio para preparar esta tarea de marketing con evidencia y resultados revisables."

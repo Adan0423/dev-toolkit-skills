@@ -3,9 +3,9 @@
 > Toolkit personal de **skills**, **paquetes** y **prompts** reutilizables para agentes de IA.
 > Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix, apps Android/desktop.
 
-[![skills](https://img.shields.io/badge/skills-101-blue?style=flat-square)](docs/skills/skill-packages.md)
-[![packages](https://img.shields.io/badge/SKILL%2F-55%20paquetes-purple?style=flat-square)](SKILL/)
-[![source](https://img.shields.io/badge/skills%2F-101%20fuente-green?style=flat-square)](skills/)
+[![skills](https://img.shields.io/badge/skills-108-blue?style=flat-square)](docs/skills/skill-packages.md)
+[![packages](https://img.shields.io/badge/SKILL%2F-62%20paquetes-purple?style=flat-square)](SKILL/)
+[![source](https://img.shields.io/badge/skills%2F-108%20fuente-green?style=flat-square)](skills/)
 [![prompts](https://img.shields.io/badge/prompts-4-orange?style=flat-square)](prompts/)
 
 ---
@@ -59,9 +59,16 @@ unzip dev-toolkit-skills/SKILL/pdf.zip -d /tu-proyecto/.agents/skills/pdf
 
 ## Familias con carga selectiva
 
-Seis entradas principales reúnen 28 especialidades: React, Tailwind, diseño web,
-documentación, WordPress y CV. Cada una carga la guía necesaria para la tarea.
+Siete entradas principales reúnen 34 especialidades: marketing, React, Tailwind,
+diseño web, documentación, WordPress y CV. Cada una carga la guía necesaria para la tarea.
 [Ver familias, paquetes y mantenimiento](docs/skills/family-skills.md).
+
+## Marketing, contenido y publicidad
+
+[marketing-growth-suite](skills/marketing/marketing-growth-suite/SKILL.md) selecciona
+estrategia, contenido, Meta Ads, Google Ads, TikTok Ads o medición. Incluye ideas, copy,
+guiones, campañas, optimización y uso de MCP compatible cuando esté disponible.
+[Ver las siete skills, paquetes y ejemplos](docs/skills/marketing-skills.md).
 
 ## 🧠 Activar una Skill
 
@@ -145,8 +152,8 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 |---|---|
 | 📖 **[Guía de Instalación](docs/install/quickstart.md)** | Instalación, formatos, uso, verificación |
 | 📋 **[Índice de Documentación](docs/INDEX.md)** | Mapa completo de la documentación |
-| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 55 paquetes · qué hace, funciones, casos de uso, entornos |
-| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 101 skills · desarrollo, pruebas, referencias |
+| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 62 paquetes · qué hace, funciones, casos de uso, entornos |
+| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 108 skills · desarrollo, pruebas, referencias |
 | 💬 **[Prompts](docs/prompts/README.md)** | 4 prompts reutilizables |
 | 🗂️ **[docs_structure.json](docs_structure.json)** | Índice documental para cargar en otros proyectos |
 
@@ -154,7 +161,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 ## 🎁 Paquetes Listos para Usar (`SKILL/`)
 
-**55 paquetes** = **48 nombres de skill** (13 `.skill` y 42 `.zip`).
+**62 paquetes** = **55 nombres de skill** (13 `.skill` y 49 `.zip`).
 
 | Categoría fuente | Paquetes |
 |---|:---:|
@@ -167,6 +174,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | `documents/` | 4 |
 | `frontend/` | 5 |
 | `integrations/` | 2 |
+| `marketing/` | 7 |
 | `meta/` | 1 |
 | `mobile/` | 5 |
 | `platforms/` | 4 |
@@ -190,13 +198,13 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | [`web-ui-ux-frontend-architect`](SKILL/web-ui-ux-frontend-architect.zip) | Arquitecto UI/UX web completo con QA | Multi-framework |
 | [`mcp-builder`](SKILL/mcp-builder.zip) | Construye servidores MCP (Python/TS) | Python, Node/TS |
 
-📖 **[Ver los 55 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
+📖 **[Ver los 62 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
 
 ---
 
 ## 🛠️ Skills Fuente (`skills/`) — Desarrollo y Pruebas
 
-**101 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
+**108 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
 
 | Categoría | Skills |
 |---|:---:|
@@ -210,13 +218,14 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | `documents/` | 4 |
 | `frontend/` | 16 |
 | `integrations/` | 2 |
+| `marketing/` | 7 |
 | `meta/` | 4 |
 | `mobile/` | 4 |
 | `platforms/` | 12 |
 | `quality/` | 5 |
 | `security/` | 1 |
 
-📖 **[Ver las 101 con detalle →](docs/skills/source-skills.md)**
+📖 **[Ver las 108 con detalle →](docs/skills/source-skills.md)**
 
 ---
 
@@ -242,11 +251,11 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 | Métrica | Total |
 |---|:---:|
-| 📦 Paquetes en `SKILL/` | 55 (13 `.skill` + 42 `.zip`) |
-| 🎁 Nombres de skill en `SKILL/` | 48 |
-| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 101 |
+| 📦 Paquetes en `SKILL/` | 62 (13 `.skill` + 49 `.zip`) |
+| 🎁 Nombres de skill en `SKILL/` | 55 |
+| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 108 |
 | 💬 Prompts | 4 |
-| **Total nombres únicos del repo** | **101** |
+| **Total nombres únicos del repo** | **108** |
 | 🆕 Skills recuperadas de paquetes en esta auditoría | 34 |
 
 </details>

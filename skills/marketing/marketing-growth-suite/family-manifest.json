@@ -1,0 +1,101 @@
+{
+  "family": "marketing-growth-suite",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "strategy": {
+      "source": "skills/marketing/marketing-strategy-lab",
+      "source_metadata": {
+        "name": "marketing-strategy-lab",
+        "description": "Diseña estrategia de marketing, investiga audiencias y ofertas, genera ideas y prioriza adquisición multicanal según objetivos, presupuesto y evidencia del negocio."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "SKILL.md": "735b5f8604ffeec151096e4c50efe1293b94503bfbbdf5261e4bdf50edb9629e"
+      },
+      "adaptations": []
+    },
+    "content": {
+      "source": "skills/marketing/marketing-content-studio",
+      "source_metadata": {
+        "name": "marketing-content-studio",
+        "description": "Crea ideas, anuncios, copy, guiones UGC, briefs visuales y calendarios de contenido orgánico o pagado para Meta, Google y TikTok, adaptados a marca, audiencia y formato."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "assets/creative-brief.md": "4b101866b431127e357fac4b21cb21829410e0c93186190647f17c842d2f7a13",
+        "SKILL.md": "4baa014411994b9a9119d9fa4ae98715298ed3b55213cd06065cace712a7567d"
+      },
+      "adaptations": []
+    },
+    "meta": {
+      "source": "skills/marketing/meta-ads-specialist",
+      "source_metadata": {
+        "name": "meta-ads-specialist",
+        "description": "Prepara, audita y optimiza campañas de Meta Ads para Facebook e Instagram, con creatividades, conversiones, catálogos, leads y control de presupuesto basado en datos reales."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "references/official-sources.md": "f67c9aec53904922a544d1fdf6d31606290f66c3feb252ec5a51ebed616cf417",
+        "SKILL.md": "8cd9407ee638baeae684168b17032af41bc0a0e5f8bf9ad9b73ab3664139e6a9"
+      },
+      "adaptations": []
+    },
+    "google": {
+      "source": "skills/marketing/google-ads-specialist",
+      "source_metadata": {
+        "name": "google-ads-specialist",
+        "description": "Diseña y optimiza Google Ads Search, Shopping, Performance Max, YouTube y Display, con anuncios, intención de búsqueda, medición y revisión de rentabilidad por campaña."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "references/official-sources.md": "f70a0a920d14dac47abe80f770351affb09dd69b0bbbd8d07449caf071abe938",
+        "SKILL.md": "be3d743e1febc5aac31c0ddcb583e1a07d7ea86e0694a6bf60eaa08d6f1fbdc0"
+      },
+      "adaptations": []
+    },
+    "tiktok": {
+      "source": "skills/marketing/tiktok-ads-specialist",
+      "source_metadata": {
+        "name": "tiktok-ads-specialist",
+        "description": "Crea y optimiza TikTok Ads con creatividad nativa, Spark Ads, campañas y Smart+, eventos y análisis de conversiones, ajustados a permisos, región y objetivos reales."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "references/official-sources.md": "8ad4b194a2ddd5790e2c9defa1c9df8c3938c53d5baec2358d8d09ee8b944b5f",
+        "SKILL.md": "50bf8a28a463b5a52d1e8c0dd2d1d2e90c1fd069beda48ea3ec88a3421e5e041"
+      },
+      "adaptations": []
+    },
+    "measurement": {
+      "source": "skills/marketing/marketing-measurement-optimizer",
+      "source_metadata": {
+        "name": "marketing-measurement-optimizer",
+        "description": "Analiza reportes de marketing y publicidad, audita conversiones y atribución, calcula métricas y rentabilidad, y propone experimentos y optimización basada en evidencia."
+      },
+      "supplemental_files_sha256": {},
+      "source_files_sha256": {
+        "assets/report-example.csv": "302f03409d5a567b30eb9d965e36000bb66802aa3e1b2ca41f9e975e4eddf222",
+        "references/measurement-contract.md": "1f406689b5533670748df4f0a4f658d214af1fefb98dbeeed278c9b7454a40d7",
+        "scripts/analyze_ads_csv.py": "e6f239ebadb884b99ca054a92840e2a9ab16c7d8919dc9e408313f4e4a14e24b",
+        "SKILL.md": "376a12fb90ecdfb3b967e68b1df839ba30f1a9ab3f527614e888780b33af9b8a"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/content/assets/creative-brief.md",
+    "references/specialties/content/guide.md",
+    "references/specialties/google/guide.md",
+    "references/specialties/google/references/official-sources.md",
+    "references/specialties/measurement/assets/report-example.csv",
+    "references/specialties/measurement/guide.md",
+    "references/specialties/measurement/references/measurement-contract.md",
+    "references/specialties/measurement/scripts/analyze_ads_csv.py",
+    "references/specialties/meta/guide.md",
+    "references/specialties/meta/references/official-sources.md",
+    "references/specialties/strategy/guide.md",
+    "references/specialties/tiktok/guide.md",
+    "references/specialties/tiktok/references/official-sources.md"
+  ]
+}

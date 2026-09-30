@@ -91,6 +91,8 @@ def load_archive(path):
 
 
 def category(name):
+    if name.startswith(("marketing-", "meta-ads-", "google-ads-", "tiktok-ads-")):
+        return "marketing"
     if name.startswith("android-") or name == "mobile-app-engineering":
         return "mobile"
     if name.startswith("windows-"):

@@ -1,12 +1,13 @@
 # Familias con carga selectiva
 
-Se añadieron seis skills principales y 28 especialidades internas. Cada entrada
+Se añadieron siete skills principales y 34 especialidades internas. Cada entrada
 elige el modo que corresponde a la tarea y lee solo su guía inicial; carga recursos
 adicionales cuando la implementación los necesita. Las 95 fuentes anteriores se
-conservan: ahora hay 101 SKILL.md y 55 paquetes.
+conservan: ahora hay 108 SKILL.md y 62 paquetes; marketing añade además seis fuentes individuales.
 
 | Familia | Especialidades | Paquete |
 |---|---|---|
+| [Marketing](../../skills/marketing/marketing-growth-suite/SKILL.md) | Estrategia, contenido, Meta Ads, Google Ads, TikTok Ads y medición | [marketing-growth-suite.zip](../../SKILL/marketing-growth-suite.zip) |
 | [React](../../skills/frontend/react-engineering/SKILL.md) | Arquitectura, implementación, rendimiento, modernización, rutas | [react-engineering.zip](../../SKILL/react-engineering.zip) |
 | [Tailwind](../../skills/frontend/tailwind-engineering/SKILL.md) | Instalación/migración, temas, shadcn, documentación | [tailwind-engineering.zip](../../SKILL/tailwind-engineering.zip) |
 | [Diseño web](../../skills/design/web-design-suite/SKILL.md) | Dirección, stack, descubrimiento, auditoría, responsive, composición, tipografía, color, movimiento, acabado, rendimiento, crítica | [web-design-suite.zip](../../SKILL/web-design-suite.zip) |
@@ -30,7 +31,7 @@ $wordpress-suite para preparar un artículo como borrador». Las especialidades 
 referencias internas (`guide.md`), no skills anidadas que dependan de descubrimiento
 automático. Cada paquete incluye sus guías, recursos y scripts correspondientes.
 
-Las entradas principales tienen entre 30 y 47 líneas. La carga selectiva permite
+Las entradas principales tienen entre 30 y 49 líneas. La carga selectiva permite
 evitar lecturas innecesarias, pero no se ha medido un porcentaje de ahorro de tokens.
 No se instaló ninguna familia globalmente.
 

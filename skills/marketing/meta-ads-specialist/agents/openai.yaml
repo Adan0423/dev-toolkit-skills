@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta Ads: campañas y optimización"
+  short_description: "Facebook e Instagram: anuncios, señales y rendimiento"
+  default_prompt: "Usa $meta-ads-specialist para preparar esta tarea de marketing con evidencia y resultados revisables."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Medición y optimización de marketing"
+  short_description: "Reportes, tracking, experimentos y rentabilidad de ads"
+  default_prompt: "Usa $marketing-measurement-optimizer para preparar esta tarea de marketing con evidencia y resultados revisables."

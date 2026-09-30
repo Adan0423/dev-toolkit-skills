@@ -1,7 +1,7 @@
 {
   "mode": "audit",
-  "source_skills_before": 101,
-  "source_skills_after": 101,
+  "source_skills_before": 108,
+  "source_skills_after": 108,
   "archives": [
     {
       "archive": "adaptive-web-ui-stack-architect.skill",
@@ -184,6 +184,17 @@
       "variant_path": "docs/skills/package-variants/frontend-design.zip"
     },
     {
+      "archive": "google-ads-specialist.zip",
+      "archive_sha256": "eccc6d4200c5e8ba501aea6fd63930af18bf4f8c908f1329f9c58ee53a230f8b",
+      "names": [
+        "google-ads-specialist"
+      ],
+      "target": "skills/marketing/google-ads-specialist",
+      "payload_sha256": "721edab744b56587580f61a48cb7ed1fd5f1bc7d32e45f52bff90eab041c8d1f",
+      "files": 3,
+      "status": "equivalente a fuente"
+    },
+    {
       "archive": "humanizer-2.9.1.zip",
       "archive_sha256": "98f7b6c213526dc716c34c89d6ceff92c8fa6f454f9b51c105a3518fa5b7a660",
       "names": [
@@ -217,6 +228,50 @@
       "status": "equivalente a fuente"
     },
     {
+      "archive": "marketing-content-studio.zip",
+      "archive_sha256": "02b0ec9ca68bf281e1cf7aaa6daeaac6e3cb12921168482e70dd1b01ea64667c",
+      "names": [
+        "marketing-content-studio"
+      ],
+      "target": "skills/marketing/marketing-content-studio",
+      "payload_sha256": "4349299e61f0b13af8512c714555c7d1964c156d63ae7a7e8cec0098a8c1390b",
+      "files": 3,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "marketing-growth-suite.zip",
+      "archive_sha256": "6bdeb680457fbf753efb037f1204b2a696d05495a18dcebc2cf173a3c322152b",
+      "names": [
+        "marketing-growth-suite"
+      ],
+      "target": "skills/marketing/marketing-growth-suite",
+      "payload_sha256": "7c9f3acbb6e7db778da7135b243ddb2898d7b45c61fb68e3c133058628fc1262",
+      "files": 17,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "marketing-measurement-optimizer.zip",
+      "archive_sha256": "20a80674fedd700b8d965d43293d752d9ae7af03352d2a2436dc4a2f8dded61d",
+      "names": [
+        "marketing-measurement-optimizer"
+      ],
+      "target": "skills/marketing/marketing-measurement-optimizer",
+      "payload_sha256": "01c4196098549820f499097a1f8bd8464de552596ee60fc861dc8b7dea9070d3",
+      "files": 5,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "marketing-strategy-lab.zip",
+      "archive_sha256": "8672093098b4aa5877f61b21cf941ba2c08d860c2794fbc1764d0535abd995c8",
+      "names": [
+        "marketing-strategy-lab"
+      ],
+      "target": "skills/marketing/marketing-strategy-lab",
+      "payload_sha256": "3cffa332cad6a85476a94bbd8419140d6e5ea6c072bc22c79e280ae3ca309b75",
+      "files": 2,
+      "status": "equivalente a fuente"
+    },
+    {
       "archive": "mcp-builder.zip",
       "archive_sha256": "d5d0dfb396c8eaac427cc4814ba9abf39340aa120faa6b6b1676de2afd8e96e4",
       "names": [
@@ -225,6 +280,17 @@
       "target": "skills/integrations/mcp-builder",
       "payload_sha256": "80cb808ff091844da53b1b34d334ff0f5de6b30dd61fae497d0f749bb0f36148",
       "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "meta-ads-specialist.zip",
+      "archive_sha256": "2c1fdd69212e777ce574d2a4347d35d3746868c1c193e29bbddabce52be3b9e8",
+      "names": [
+        "meta-ads-specialist"
+      ],
+      "target": "skills/marketing/meta-ads-specialist",
+      "payload_sha256": "267f72f97e1a88d439ddf8ed19280d6bad16f94f8ccef7784067df06c031a607",
+      "files": 3,
       "status": "equivalente a fuente"
     },
     {
@@ -483,6 +549,17 @@
       "target": "skills/design/theme-factory",
       "payload_sha256": "4fa601e9ee98cee8b46ab5c1cdec298cf91a88aab5fae6b8123e9e3d0e94598a",
       "files": 13,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "tiktok-ads-specialist.zip",
+      "archive_sha256": "23ba2b0991da5dfe026b0ff32f8dce6d536556d198640c5a7bc341b17cc339b0",
+      "names": [
+        "tiktok-ads-specialist"
+      ],
+      "target": "skills/marketing/tiktok-ads-specialist",
+      "payload_sha256": "e5f0b41cb87caacfb0d6accfd945aaac7b05f2b78e29b55a505a3c2f0142f8d8",
+      "files": 3,
       "status": "equivalente a fuente"
     },
     {
@@ -759,6 +836,17 @@
       ]
     },
     {
+      "group": "google-ads-specialist",
+      "names": [
+        "google-ads-specialist"
+      ],
+      "target": "skills/marketing/google-ads-specialist",
+      "was_missing": false,
+      "selected_archive": "google-ads-specialist.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
       "group": "humanizer",
       "names": [
         "humanizer"
@@ -792,6 +880,50 @@
       "variants": []
     },
     {
+      "group": "marketing-content-studio",
+      "names": [
+        "marketing-content-studio"
+      ],
+      "target": "skills/marketing/marketing-content-studio",
+      "was_missing": false,
+      "selected_archive": "marketing-content-studio.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "marketing-growth-suite",
+      "names": [
+        "marketing-growth-suite"
+      ],
+      "target": "skills/marketing/marketing-growth-suite",
+      "was_missing": false,
+      "selected_archive": "marketing-growth-suite.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "marketing-measurement-optimizer",
+      "names": [
+        "marketing-measurement-optimizer"
+      ],
+      "target": "skills/marketing/marketing-measurement-optimizer",
+      "was_missing": false,
+      "selected_archive": "marketing-measurement-optimizer.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "marketing-strategy-lab",
+      "names": [
+        "marketing-strategy-lab"
+      ],
+      "target": "skills/marketing/marketing-strategy-lab",
+      "was_missing": false,
+      "selected_archive": "marketing-strategy-lab.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
       "group": "mcp-builder",
       "names": [
         "mcp-builder"
@@ -799,6 +931,17 @@
       "target": "skills/integrations/mcp-builder",
       "was_missing": false,
       "selected_archive": "mcp-builder.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "meta-ads-specialist",
+      "names": [
+        "meta-ads-specialist"
+      ],
+      "target": "skills/marketing/meta-ads-specialist",
+      "was_missing": false,
+      "selected_archive": "meta-ads-specialist.zip",
       "selection": "Mayor número de archivos; no implica más reciente/mejor",
       "variants": []
     },
@@ -1015,6 +1158,17 @@
       "target": "skills/design/theme-factory",
       "was_missing": false,
       "selected_archive": "theme-factory.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "tiktok-ads-specialist",
+      "names": [
+        "tiktok-ads-specialist"
+      ],
+      "target": "skills/marketing/tiktok-ads-specialist",
+      "was_missing": false,
+      "selected_archive": "tiktok-ads-specialist.zip",
       "selection": "Mayor número de archivos; no implica más reciente/mejor",
       "variants": []
     },
@@ -1778,6 +1932,62 @@
       "lines": 236,
       "encoding": "utf-8",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "issues": []
+    },
+    {
+      "name": "google-ads-specialist",
+      "path": "skills/marketing/google-ads-specialist/SKILL.md",
+      "lines": 69,
+      "encoding": "utf-8",
+      "description": "Diseña y optimiza Google Ads Search, Shopping, Performance Max, YouTube y Display, con anuncios, intención de búsqueda, medición y revisión de rentabilidad por campaña.",
+      "issues": []
+    },
+    {
+      "name": "marketing-content-studio",
+      "path": "skills/marketing/marketing-content-studio/SKILL.md",
+      "lines": 63,
+      "encoding": "utf-8",
+      "description": "Crea ideas, anuncios, copy, guiones UGC, briefs visuales y calendarios de contenido orgánico o pagado para Meta, Google y TikTok, adaptados a marca, audiencia y formato.",
+      "issues": []
+    },
+    {
+      "name": "marketing-growth-suite",
+      "path": "skills/marketing/marketing-growth-suite/SKILL.md",
+      "lines": 49,
+      "encoding": "utf-8",
+      "description": "Planifica marketing, crea ideas y contenido, prepara y optimiza Meta Ads, Google Ads y TikTok Ads seleccionando la especialidad necesaria. Úsalo para adquisición, campañas, anuncios, calendarios y análisis de resultados de marketing.",
+      "issues": []
+    },
+    {
+      "name": "marketing-measurement-optimizer",
+      "path": "skills/marketing/marketing-measurement-optimizer/SKILL.md",
+      "lines": 69,
+      "encoding": "utf-8",
+      "description": "Analiza reportes de marketing y publicidad, audita conversiones y atribución, calcula métricas y rentabilidad, y propone experimentos y optimización basada en evidencia.",
+      "issues": []
+    },
+    {
+      "name": "marketing-strategy-lab",
+      "path": "skills/marketing/marketing-strategy-lab/SKILL.md",
+      "lines": 61,
+      "encoding": "utf-8",
+      "description": "Diseña estrategia de marketing, investiga audiencias y ofertas, genera ideas y prioriza adquisición multicanal según objetivos, presupuesto y evidencia del negocio.",
+      "issues": []
+    },
+    {
+      "name": "meta-ads-specialist",
+      "path": "skills/marketing/meta-ads-specialist/SKILL.md",
+      "lines": 68,
+      "encoding": "utf-8",
+      "description": "Prepara, audita y optimiza campañas de Meta Ads para Facebook e Instagram, con creatividades, conversiones, catálogos, leads y control de presupuesto basado en datos reales.",
+      "issues": []
+    },
+    {
+      "name": "tiktok-ads-specialist",
+      "path": "skills/marketing/tiktok-ads-specialist/SKILL.md",
+      "lines": 67,
+      "encoding": "utf-8",
+      "description": "Crea y optimiza TikTok Ads con creatividad nativa, Spark Ads, campañas y Smart+, eventos y análisis de conversiones, ajustados a permisos, región y objetivos reales.",
       "issues": []
     },
     {

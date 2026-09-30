@@ -1,4 +1,17 @@
 {
+  "marketing-growth-suite": {
+    "path": "skills/marketing/marketing-growth-suite",
+    "static_resources": ["references/research-sources.md"],
+    "package_specialties": true,
+    "specialties": {
+      "strategy": "skills/marketing/marketing-strategy-lab",
+      "content": "skills/marketing/marketing-content-studio",
+      "meta": "skills/marketing/meta-ads-specialist",
+      "google": "skills/marketing/google-ads-specialist",
+      "tiktok": "skills/marketing/tiktok-ads-specialist",
+      "measurement": "skills/marketing/marketing-measurement-optimizer"
+    }
+  },
   "react-engineering": {
     "path": "skills/frontend/react-engineering",
     "specialties": {

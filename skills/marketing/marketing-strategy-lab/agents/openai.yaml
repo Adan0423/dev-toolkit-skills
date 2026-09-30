@@ -1,0 +1,4 @@
+interface:
+  display_name: "Estrategia e ideas de marketing"
+  short_description: "Audiencias, ofertas, ideas y planes de adquisición"
+  default_prompt: "Usa $marketing-strategy-lab para preparar esta tarea de marketing con evidencia y resultados revisables."
