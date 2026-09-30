@@ -1,0 +1,4 @@
+interface:
+  display_name: "Odoo: desarrollo y operaciones"
+  short_description: "Módulos, configuración, integraciones y diagnóstico Odoo"
+  default_prompt: "Usa $odoo-specialist para analizar esta instalación y resolver la tarea respetando su versión, edición y procesos."

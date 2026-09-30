@@ -1,9 +1,33 @@
 # Skills Fuente para Desarrollo y Pruebas (`skills/`)
 
-> **56 skills de primer nivel** (+ 1 sub-skill anidada) con su `SKILL.md`, `references/` y `scripts/`.
+> **95 skills únicas**, contando todos los SKILL.md y especialistas anidados.
 > Estas son el **código fuente**: úsalas para **desarrollar, probar, debuggear y mejorar** skills. Para instalar en producción, prefiere los paquetes de [`SKILL/`](skill-packages.md).
+> [Inventario y revisión individual actuales](organization-review.md). Las tablas detalladas antiguas conservan el catálogo histórico; la recuperación y las nuevas categorías están en el inventario enlazado.
 
 ## Cuándo usar esta carpeta
+
+Adición del 30 de septiembre de 2026:
+[`odoo-specialist`](../../skills/platforms/odoo/odoo-specialist/SKILL.md), en
+`skills/platforms/odoo/`. Desarrollo/configuración Odoo, permisos y multiempresa,
+UI, procesos ERP, importaciones, integración y migración según versión/hosting.
+Posterior a los totales históricos del catálogo.
+
+Adición del 30 de septiembre de 2026:
+[`wordpress-elementor-commerce`](../../skills/platforms/wordpress/wordpress-elementor-commerce/SKILL.md),
+en `skills/platforms/wordpress/`. Elementor/WooCommerce/plugins, diseño moderno editable,
+responsive, dark mode, contenido/productos y MCP según capacidades. Posterior a los
+totales históricos de este catálogo.
+
+Adición del 30 de septiembre de 2026:
+[`wordpress-theme-studio`](../../skills/platforms/wordpress/wordpress-theme-studio/SKILL.md),
+en `skills/platforms/wordpress/`. Temas con código, skills de diseño, responsive,
+claro/oscuro/sistema, contenido/configuración y acceso MCP/REST/CLI. Posterior a los
+totales históricos del catálogo.
+
+Adición del 30 de septiembre de 2026: [`seo-geo-web`](../../skills/frontend/seo-geo-web/SKILL.md),
+en `skills/frontend/`. Incluye SEO técnico y editorial, estructura para desarrollo,
+adaptación por stack/CMS, GEO, migraciones, validación y plan de auditoría. Esta adición
+es posterior a los totales históricos que figuran en el catálogo.
 
 | Objetivo | Carpeta |
 |---|---|

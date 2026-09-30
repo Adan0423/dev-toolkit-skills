@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress: temas y contenido"
+  short_description: "Temas con código, diseño responsive y gestión editorial"
+  default_prompt: "Usa $wordpress-theme-studio para crear un tema WordPress responsive con modo oscuro y contenido editable."

@@ -1,0 +1,1831 @@
+{
+  "mode": "extract-missing",
+  "source_skills_before": 61,
+  "source_skills_after": 95,
+  "archives": [
+    {
+      "archive": "adaptive-web-ui-stack-architect.skill",
+      "archive_sha256": "1d3a173e45879bd341a9f52e3ff163552cabc3e46b01b87b11821438fe283c78",
+      "names": [
+        "adaptive-web-ui-stack-architect"
+      ],
+      "target": "skills/design/adaptive-web-ui-stack-architect",
+      "payload_sha256": "912913584acc894fcf2887fb4a91b42ebfb6c51687096a1dd62d56a7b4f9c2cc",
+      "files": 12,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "adaptive-web-ui-stack-architect.zip",
+      "archive_sha256": "1d3a173e45879bd341a9f52e3ff163552cabc3e46b01b87b11821438fe283c78",
+      "names": [
+        "adaptive-web-ui-stack-architect"
+      ],
+      "target": "skills/design/adaptive-web-ui-stack-architect",
+      "payload_sha256": "912913584acc894fcf2887fb4a91b42ebfb6c51687096a1dd62d56a7b4f9c2cc",
+      "files": 12,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "algorithmic-art.zip",
+      "archive_sha256": "54a958c850a77246988c752848598cd5c60ffb4d37a7c38d0c69c613da566f25",
+      "names": [
+        "algorithmic-art"
+      ],
+      "target": "skills/design/algorithmic-art",
+      "payload_sha256": "d23255bd0f00c8024d4344da1857849a9a88d8d3f8667cb046d9950dc6e4e7f6",
+      "files": 4,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/algorithmic-art.zip"
+    },
+    {
+      "archive": "android-camera-engineering.skill",
+      "archive_sha256": "f040fd7bbb50475673347a06be7a91fabd136b84fbd00a24759361af35dfd314",
+      "names": [
+        "android-camera-engineering"
+      ],
+      "target": "skills/mobile/android-camera-engineering",
+      "payload_sha256": "ce147618f7a980cd9cbef4e62f11152a57d8911605280a8191eff12de2551818",
+      "files": 4,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "android-codebase-auditor-refactor.zip",
+      "archive_sha256": "576f867d447969a861e9c5890d5dad61e84647175a3aa9687bcbf47c3b048a92",
+      "names": [
+        "android-codebase-auditor-refactor"
+      ],
+      "target": "skills/mobile/android-codebase-auditor-refactor",
+      "payload_sha256": "c3dfd603b10073d22bf7c090d931779c8976e777aa7630d9587f01045ddabf51",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "android-modern-ui-expert-install-ready.zip",
+      "archive_sha256": "e9ea75b7eb6c719cf7d3463ef9ee89899298c051778c9ef248d760dc781c7754",
+      "names": [
+        "android-modern-ui-expert"
+      ],
+      "target": "skills/mobile/android-modern-ui-expert",
+      "payload_sha256": "b7836f07ac53b68906cc7eb141ab43a893849130e0924ca4ba6584ab924346c6",
+      "files": 5,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "android-modern-ui-expert.zip",
+      "archive_sha256": "9aa12e161f27f55c8ccac3ab1d20cd3e5bf196d47c50357e461b71467cdbea73",
+      "names": [
+        "android-modern-ui-expert"
+      ],
+      "target": "skills/mobile/android-modern-ui-expert",
+      "payload_sha256": "b7836f07ac53b68906cc7eb141ab43a893849130e0924ca4ba6584ab924346c6",
+      "files": 5,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "brand-guidelines.zip",
+      "archive_sha256": "1bd48bc2883bf5fdd432ac41f6b229a6b908d379453d597f81ef79e603805200",
+      "names": [
+        "brand-guidelines"
+      ],
+      "target": "skills/design/brand-guidelines",
+      "payload_sha256": "431d48f1a9d3a842d77bdec731df7e8aa233287fd24833b8c5592e371e4bd834",
+      "files": 2,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "canvas-design.zip",
+      "archive_sha256": "bda16bd25bd3c312b01c8fe7155ef0e50389b3a996efc58b5090fb576f21e7f1",
+      "names": [
+        "canvas-design"
+      ],
+      "target": "skills/design/canvas-design",
+      "payload_sha256": "b9ae310f12090043d02f69749c78436707c50258051bfd4fe6219041552c8193",
+      "files": 83,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "cv-harvard-ats.skill",
+      "archive_sha256": "dc3eec30997788fc64bb8432736f2760cbf64b5072dcff22f091e9a9cb526b0e",
+      "names": [
+        "cv-harvard-ats"
+      ],
+      "target": "skills/docs-cv/cv-harvard-ats",
+      "payload_sha256": "3fe6514c12ebc00648243a61208c2c8258feb6cf13ea70773ea20faa07a0519d",
+      "files": 6,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/cv-harvard-ats.skill"
+    },
+    {
+      "archive": "cv-harvard-ats.zip",
+      "archive_sha256": "023309bc85602530fb359cdb9d66940b4ca91b07b410b019cd746cddc7448fcb",
+      "names": [
+        "cv-harvard-ats"
+      ],
+      "target": "skills/docs-cv/cv-harvard-ats",
+      "payload_sha256": "b11ad324f480d4aedb778f8c543c46b770971802318362b8db4f4a736576c563",
+      "files": 8,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/cv-harvard-ats.zip"
+    },
+    {
+      "archive": "doc-coauthoring.zip",
+      "archive_sha256": "40710414ba18cf27c01c5447962301c05e5c44fddc5338c911d101d542b8ae49",
+      "names": [
+        "doc-coauthoring"
+      ],
+      "target": "skills/docs/doc-coauthoring",
+      "payload_sha256": "c5f02f64a32ef7b61092370fd85e142cda7e4dcf429289f422d3c6c1eb3a81e9",
+      "files": 1,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "documentation-repository-curator.skill",
+      "archive_sha256": "63c1cb05d0a758cf3b54730c55f4ade1880f274d74b00e1da55b9c99672ab236",
+      "names": [
+        "documentation-repository-curator"
+      ],
+      "target": "skills/docs/documentation-repository-curator",
+      "payload_sha256": "cf6b9cc4667f8deea6c5850df8ba8c78ad5693f05b976591dfc7deeb66fcd480",
+      "files": 11,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "documentation-repository-curator.zip",
+      "archive_sha256": "63c1cb05d0a758cf3b54730c55f4ade1880f274d74b00e1da55b9c99672ab236",
+      "names": [
+        "documentation-repository-curator"
+      ],
+      "target": "skills/docs/documentation-repository-curator",
+      "payload_sha256": "cf6b9cc4667f8deea6c5850df8ba8c78ad5693f05b976591dfc7deeb66fcd480",
+      "files": 11,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "frontend-design.zip",
+      "archive_sha256": "ffe95fb4313e080eb86ff0109c11b94c6822e5c8cfd6867a22fa3bf6102abffb",
+      "names": [
+        "frontend-design"
+      ],
+      "target": "skills/design/frontend-design",
+      "payload_sha256": "e6cfd86e419a2b8239e94ba025b0fba0c7d199c4560c678d2b72d3098153cb18",
+      "files": 2,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/frontend-design.zip"
+    },
+    {
+      "archive": "humanizer-2.9.1.zip",
+      "archive_sha256": "98f7b6c213526dc716c34c89d6ceff92c8fa6f454f9b51c105a3518fa5b7a660",
+      "names": [
+        "humanizer"
+      ],
+      "target": "skills/docs/humanizer",
+      "payload_sha256": "855d559f76957bdda7d21527cbe752a29b37d241998d60a3a6610c09357c654f",
+      "files": 9,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "internal-comms.zip",
+      "archive_sha256": "292390116131adf569ccff0ff247bc8a6fe3d249907df10568cc073cc24d55bb",
+      "names": [
+        "internal-comms"
+      ],
+      "target": "skills/docs/internal-comms",
+      "payload_sha256": "7f6f64a9647d855240a83a7bd96967339a1704c8b25f1410d699f793d1d1c5d4",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "llm-api-development.zip",
+      "archive_sha256": "cdc0ff0e2e4be5aeff54c045dc64253552d9984d4c81b2e65ddbab7739d72823",
+      "names": [
+        "llm-api-development"
+      ],
+      "target": "skills/integrations/llm-api-development",
+      "payload_sha256": "3528adb63a6a70a18d3bb3301bcac137a3ba43bae06c182c631e838a65e33479",
+      "files": 66,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "mcp-builder.zip",
+      "archive_sha256": "d5d0dfb396c8eaac427cc4814ba9abf39340aa120faa6b6b1676de2afd8e96e4",
+      "names": [
+        "mcp-builder"
+      ],
+      "target": "skills/integrations/mcp-builder",
+      "payload_sha256": "80cb808ff091844da53b1b34d334ff0f5de6b30dd61fae497d0f749bb0f36148",
+      "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "mobile-app-engineering.skill",
+      "archive_sha256": "3febd995ac9e60a824a87c23d0df5ac4eba287705ca63d44c6bddfdc7b6770fc",
+      "names": [
+        "mobile-app-engineering"
+      ],
+      "target": "skills/mobile/mobile-app-engineering",
+      "payload_sha256": "4c72f99aca36031da284d2a2025f75506937e709400e0b06438ab4044d41d83d",
+      "files": 3,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "modern-software-architect.skill",
+      "archive_sha256": "22cd252754c1fe1c96991081b18e6681ff675e12661726d190d4dcb07828846c",
+      "names": [
+        "modern-software-architect"
+      ],
+      "target": "skills/architecture/modern-software-architect",
+      "payload_sha256": "5f218f2cbb0c3e92db9690cfa38461b112ab0bab0775a173e783fbccf2aa2032",
+      "files": 14,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "modern-software-architect.zip",
+      "archive_sha256": "22cd252754c1fe1c96991081b18e6681ff675e12661726d190d4dcb07828846c",
+      "names": [
+        "modern-software-architect"
+      ],
+      "target": "skills/architecture/modern-software-architect",
+      "payload_sha256": "5f218f2cbb0c3e92db9690cfa38461b112ab0bab0775a173e783fbccf2aa2032",
+      "files": 14,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "odoo-specialist.zip",
+      "archive_sha256": "62efc16569065fcc18d3ab0ecbc5b83ff13d82b46731d867afc3a7912f07e4d9",
+      "names": [
+        "odoo-specialist"
+      ],
+      "target": "skills/platforms/odoo/odoo-specialist",
+      "payload_sha256": "6da94943db31974cfc0913a4e83af19393f5c9fbb67521876a4dd259cc793309",
+      "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "pdf.zip",
+      "archive_sha256": "d07eb44785074a87e9f063a84a9743117db4f7b257b57d1130f31eb0a36241b0",
+      "names": [
+        "pdf"
+      ],
+      "target": "skills/documents/pdf",
+      "payload_sha256": "f0d540e3edc710593a7c4a3e1fc91364b20f2f77ebde89c0e3cb66a05aaa3170",
+      "files": 12,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "pptx.zip",
+      "archive_sha256": "f19f82cdc390caa9d19587bc32c42716d6844b61c079c7ac0f7736716145f516",
+      "names": [
+        "pptx"
+      ],
+      "target": "skills/documents/pptx",
+      "payload_sha256": "b631d8fdd2ce85325aba8c6e1fd7e4fbe46209b98fadb30da747dddbee30838d",
+      "files": 56,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "project-readme-documentation.skill",
+      "archive_sha256": "55424a1514e94ae033f3260a7a27d02bdd700a020a355a9f42c2c74c956dfe27",
+      "names": [
+        "project-readme-documentation"
+      ],
+      "target": "skills/docs/project-readme-documentation",
+      "payload_sha256": "bd4cd7f997b74aa9a29f1d1bf4b6fc711891cc4312bfc07ebb45ca59838a596e",
+      "files": 1,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "scalable-database-architect.skill",
+      "archive_sha256": "53d353d675094f85f437c77494d36cf451b80f45fcbb28aa1277d6d4e8a89322",
+      "names": [
+        "scalable-database-architect"
+      ],
+      "target": "skills/architecture/scalable-database-architect",
+      "payload_sha256": "0dddff2963e76a9e11c35a2d28ab5a290f7307806b53c5a6636b4634d4f71dd1",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "scalable-database-architect.zip",
+      "archive_sha256": "53d353d675094f85f437c77494d36cf451b80f45fcbb28aa1277d6d4e8a89322",
+      "names": [
+        "scalable-database-architect"
+      ],
+      "target": "skills/architecture/scalable-database-architect",
+      "payload_sha256": "0dddff2963e76a9e11c35a2d28ab5a290f7307806b53c5a6636b4634d4f71dd1",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "scrcpy-mobile-dev.zip",
+      "archive_sha256": "85bc8d98782d0112db557a370d15419cc3d88c1d39ed1b33143bbb8a08132aa8",
+      "names": [
+        "scrcpy-mobile-dev"
+      ],
+      "target": "skills/automation/scrcpy-mobile-dev",
+      "payload_sha256": "81b1f938685dd64336deed5bb4828b86e2344675cf52b819a732f676769bada7",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "secure-software-auditor.skill",
+      "archive_sha256": "0969db097da88e9f15d739c288c9512c784f35c4e5efa535d510f02f2d008b8f",
+      "names": [
+        "secure-software-auditor"
+      ],
+      "target": "skills/security/secure-software-auditor",
+      "payload_sha256": "8cdb6195942ad7ec1c5557a0cfa7012290085f0a3ba608b7b37b9f65ff719c2b",
+      "files": 3,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "secure-software-auditor.zip",
+      "archive_sha256": "0969db097da88e9f15d739c288c9512c784f35c4e5efa535d510f02f2d008b8f",
+      "names": [
+        "secure-software-auditor"
+      ],
+      "target": "skills/security/secure-software-auditor",
+      "payload_sha256": "8cdb6195942ad7ec1c5557a0cfa7012290085f0a3ba608b7b37b9f65ff719c2b",
+      "files": 3,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "seo-geo-web.zip",
+      "archive_sha256": "816c0535876f4198a31d1e211e1f0ec7971fb5c3bde9e16cdd7614de24fd10d2",
+      "names": [
+        "seo-geo-web"
+      ],
+      "target": "skills/frontend/seo-geo-web",
+      "payload_sha256": "44bf93d39549b21e1cd0ced3e97febffebbd442289ffb0f6710f3f41d1dd958d",
+      "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "skill-creator.skill",
+      "archive_sha256": "3684a9e0a694c07bec1db3c72f639259c7ed338afc4a70ec9e6e94c73ef18ca7",
+      "names": [
+        "skill-creator"
+      ],
+      "target": "skills/meta/skill-creator",
+      "payload_sha256": "3a1e5751dcda1e421637f1042c1687a5a2c9e2c08d4ebf48cc0a9c35e4bbceb0",
+      "files": 18,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/skill-creator.skill"
+    },
+    {
+      "archive": "slack-gif-creator.zip",
+      "archive_sha256": "81fe4f65c7296bfbde918672a34480d32c8061a41661b19e7bfc0c92a745041f",
+      "names": [
+        "slack-gif-creator"
+      ],
+      "target": "skills/automation/slack-gif-creator",
+      "payload_sha256": "1c839cfdff180be343f5ec0d625c817506c37876a1a8671c21d9e8020f9bb983",
+      "files": 7,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "software-project-architect-skill.zip",
+      "archive_sha256": "4352ec5546e509a39cc92bbeaa03d100025fafb82656a564406b259e529ee836",
+      "names": [
+        "software-project-architect"
+      ],
+      "target": "skills/architecture/software-project-architect",
+      "payload_sha256": "5268f517b60fbe2ab3b480a09c9b4adfa62559839b02fa41611d1d3b7507390b",
+      "files": 1,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "system-correction-skill-pack.zip",
+      "archive_sha256": "6bc57764f46f280180e079cf3ed3dd33beb05e51318f9b979275c2db6bcbbde7",
+      "names": [
+        "system-correction-orchestrator",
+        "rbac-database-corrector",
+        "mcp-integration-corrector",
+        "role-aware-ui-corrector"
+      ],
+      "target": "skills/quality/system-correction-skill-pack",
+      "payload_sha256": "cec7775a7839f5b4d4d6e5e3688b0691027d3bddaf8cceb89722014784a4283e",
+      "files": 9,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "tailwindcss-v4-3-expert.skill",
+      "archive_sha256": "b589c384950e0098f6fdd7ce811eeb0d5af14216d2773c6b069b3ed41fb6067f",
+      "names": [
+        "tailwindcss-v4-3-expert"
+      ],
+      "target": "skills/frontend/tailwindcss-v4-3-expert",
+      "payload_sha256": "5d3381e2136fba00b58574f25ce1eada069e66f83a15a2b4b7428cc0f3a3a180",
+      "files": 14,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "tailwindcss-v4-3-expert.zip",
+      "archive_sha256": "75a9fe4df4333cd90041f939e97b77d8a21028324133b2343cfff8a25e24c933",
+      "names": [
+        "tailwindcss-v4-3-expert"
+      ],
+      "target": "skills/frontend/tailwindcss-v4-3-expert",
+      "payload_sha256": "ab42ff751d5f5b0d738b2f36cdddcda96e21dc01d40bfaf43f8dd95b1f38d949",
+      "files": 8,
+      "status": "variante distinta; sin sobrescribir fuente",
+      "variant_path": "docs/skills/package-variants/tailwindcss-v4-3-expert.zip"
+    },
+    {
+      "archive": "theme-factory.zip",
+      "archive_sha256": "0a7993735f5110d512bae7e0f9f96daa31c4e99c87e5b4203fc4bdd954428d88",
+      "names": [
+        "theme-factory"
+      ],
+      "target": "skills/design/theme-factory",
+      "payload_sha256": "4fa601e9ee98cee8b46ab5c1cdec298cf91a88aab5fae6b8123e9e3d0e94598a",
+      "files": 13,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "web-artifacts-builder.zip",
+      "archive_sha256": "5332340afc4c99c5b00c1ea6802b64fdc49240144a26d1a369d29659270696c4",
+      "names": [
+        "web-artifacts-builder"
+      ],
+      "target": "skills/design/web-artifacts-builder",
+      "payload_sha256": "65e2d003a783b68c0525fa194e21550d4d63218234d8399a92a0cd5f2953cf85",
+      "files": 5,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "web-ui-ux-frontend-architect.skill",
+      "archive_sha256": "69ba5ad2e5c6fbda5956866e02d3282f307609fb9ab9df19e0e1801050e36e96",
+      "names": [
+        "web-ui-ux-frontend-architect"
+      ],
+      "target": "skills/design/web-ui-ux-frontend-architect",
+      "payload_sha256": "32fdbf560df09d3291ec8f1440bb5a9a3526a5cf4280671aeea0e392f208e648",
+      "files": 13,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "web-ui-ux-frontend-architect.zip",
+      "archive_sha256": "69ba5ad2e5c6fbda5956866e02d3282f307609fb9ab9df19e0e1801050e36e96",
+      "names": [
+        "web-ui-ux-frontend-architect"
+      ],
+      "target": "skills/design/web-ui-ux-frontend-architect",
+      "payload_sha256": "32fdbf560df09d3291ec8f1440bb5a9a3526a5cf4280671aeea0e392f208e648",
+      "files": 13,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "webapp-testing.zip",
+      "archive_sha256": "258c853e827e8586a691e3697074da27eca012cf0dc5ac87be48b73fdc644aea",
+      "names": [
+        "webapp-testing"
+      ],
+      "target": "skills/quality/webapp-testing",
+      "payload_sha256": "3ded4688bd2037c39fe7f604a7e0ae8abac53fd95861e6b3c829baad25b29482",
+      "files": 6,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "windows-desktop-ui-ux-engineer.skill",
+      "archive_sha256": "7283a059a17cc8c87de0247c0020cf4e9329a5443ff7e91d4dced3582f009c0a",
+      "names": [
+        "windows-desktop-ui-ux-engineer"
+      ],
+      "target": "skills/desktop/windows-desktop-ui-ux-engineer",
+      "payload_sha256": "df3b977fd0f74131d82f1753ddeba2977807b9215717177a4ef145b2ab33490f",
+      "files": 12,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "windows-desktop-ui-ux-engineer.zip",
+      "archive_sha256": "7283a059a17cc8c87de0247c0020cf4e9329a5443ff7e91d4dced3582f009c0a",
+      "names": [
+        "windows-desktop-ui-ux-engineer"
+      ],
+      "target": "skills/desktop/windows-desktop-ui-ux-engineer",
+      "payload_sha256": "df3b977fd0f74131d82f1753ddeba2977807b9215717177a4ef145b2ab33490f",
+      "files": 12,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "word-document-tools.zip",
+      "archive_sha256": "59f96296742177d3226d994d0c7a7c674c2124d0216a1054bbc24216c4c85a44",
+      "names": [
+        "word-document-tools"
+      ],
+      "target": "skills/documents/word-document-tools",
+      "payload_sha256": "c2abb034df99057855527cf60ea35f6892379078c1a8fcbe41dd40dbc9feeb54",
+      "files": 76,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "wordpress-elementor-commerce.zip",
+      "archive_sha256": "8d5782bc751d0163377ed528e50380b93a12d674f53c56e81987afcaf05e5787",
+      "names": [
+        "wordpress-elementor-commerce"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-elementor-commerce",
+      "payload_sha256": "abfdb51dde92f1fb2c57e5c752907b698b47e98c3eb8073dcaf23fb49708bf1b",
+      "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "wordpress-theme-studio.zip",
+      "archive_sha256": "8d62dcb434262f841ba18100b0284002ab1213b290efe4b28e0b5ba21954b6b3",
+      "names": [
+        "wordpress-theme-studio"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-theme-studio",
+      "payload_sha256": "b70738372d1056f60ac29a11ae03fd76e49df72583cda3c90852a9aea5395634",
+      "files": 9,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "xlsx.zip",
+      "archive_sha256": "335e6b3a50dee2cb232db761b57a82b826fc63a2d7bfe2d3f62e71acbc61d306",
+      "names": [
+        "xlsx"
+      ],
+      "target": "skills/documents/xlsx",
+      "payload_sha256": "49c30ccc849508f33881462fc73d43c8947b717baebf5840fdd97fd574eae413",
+      "files": 53,
+      "status": "equivalente a fuente"
+    }
+  ],
+  "groups": [
+    {
+      "group": "adaptive-web-ui-stack-architect",
+      "names": [
+        "adaptive-web-ui-stack-architect"
+      ],
+      "target": "skills/design/adaptive-web-ui-stack-architect",
+      "was_missing": true,
+      "selected_archive": "adaptive-web-ui-stack-architect.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "algorithmic-art",
+      "names": [
+        "algorithmic-art"
+      ],
+      "target": "skills/design/algorithmic-art",
+      "was_missing": false,
+      "selected_archive": "algorithmic-art.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": [
+        "docs/skills/package-variants/algorithmic-art.zip"
+      ]
+    },
+    {
+      "group": "android-camera-engineering",
+      "names": [
+        "android-camera-engineering"
+      ],
+      "target": "skills/mobile/android-camera-engineering",
+      "was_missing": true,
+      "selected_archive": "android-camera-engineering.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "android-codebase-auditor-refactor",
+      "names": [
+        "android-codebase-auditor-refactor"
+      ],
+      "target": "skills/mobile/android-codebase-auditor-refactor",
+      "was_missing": true,
+      "selected_archive": "android-codebase-auditor-refactor.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "android-modern-ui-expert",
+      "names": [
+        "android-modern-ui-expert"
+      ],
+      "target": "skills/mobile/android-modern-ui-expert",
+      "was_missing": true,
+      "selected_archive": "android-modern-ui-expert-install-ready.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "brand-guidelines",
+      "names": [
+        "brand-guidelines"
+      ],
+      "target": "skills/design/brand-guidelines",
+      "was_missing": true,
+      "selected_archive": "brand-guidelines.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "canvas-design",
+      "names": [
+        "canvas-design"
+      ],
+      "target": "skills/design/canvas-design",
+      "was_missing": true,
+      "selected_archive": "canvas-design.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "cv-harvard-ats",
+      "names": [
+        "cv-harvard-ats"
+      ],
+      "target": "skills/docs-cv/cv-harvard-ats",
+      "was_missing": false,
+      "selected_archive": "cv-harvard-ats.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": [
+        "docs/skills/package-variants/cv-harvard-ats.skill",
+        "docs/skills/package-variants/cv-harvard-ats.zip"
+      ]
+    },
+    {
+      "group": "doc-coauthoring",
+      "names": [
+        "doc-coauthoring"
+      ],
+      "target": "skills/docs/doc-coauthoring",
+      "was_missing": true,
+      "selected_archive": "doc-coauthoring.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "documentation-repository-curator",
+      "names": [
+        "documentation-repository-curator"
+      ],
+      "target": "skills/docs/documentation-repository-curator",
+      "was_missing": true,
+      "selected_archive": "documentation-repository-curator.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "frontend-design",
+      "names": [
+        "frontend-design"
+      ],
+      "target": "skills/design/frontend-design",
+      "was_missing": false,
+      "selected_archive": "frontend-design.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": [
+        "docs/skills/package-variants/frontend-design.zip"
+      ]
+    },
+    {
+      "group": "humanizer",
+      "names": [
+        "humanizer"
+      ],
+      "target": "skills/docs/humanizer",
+      "was_missing": true,
+      "selected_archive": "humanizer-2.9.1.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "internal-comms",
+      "names": [
+        "internal-comms"
+      ],
+      "target": "skills/docs/internal-comms",
+      "was_missing": true,
+      "selected_archive": "internal-comms.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "llm-api-development",
+      "names": [
+        "llm-api-development"
+      ],
+      "target": "skills/integrations/llm-api-development",
+      "was_missing": true,
+      "selected_archive": "llm-api-development.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "mcp-builder",
+      "names": [
+        "mcp-builder"
+      ],
+      "target": "skills/integrations/mcp-builder",
+      "was_missing": true,
+      "selected_archive": "mcp-builder.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "mobile-app-engineering",
+      "names": [
+        "mobile-app-engineering"
+      ],
+      "target": "skills/mobile/mobile-app-engineering",
+      "was_missing": true,
+      "selected_archive": "mobile-app-engineering.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "modern-software-architect",
+      "names": [
+        "modern-software-architect"
+      ],
+      "target": "skills/architecture/modern-software-architect",
+      "was_missing": true,
+      "selected_archive": "modern-software-architect.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "odoo-specialist",
+      "names": [
+        "odoo-specialist"
+      ],
+      "target": "skills/platforms/odoo/odoo-specialist",
+      "was_missing": false,
+      "selected_archive": "odoo-specialist.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "pdf",
+      "names": [
+        "pdf"
+      ],
+      "target": "skills/documents/pdf",
+      "was_missing": true,
+      "selected_archive": "pdf.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "pptx",
+      "names": [
+        "pptx"
+      ],
+      "target": "skills/documents/pptx",
+      "was_missing": true,
+      "selected_archive": "pptx.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "project-readme-documentation",
+      "names": [
+        "project-readme-documentation"
+      ],
+      "target": "skills/docs/project-readme-documentation",
+      "was_missing": true,
+      "selected_archive": "project-readme-documentation.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "scalable-database-architect",
+      "names": [
+        "scalable-database-architect"
+      ],
+      "target": "skills/architecture/scalable-database-architect",
+      "was_missing": true,
+      "selected_archive": "scalable-database-architect.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "scrcpy-mobile-dev",
+      "names": [
+        "scrcpy-mobile-dev"
+      ],
+      "target": "skills/automation/scrcpy-mobile-dev",
+      "was_missing": true,
+      "selected_archive": "scrcpy-mobile-dev.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "secure-software-auditor",
+      "names": [
+        "secure-software-auditor"
+      ],
+      "target": "skills/security/secure-software-auditor",
+      "was_missing": true,
+      "selected_archive": "secure-software-auditor.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "seo-geo-web",
+      "names": [
+        "seo-geo-web"
+      ],
+      "target": "skills/frontend/seo-geo-web",
+      "was_missing": false,
+      "selected_archive": "seo-geo-web.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "skill-creator",
+      "names": [
+        "skill-creator"
+      ],
+      "target": "skills/meta/skill-creator",
+      "was_missing": false,
+      "selected_archive": "skill-creator.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": [
+        "docs/skills/package-variants/skill-creator.skill"
+      ]
+    },
+    {
+      "group": "slack-gif-creator",
+      "names": [
+        "slack-gif-creator"
+      ],
+      "target": "skills/automation/slack-gif-creator",
+      "was_missing": true,
+      "selected_archive": "slack-gif-creator.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "software-project-architect",
+      "names": [
+        "software-project-architect"
+      ],
+      "target": "skills/architecture/software-project-architect",
+      "was_missing": true,
+      "selected_archive": "software-project-architect-skill.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "system-correction-skill-pack",
+      "names": [
+        "system-correction-orchestrator",
+        "rbac-database-corrector",
+        "mcp-integration-corrector",
+        "role-aware-ui-corrector"
+      ],
+      "target": "skills/quality/system-correction-skill-pack",
+      "was_missing": true,
+      "selected_archive": "system-correction-skill-pack.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "tailwindcss-v4-3-expert",
+      "names": [
+        "tailwindcss-v4-3-expert"
+      ],
+      "target": "skills/frontend/tailwindcss-v4-3-expert",
+      "was_missing": true,
+      "selected_archive": "tailwindcss-v4-3-expert.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": [
+        "docs/skills/package-variants/tailwindcss-v4-3-expert.zip"
+      ]
+    },
+    {
+      "group": "theme-factory",
+      "names": [
+        "theme-factory"
+      ],
+      "target": "skills/design/theme-factory",
+      "was_missing": true,
+      "selected_archive": "theme-factory.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "web-artifacts-builder",
+      "names": [
+        "web-artifacts-builder"
+      ],
+      "target": "skills/design/web-artifacts-builder",
+      "was_missing": true,
+      "selected_archive": "web-artifacts-builder.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "web-ui-ux-frontend-architect",
+      "names": [
+        "web-ui-ux-frontend-architect"
+      ],
+      "target": "skills/design/web-ui-ux-frontend-architect",
+      "was_missing": true,
+      "selected_archive": "web-ui-ux-frontend-architect.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "webapp-testing",
+      "names": [
+        "webapp-testing"
+      ],
+      "target": "skills/quality/webapp-testing",
+      "was_missing": true,
+      "selected_archive": "webapp-testing.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "windows-desktop-ui-ux-engineer",
+      "names": [
+        "windows-desktop-ui-ux-engineer"
+      ],
+      "target": "skills/desktop/windows-desktop-ui-ux-engineer",
+      "was_missing": true,
+      "selected_archive": "windows-desktop-ui-ux-engineer.skill",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "word-document-tools",
+      "names": [
+        "word-document-tools"
+      ],
+      "target": "skills/documents/word-document-tools",
+      "was_missing": true,
+      "selected_archive": "word-document-tools.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "wordpress-elementor-commerce",
+      "names": [
+        "wordpress-elementor-commerce"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-elementor-commerce",
+      "was_missing": false,
+      "selected_archive": "wordpress-elementor-commerce.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "wordpress-theme-studio",
+      "names": [
+        "wordpress-theme-studio"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-theme-studio",
+      "was_missing": false,
+      "selected_archive": "wordpress-theme-studio.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "xlsx",
+      "names": [
+        "xlsx"
+      ],
+      "target": "skills/documents/xlsx",
+      "was_missing": true,
+      "selected_archive": "xlsx.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    }
+  ],
+  "inventory": [
+    {
+      "name": "modern-software-architect",
+      "path": "skills/architecture/modern-software-architect/SKILL.md",
+      "lines": 407,
+      "encoding": "utf-8",
+      "description": "Analiza, diseña, reorganiza, moderniza y refactoriza arquitecturas de software para proyectos nuevos o existentes. Prioriza código limpio, estructura coherente, escalabilidad proporcional, bajo acoplamiento, alta cohesión, seguridad, mantenibilidad, observabilidad y repositorios sin archivos basura. Detecta stack y contexto, decide la arquitectura adecuada sin imponer microservicios, elimina residuos solo con evidencia y validación, genera o modifica código y ejecuta quality gates. Úsala cuando el usuario pida arquitectura, reorganización de proyecto, limpieza de repositorio, escalabilidad, modularización, refactor estructural o creación de una base de proyecto profesional.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "scalable-database-architect",
+      "path": "skills/architecture/scalable-database-architect/SKILL.md",
+      "lines": 1364,
+      "encoding": "utf-8",
+      "description": "Skill profesional para diseñar, auditar, refactorizar, optimizar y asegurar bases de datos escalables. Decide entre modelos relacionales y NoSQL según el proyecto, elimina tablas/columnas innecesarias, diseña relaciones, constraints, índices, particiones, funciones, RLS/RBAC, límites, paginación, pooling y observabilidad. Nunca optimiza a ciegas: primero comprende workload y patrones de acceso, después mide, modifica y verifica.\n",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "software-project-architect",
+      "path": "skills/architecture/software-project-architect/SKILL.md",
+      "lines": 1013,
+      "encoding": "utf-8",
+      "description": "Arquitecto global de estructuras de proyectos de software. Analiza automáticamente el tipo de proyecto, lenguajes, frameworks, dominios, tamaño, despliegue y nivel de complejidad para definir una arquitectura escalable, limpia y mantenible. Diseñado para monolitos, monolitos modulares, APIs, aplicaciones web/móviles, sistemas de IA, microservicios y monorepos políglotas. Previene archivos basura, duplicación, dependencias indebidas y crecimiento caótico del repositorio.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "agent-browser",
+      "path": "skills/automation/agent-browser/SKILL.md",
+      "lines": 285,
+      "encoding": "utf-8",
+      "description": "Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take screenshots, record video. Capabilities: web scraping, form filling, clicking, typing, drag-drop, file upload, JavaScript execution. Use for: web automation, data extraction, testing, agent browsing, research. Triggers: browser, web automation, scrape, navigate, click, fill form, screenshot, browse web, playwright, headless browser, web agent, surf internet, record video",
+      "issues": []
+    },
+    {
+      "name": "agent-graphs",
+      "path": "skills/automation/agent-graphs/SKILL.md",
+      "lines": 154,
+      "encoding": "utf-8",
+      "description": "Create and manage agent graphs — directed graphs of configs connected by edges with handoff logic. Use when building multi-agent workflows where configs route to each other.",
+      "issues": []
+    },
+    {
+      "name": "agent-ui",
+      "path": "skills/automation/agent-ui/SKILL.md",
+      "lines": 120,
+      "encoding": "utf-8",
+      "description": "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: building AI chat interfaces, agentic UIs, SaaS copilots, assistants. Triggers: agent component, agent ui, chat agent, shadcn agent, react agent,  agentic ui, ai assistant ui, copilot ui, inference ui, human in the loop",
+      "issues": []
+    },
+    {
+      "name": "ai-automation-workflows",
+      "path": "skills/automation/ai-automation-workflows/SKILL.md",
+      "lines": 406,
+      "encoding": "utf-8",
+      "description": "Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automation, data processing, monitoring, scheduled generation. Triggers: ai automation, workflow automation, batch processing, ai pipeline, automated content, scheduled ai, ai cron, ai batch job, automated generation, ai workflow, content at scale, automation script, ai orchestration",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "scrcpy-mobile-dev",
+      "path": "skills/automation/scrcpy-mobile-dev/SKILL.md",
+      "lines": 399,
+      "encoding": "utf-8",
+      "description": "Usa scrcpy y ADB de forma segura y reproducible durante desarrollo Android en Windows para detectar dispositivos, abrir espejado/control, lanzar apps, trabajar por USB o Wi-Fi, diagnosticar errores de conexión y evitar ejecutar scrcpy cuando no existe un target ADB válido.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "slack-gif-creator",
+      "path": "skills/automation/slack-gif-creator/SKILL.md",
+      "lines": 254,
+      "encoding": "utf-8",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "issues": []
+    },
+    {
+      "name": "version-release",
+      "path": "skills/automation/version-release/SKILL.md",
+      "lines": 100,
+      "encoding": "utf-8",
+      "description": "Version release workflow — release process and GitHub Release notes (not docs/changelog pages).",
+      "issues": []
+    },
+    {
+      "name": "video-editing",
+      "path": "skills/automation/video-editing/SKILL.md",
+      "lines": 311,
+      "encoding": "utf-8",
+      "description": "AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. Covers the full pipeline from raw capture through FFmpeg, Remotion, ElevenLabs, fal.ai, and final polish in Descript or CapCut. Use when the user wants to edit video, cut footage, create vlogs, or build video content.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "clerk-react-router-patterns",
+      "path": "skills/backend/clerk-react-router-patterns/SKILL.md",
+      "lines": 217,
+      "encoding": "utf-8",
+      "description": "React Router v7/v8 patterns with Clerk — rootAuthLoader, getAuth in loaders, clerkMiddleware, protected routes, SSR user data, org switching. Triggers on: react-router auth, rootAuthLoader, getAuth loader, react-router protected route, loader authentication, SSR auth react-router, useNavigate may be used only in the context of a Router.",
+      "issues": []
+    },
+    {
+      "name": "sentry-react-router-framework-sdk",
+      "path": "skills/backend/sentry-react-router-framework-sdk/SKILL.md",
+      "lines": 419,
+      "encoding": "utf-8",
+      "description": "Full Sentry SDK setup for React Router Framework mode. Use when asked to \"add Sentry to React Router Framework\", \"install @sentry/react-router\", or configure error monitoring, tracing, profiling, session replay, logs, or user feedback for a React Router v7 framework app.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "supabase",
+      "path": "skills/backend/supabase/SKILL.md",
+      "lines": 104,
+      "encoding": "utf-8",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).",
+      "issues": []
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "path": "skills/backend/supabase-postgres-best-practices/SKILL.md",
+      "lines": 64,
+      "encoding": "utf-8",
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+      "issues": []
+    },
+    {
+      "name": "adapt",
+      "path": "skills/design/adapt/SKILL.md",
+      "lines": 199,
+      "encoding": "utf-8",
+      "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Implements breakpoints, fluid layouts, and touch targets. Use when the user mentions responsive design, mobile layouts, breakpoints, viewport adaptation, or cross-device compatibility.",
+      "issues": []
+    },
+    {
+      "name": "adaptive-web-ui-stack-architect",
+      "path": "skills/design/adaptive-web-ui-stack-architect/SKILL.md",
+      "lines": 194,
+      "encoding": "utf-8",
+      "description": "Analyze a web/frontend project before selecting UI libraries, CSS engines, headless primitives, component systems, icons, animation, data UI, and design systems. Choose the smallest coherent stack based on framework, product, UX, accessibility, performance, maintainability, compatibility, licensing, and existing architecture; then integrate or refactor it safely.",
+      "issues": []
+    },
+    {
+      "name": "algorithmic-art",
+      "path": "skills/design/algorithmic-art/SKILL.md",
+      "lines": 405,
+      "encoding": "utf-8",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "animate",
+      "path": "skills/design/animate/SKILL.md",
+      "lines": 175,
+      "encoding": "utf-8",
+      "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight. Use when the user mentions adding animation, transitions, micro-interactions, motion design, hover effects, or making the UI feel more alive.",
+      "issues": []
+    },
+    {
+      "name": "audit",
+      "path": "skills/design/audit/SKILL.md",
+      "lines": 148,
+      "encoding": "utf-8",
+      "description": "Run technical quality checks across accessibility, performance, theming, responsive design, and anti-patterns. Generates a scored report with P0-P3 severity ratings and actionable plan. Use when the user wants an accessibility check, performance audit, or technical quality review.",
+      "issues": []
+    },
+    {
+      "name": "bolder",
+      "path": "skills/design/bolder/SKILL.md",
+      "lines": 117,
+      "encoding": "utf-8",
+      "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability. Use when the user says the design looks bland, generic, too safe, lacks personality, or wants more visual impact and character.",
+      "issues": []
+    },
+    {
+      "name": "brand-guidelines",
+      "path": "skills/design/brand-guidelines/SKILL.md",
+      "lines": 73,
+      "encoding": "utf-8",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "issues": []
+    },
+    {
+      "name": "canvas-design",
+      "path": "skills/design/canvas-design/SKILL.md",
+      "lines": 130,
+      "encoding": "utf-8",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "issues": []
+    },
+    {
+      "name": "clarify",
+      "path": "skills/design/clarify/SKILL.md",
+      "lines": 183,
+      "encoding": "utf-8",
+      "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions to make interfaces easier to understand. Use when the user mentions confusing text, unclear labels, bad error messages, hard-to-follow instructions, or wanting better UX writing.",
+      "issues": []
+    },
+    {
+      "name": "colorize",
+      "path": "skills/design/colorize/SKILL.md",
+      "lines": 143,
+      "encoding": "utf-8",
+      "description": "Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and expressive. Use when the user mentions the design looking gray, dull, lacking warmth, needing more color, or wanting a more vibrant or expressive palette.",
+      "issues": []
+    },
+    {
+      "name": "critique",
+      "path": "skills/design/critique/SKILL.md",
+      "lines": 225,
+      "encoding": "utf-8",
+      "description": "Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring, persona-based testing, automated anti-pattern detection, and actionable feedback. Use when the user asks to review, critique, evaluate, or give feedback on a design or component.",
+      "issues": []
+    },
+    {
+      "name": "delight",
+      "path": "skills/design/delight/SKILL.md",
+      "lines": 304,
+      "encoding": "utf-8",
+      "description": "Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful. Use when the user asks to add polish, personality, animations, micro-interactions, delight, or make an interface feel fun or memorable.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "distill",
+      "path": "skills/design/distill/SKILL.md",
+      "lines": 122,
+      "encoding": "utf-8",
+      "description": "Strip designs to their essence by removing unnecessary complexity. Great design is simple, powerful, and clean. Use when the user asks to simplify, declutter, reduce noise, remove elements, or make a UI cleaner and more focused.",
+      "issues": []
+    },
+    {
+      "name": "frontend-design",
+      "path": "skills/design/frontend-design/SKILL.md",
+      "lines": 55,
+      "encoding": "utf-8",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "issues": []
+    },
+    {
+      "name": "impeccable",
+      "path": "skills/design/impeccable/SKILL.md",
+      "lines": 349,
+      "encoding": "utf-8",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI aesthetics. Use when the user asks to build web components, pages, artifacts, posters, or applications, or when any design skill requires project context. Call with 'craft' for shape-then-build, 'teach' for design context setup, or 'extract' to pull reusable components and tokens into the design system.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "layout",
+      "path": "skills/design/layout/SKILL.md",
+      "lines": 125,
+      "encoding": "utf-8",
+      "description": "Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy. Use when the user mentions layout feeling off, spacing issues, visual hierarchy, crowded UI, alignment problems, or wanting better composition.",
+      "issues": []
+    },
+    {
+      "name": "optimize",
+      "path": "skills/design/optimize/SKILL.md",
+      "lines": 266,
+      "encoding": "utf-8",
+      "description": "Diagnoses and fixes UI performance across loading speed, rendering, animations, images, and bundle size. Use when the user mentions slow, laggy, janky, performance, bundle size, load time, or wants a faster, smoother experience.",
+      "issues": []
+    },
+    {
+      "name": "overdrive",
+      "path": "skills/design/overdrive/SKILL.md",
+      "lines": 142,
+      "encoding": "utf-8",
+      "description": "Pushes interfaces past conventional limits with technically ambitious implementations — shaders, spring physics, scroll-driven reveals, 60fps animations. Use when the user wants to wow, impress, go all-out, or make something that feels extraordinary.",
+      "issues": []
+    },
+    {
+      "name": "polish",
+      "path": "skills/design/polish/SKILL.md",
+      "lines": 224,
+      "encoding": "utf-8",
+      "description": "Performs a final quality pass fixing alignment, spacing, consistency, and micro-detail issues before shipping. Use when the user mentions polish, finishing touches, pre-launch review, something looks off, or wants to go from good to great.",
+      "issues": []
+    },
+    {
+      "name": "quieter",
+      "path": "skills/design/quieter/SKILL.md",
+      "lines": 103,
+      "encoding": "utf-8",
+      "description": "Tones down visually aggressive or overstimulating designs, reducing intensity while preserving quality. Use when the user mentions too bold, too loud, overwhelming, aggressive, garish, or wants a calmer, more refined aesthetic.",
+      "issues": []
+    },
+    {
+      "name": "shape",
+      "path": "skills/design/shape/SKILL.md",
+      "lines": 96,
+      "encoding": "utf-8",
+      "description": "Plan the UX and UI for a feature before writing code. Runs a structured discovery interview, then produces a design brief that guides implementation. Use during the planning phase to establish design direction, constraints, and strategy before any code is written.",
+      "issues": []
+    },
+    {
+      "name": "theme-factory",
+      "path": "skills/design/theme-factory/SKILL.md",
+      "lines": 59,
+      "encoding": "utf-8",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "issues": []
+    },
+    {
+      "name": "typeset",
+      "path": "skills/design/typeset/SKILL.md",
+      "lines": 116,
+      "encoding": "utf-8",
+      "description": "Improves typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional. Use when the user mentions fonts, type, readability, text hierarchy, sizing looks off, or wants more polished, intentional typography.",
+      "issues": []
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "skills/design/ui-ux-pro-max/SKILL.md",
+      "lines": 292,
+      "encoding": "utf-8",
+      "description": "UI/UX design intelligence. 50 styles, 21 palettes, 50 font pairings, 20 charts, 9 stacks.",
+      "issues": []
+    },
+    {
+      "name": "web-artifacts-builder",
+      "path": "skills/design/web-artifacts-builder/SKILL.md",
+      "lines": 74,
+      "encoding": "utf-8",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "issues": []
+    },
+    {
+      "name": "web-ui-ux-frontend-architect",
+      "path": "skills/design/web-ui-ux-frontend-architect/SKILL.md",
+      "lines": 432,
+      "encoding": "utf-8",
+      "description": "Analiza, diseña, moderniza, organiza e implementa UI/UX para sitios web y sistemas web. Trabaja con proyectos existentes o desde cero, analiza antes de diseñar, decide cuándo investigar en Internet, elige estrategia Design-first/Code-first/Hybrid, usa Tailwind CSS o Bootstrap cuando corresponda, selecciona iconografía moderna, genera o modifica código, reorganiza frontends desordenados en módulos y componentes reutilizables, y ejecuta Responsive/Visual/Accessibility QA. Úsala para landing pages, portafolios, dashboards, SaaS, e-commerce, paneles administrativos, sistemas internos y aplicaciones web completas.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "windows-desktop-ui-ux-engineer",
+      "path": "skills/desktop/windows-desktop-ui-ux-engineer/SKILL.md",
+      "lines": 372,
+      "encoding": "utf-8",
+      "description": "Diseña, audita, moderniza e implementa UI/UX para aplicaciones de escritorio orientadas a Windows, tanto en proyectos existentes como desde cero. Detecta automáticamente el stack (WinUI 3, WPF, WinForms, .NET MAUI, Electron, Tauri, React/TypeScript, Flutter Desktop, Qt/QML u otros), analiza antes de diseñar, decide cuándo investigar en Internet, selecciona Design-first, Code-first o Hybrid, puede usar Figma de forma opcional, modifica o genera código y ejecuta Visual QA iterativo. Úsala cuando el usuario pida crear, rediseñar, modernizar, auditar, implementar o mejorar interfaces de aplicaciones desktop para Windows.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "doc-coauthoring",
+      "path": "skills/docs/doc-coauthoring/SKILL.md",
+      "lines": 375,
+      "encoding": "utf-8",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "docs-updater",
+      "path": "skills/docs/docs-updater/SKILL.md",
+      "lines": 332,
+      "encoding": "utf-8",
+      "description": "Provides automated documentation updates by analyzing git changes between the current branch and the last release tag. Performs git diff analysis to identify modifications, then updates README.md, CHANGELOG.md following Keep a Changelog standard, and discovers documentation folders for contextual updates. Use when preparing a release, maintaining documentation sync, or before creating a pull request. Triggers on \"update docs\", \"update changelog\", \"sync documentation\", \"update readme\", \"prepare release documentation\".",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "documentation-repository-curator",
+      "path": "skills/docs/documentation-repository-curator/SKILL.md",
+      "lines": 421,
+      "encoding": "utf-8",
+      "description": "Audit a software project before writing documentation; verify the real stack from dependency/config files, redesign README and project docs, consolidate duplicate documentation, identify obsolete files safely, and keep docs accurate, consistent, scalable, and maintainable. Use for any language, framework, monorepo, application, library, API, agent system, CLI, desktop, mobile, or web project.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "humanizer",
+      "path": "skills/docs/humanizer/SKILL.md",
+      "lines": 412,
+      "encoding": "utf-8",
+      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, passive\nvoice, negative parallelisms, and filler phrases.\n",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "internal-comms",
+      "path": "skills/docs/internal-comms/SKILL.md",
+      "lines": 32,
+      "encoding": "utf-8",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "issues": []
+    },
+    {
+      "name": "project-readme-documentation",
+      "path": "skills/docs/project-readme-documentation/SKILL.md",
+      "lines": 187,
+      "encoding": "utf-8",
+      "description": "Analiza un repositorio real y crea o actualiza su README y documentación técnica con evidencia del código, dependencias y configuración. Úsala cuando el usuario pida documentar un proyecto, mejorar README.md, generar docs/ARCHITECTURE.md, docs/PROGRESS.md, docs/AGENTS.md, docs/SKILLS.md, docs/TODO.md o CONTRIBUTING.md, o estandarizar la documentación de un repositorio sin asumir su stack.",
+      "issues": []
+    },
+    {
+      "name": "cv-builder-harvard",
+      "path": "skills/docs-cv/cv-builder-harvard/SKILL.md",
+      "lines": 60,
+      "encoding": "utf-8",
+      "description": "Formats resumes/CVs following the Harvard OCS (Office of Career Services) resume guidelines — a clean, one-page, reverse-chronological format widely recognized by recruiters. Use this skill whenever the user asks for a CV or resume \"estilo Harvard\", \"modelo Harvard\", \"Harvard format\", or wants their resume tightened up, made more scannable, or brought in line with a standard professional/academic resume format. Also use when reviewing or critiquing an existing CV for formatting, structure, or wording issues (passive language, missing action verbs, inconsistent dates, too long, personal pronouns, etc.), even if the user doesn't explicitly say \"Harvard\". Applies to any language — translate section labels but keep the underlying structure and rules.",
+      "issues": []
+    },
+    {
+      "name": "cv-harvard-ats",
+      "path": "skills/docs-cv/cv-harvard-ats/SKILL.md",
+      "lines": 71,
+      "encoding": "utf-8",
+      "description": "Crea, reescribe o audita un CV/currículum siguiendo el modelo Harvard (orientado a logros cuantificados) combinado con optimización ATS (Applicant Tracking System), para maximizar el score en herramientas de diagnóstico de CV (ATS, Enfoque, Impacto, Claridad, Contacto, Legibilidad) y aumentar la tasa de respuesta de reclutadores. Funciona para CUALQUIER área o industria (tecnología, salud, ventas, administración, educación, legal, operaciones, marketing, ingeniería, seguridad, etc.), no solo tech. Usa este skill siempre que el usuario pida mejorar u optimizar un CV, subir el score ATS, reescribir logros con métricas, adaptar un CV a una vacante específica, o si comparte un diagnóstico o reporte de un analizador de CV (score, palabras clave faltantes, hallazgos) y pide corregirlo. También úsalo si el usuario simplemente pega su experiencia laboral y pide \"hazme un CV\" o \"revisa mi CV\", aunque no mencione \"Harvard\" o \"ATS\" explícitamente.\n",
+      "issues": []
+    },
+    {
+      "name": "pdf",
+      "path": "skills/documents/pdf/SKILL.md",
+      "lines": 314,
+      "encoding": "utf-8",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "pptx",
+      "path": "skills/documents/pptx/SKILL.md",
+      "lines": 238,
+      "encoding": "utf-8",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+      "issues": []
+    },
+    {
+      "name": "word-document-tools",
+      "path": "skills/documents/word-document-tools/SKILL.md",
+      "lines": 90,
+      "encoding": "utf-8",
+      "description": "Creates, reads, edits, validates, and manipulates Microsoft Word DOCX and DOTX files. Use for Word documents, templates, reports, memos, letters, tracked changes, comments, formatting, tables of contents, images, find-and-replace, or any task that explicitly requires a .docx or .dotx deliverable.",
+      "issues": []
+    },
+    {
+      "name": "xlsx",
+      "path": "skills/documents/xlsx/SKILL.md",
+      "lines": 99,
+      "encoding": "utf-8",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "issues": []
+    },
+    {
+      "name": "frontend-react-best-practices",
+      "path": "skills/frontend/frontend-react-best-practices/SKILL.md",
+      "lines": 539,
+      "encoding": "utf-8",
+      "description": "React performance optimization guidelines. Use when writing, reviewing, or refactoring React components to ensure optimal rendering and bundle patterns. Triggers on tasks involving React components, hooks, memoization, or bundle optimization.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "path": "skills/frontend/frontend-ui-engineering/SKILL.md",
+      "lines": 328,
+      "encoding": "utf-8",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "react-2026",
+      "path": "skills/frontend/react-2026/SKILL.md",
+      "lines": 330,
+      "encoding": "utf-8",
+      "description": "Provides a comprehensive guide to the modern React 2026 stack. Use when starting a new React project or modernizing an existing one with current frameworks, build tools, routing, state management, or AI integration.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "react-frontend",
+      "path": "skills/frontend/react-frontend/SKILL.md",
+      "lines": 189,
+      "encoding": "utf-8",
+      "description": "React architecture patterns, TypeScript, Next.js, hooks, and testing. Use when working with React component structure, state management, Next.js routing, Vitest, React Testing Library, or reviewing React code. For visual design and aesthetic direction, use frontend-design instead.",
+      "issues": []
+    },
+    {
+      "name": "react-frontend-expert",
+      "path": "skills/frontend/react-frontend-expert/SKILL.md",
+      "lines": 410,
+      "encoding": "utf-8",
+      "description": "React/TypeScript frontend implementation patterns. Use during the implementation phase when creating or modifying React components, custom hooks, pages, data fetching logic with TanStack Query, forms, or routing. Covers component structure, hooks rules, custom hook design (useAuth, useDebounce, usePagination), TypeScript strict-mode conventions, form handling, accessibility requirements, and project structure. Does NOT cover testing (use react-testing-patterns), E2E testing (use e2e-testing), or deployment.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "react-router-framework-mode",
+      "path": "skills/frontend/react-router-framework-mode/SKILL.md",
+      "lines": 121,
+      "encoding": "utf-8",
+      "description": "Build full-stack React applications using React Router's framework mode. Use when configuring routes, working with loaders and actions, handling forms, handling navigation, pending/optimistic UI, error boundaries, or working with react-router.config.ts or other react router conventions.",
+      "issues": []
+    },
+    {
+      "name": "seo-geo-web",
+      "path": "skills/frontend/seo-geo-web/SKILL.md",
+      "lines": 79,
+      "encoding": "utf-8",
+      "description": "Audita, diseña e implementa SEO técnico, contenido y GEO para mejorar descubrimiento, posicionamiento y visibilidad en búsquedas con IA. Úsalo en sitios nuevos o existentes, migraciones e indexación con cualquier stack web, WordPress, Wix u otros CMS.",
+      "issues": []
+    },
+    {
+      "name": "seo-sitemap",
+      "path": "skills/frontend/seo-sitemap/SKILL.md",
+      "lines": 104,
+      "encoding": "utf-8",
+      "description": "Audita, genera y corrige sitemap.xml y robots.txt para proyectos SvelteKit. Detecta errores de Google Search Console (URL no permitida, formato no compatible), genera rutas dinamicas correctas, valida dominios canonicals y actualiza archivos estaticos y rutas de servidor. Usalo cuando el usuario mencione sitemap, robots.txt, Search Console, SEO, indexacion, URLs no permitidas, o crawling.\n",
+      "issues": [
+        "dominio/proyecto fijo"
+      ]
+    },
+    {
+      "name": "tailwind-4-docs",
+      "path": "skills/frontend/tailwind-4-docs/SKILL.md",
+      "lines": 77,
+      "encoding": "utf-8",
+      "description": "Comprehensive Tailwind CSS v4 documentation snapshot and workflow guidance. Use when answering Tailwind v4 questions, selecting utilities/variants, configuring Tailwind v4, or migrating projects from v3 to v4 with official docs and gotcha checks.",
+      "issues": []
+    },
+    {
+      "name": "tailwind-theme-builder",
+      "path": "skills/frontend/tailwind-theme-builder/SKILL.md",
+      "lines": 414,
+      "encoding": "utf-8",
+      "description": "Set up Tailwind v4 + shadcn/ui themed UI with dark mode. Install deps, configure CSS variables via @theme inline, wire dark mode toggle, verify. Use whenever the user mentions Tailwind v4, setting up Tailwind theming, shadcn/ui colours, dark mode, or troubleshooting colours not working, tw-animate-css errors, @theme inline conflicts, @apply breaking after upgrade, or v3 → v4 migration issues.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "tailwind-v4-shadcn",
+      "path": "skills/frontend/tailwind-v4-shadcn/SKILL.md",
+      "lines": 574,
+      "encoding": "utf-8",
+      "description": "| Production-tested setup for Tailwind CSS v4 with shadcn/ui, Vite, and React. Use when: initializing React projects with Tailwind v4, setting up shadcn/ui, implementing dark mode, debugging CSS variable issues, fixing theme switching, migrating from Tailwind v3, or encountering color/theming problems. Covers: @theme inline pattern, CSS variable architecture, dark mode with ThemeProvider, component composition, vite.config setup, common v4 gotchas, and production-tested patterns.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "tailwindcss",
+      "path": "skills/frontend/tailwindcss/SKILL.md",
+      "lines": 57,
+      "encoding": "utf-8",
+      "description": "Expert in TailwindCSS utility-first styling with responsive design patterns",
+      "issues": []
+    },
+    {
+      "name": "tailwindcss-v4-3-expert",
+      "path": "skills/frontend/tailwindcss-v4-3-expert/SKILL.md",
+      "lines": 265,
+      "encoding": "utf-8",
+      "description": "Expert skill for analyzing, installing, migrating, designing, refactoring, and validating production interfaces with Tailwind CSS v4.3 across modern web stacks. Verifies the real project before changing code, prefers CSS-first v4 patterns, reusable components, design tokens, responsive/container-query design, accessibility, and minimal dependencies.",
+      "issues": []
+    },
+    {
+      "name": "vite",
+      "path": "skills/frontend/vite/SKILL.md",
+      "lines": 72,
+      "encoding": "utf-8",
+      "description": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite.",
+      "issues": []
+    },
+    {
+      "name": "llm-api-development",
+      "path": "skills/integrations/llm-api-development/SKILL.md",
+      "lines": 544,
+      "encoding": "utf-8",
+      "description": "Provides reference guidance for building applications with the Claude API and Anthropic SDKs, including models, streaming, tool use, MCP, agents, prompt caching, token counting, authentication, files, and migrations. Use when the user asks about Claude or Anthropic API development, SDK integration, model capabilities, API errors, or implementing an LLM feature specifically with Anthropic.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "mcp-builder",
+      "path": "skills/integrations/mcp-builder/SKILL.md",
+      "lines": 236,
+      "encoding": "utf-8",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "issues": []
+    },
+    {
+      "name": "qoder-wiki",
+      "path": "skills/meta/qoder-wiki/SKILL.md",
+      "lines": 52,
+      "encoding": "utf-8",
+      "description": "Qoder official documentation knowledge base, containing product introduction, user guide, feature configuration, extension capabilities, account pricing, and troubleshooting. Use this skill when the user asks questions related to Qoder (e.g., installation, usage, features, pricing, shortcuts, MCP, Skills, Quest Mode, Repo Wiki, etc.).",
+      "issues": []
+    },
+    {
+      "name": "skill-creator",
+      "path": "skills/meta/skill-creator/SKILL.md",
+      "lines": 485,
+      "encoding": "utf-8",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "using-superpowers",
+      "path": "skills/meta/using-superpowers/SKILL.md",
+      "lines": 87,
+      "encoding": "utf-8",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions",
+      "issues": [
+        "activación global o umbral artificial"
+      ]
+    },
+    {
+      "name": "writing-great-skills",
+      "path": "skills/meta/writing-great-skills/SKILL.md",
+      "lines": 83,
+      "encoding": "utf-8",
+      "description": "Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.",
+      "issues": []
+    },
+    {
+      "name": "android-camera-engineering",
+      "path": "skills/mobile/android-camera-engineering/SKILL.md",
+      "lines": 832,
+      "encoding": "utf-8",
+      "description": "Skill profesional para diseñar, analizar, implementar, auditar y optimizar aplicaciones Android de cámara existentes o nuevas. Especializada en CameraX, Camera2, fotografía computacional, calidad fotográfica premium, UI/UX moderna de cámara, procesamiento de imagen e integración opcional de IA on-device. Úsala cuando una tarea involucre captura fotográfica, preview, HDR, RAW, modo noche, timestamp/overlays, rendimiento, calidad de imagen, CameraX/Camera2 o AI Camera.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "android-codebase-auditor-refactor",
+      "path": "skills/mobile/android-codebase-auditor-refactor/SKILL.md",
+      "lines": 239,
+      "encoding": "utf-8",
+      "description": "Audita repositorios Android/Kotlin de forma autónoma para detectar deuda técnica, archivos monolíticos, violaciones de arquitectura, problemas de estabilidad y vulnerabilidades de seguridad. Úsalo cuando el usuario pida revisar, modernizar o refactorizar una app Android, especialmente con archivos >300 líneas, God Classes, Compose/ViewModels sobredimensionados, almacenamiento sensible inseguro o acoplamiento UI-data.",
+      "issues": []
+    },
+    {
+      "name": "android-modern-ui-expert",
+      "path": "skills/mobile/android-modern-ui-expert/SKILL.md",
+      "lines": 512,
+      "encoding": "utf-8",
+      "description": "Design, create, modernize, review, and repair Android user interfaces in Android Studio. Use for Kotlin/Jetpack Compose UI work, Material 3 and Material 3 Expressive, adaptive layouts for phones/tablets/foldables/desktop-class windows, dark mode, edge-to-edge, Navigation 3, accessibility, previews, UI tests, and Kotlin Multiplatform projects. Always inspect the existing project before changing architecture or dependencies, preserve working business logic, and prefer stable official Android/Kotlin APIs unless experimental APIs are explicitly justified.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "mobile-app-engineering",
+      "path": "skills/mobile/mobile-app-engineering/SKILL.md",
+      "lines": 85,
+      "encoding": "utf-8",
+      "description": "Diseña, desarrolla, audita y evoluciona aplicaciones móviles de calidad para Expo/React Native, Android nativo con Kotlin/Jetpack Compose y Kotlin Multiplatform. Úsalo para crear o refactorizar pantallas, navegación, dark mode, accesibilidad, almacenamiento local, sincronización, seguridad, pruebas, rendimiento, publicación y auditorías de UX móvil.",
+      "issues": []
+    },
+    {
+      "name": "odoo-specialist",
+      "path": "skills/platforms/odoo/odoo-specialist/SKILL.md",
+      "lines": 73,
+      "encoding": "utf-8",
+      "description": "Analiza, desarrolla, configura y diagnostica instalaciones Odoo. Úsalo para addons Python/XML/Owl, Studio, procesos ERP, permisos multiempresa, Website/eCommerce, importaciones, integraciones API o MCP disponibles y migraciones, adaptando el trabajo a versión, edición, hosting y aplicaciones reales.",
+      "issues": []
+    },
+    {
+      "name": "wix-app",
+      "path": "skills/platforms/wix/wix-app/SKILL.md",
+      "lines": 361,
+      "encoding": "utf-8",
+      "description": "Build and review Wix CLI app extensions — dashboard pages, modals, plugins, menu plugins, custom element widgets, Editor React components, site plugins, embedded scripts, backend APIs, backend events, service plugins, data collections, and App Market readiness. Use when building ANY feature or extension for a Wix CLI app or preparing a Wix app for App Market review. Triggers on: add, build, create, implement, help me, dashboard, widget, plugin, backend, API, event, collection, embedded script, service plugin, Editor React component, checkout, shipping, tax, discount, SPI, CMS, schema, tracking, popup, admin panel, menu item, modal, validate, test, verify, register extension, App Market, app review, submission readiness.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "wix-auth",
+      "path": "skills/platforms/wix/wix-auth/SKILL.md",
+      "lines": 12,
+      "encoding": "utf-8",
+      "description": "Authenticate with Wix to obtain an access token for calling Wix APIs. Use when an agent needs a valid Wix access token and has none, or when the stored token is expired.",
+      "issues": []
+    },
+    {
+      "name": "wix-design-system",
+      "path": "skills/platforms/wix/wix-design-system/SKILL.md",
+      "lines": 135,
+      "encoding": "utf-8",
+      "description": "Wix Design System component reference. Use when building UI with @wix/design-system, choosing components, checking props and examples, or writing tests with component testkits. Triggers on \"what component\", \"how do I make\", \"WDS\", \"show me props\", \"testkit\", \"driver\", or component names like Button, Card, Modal, Box, Text.",
+      "issues": []
+    },
+    {
+      "name": "wix-docs",
+      "path": "skills/platforms/wix/wix-docs/SKILL.md",
+      "lines": 188,
+      "encoding": "utf-8",
+      "description": "Look up the Wix API/SDK documentation to confirm an exact endpoint, HTTP method, request/response shape, field, enum, or error before writing Wix code — never guess a Wix API from memory. A lookup is a short flow: find the right page, then read it. Two ways: (1) plain `curl` (zero dependencies) — find a page by **semantic search** (`POST /mcp-docs-search/v1/docs/search`, natural-language `{ search_term, document_type }`) **or by browsing** the docs tree as a menu from the `llms.txt` root (append `.md` to any docs path), then read the page by appending `.md` to its URL; and (2) the Wix MCP doc tools when your agent has them. Triggers: look up a Wix API, find the Wix endpoint/method, confirm a Wix request body or field, verify a Wix API shape, explore Wix docs, which Wix API do I call, read a Wix method schema.",
+      "issues": []
+    },
+    {
+      "name": "wix-headless-entry",
+      "path": "skills/platforms/wix/wix-headless/entry/SKILL.md",
+      "lines": 76,
+      "encoding": "utf-8",
+      "description": "Build a complete Wix Managed Headless site from a single prompt, then connect Wix Business Solutions. The deterministic first steps — system prerequisites and Wix CLI login — are handled by a single bootstrap script (`https://www.wix.com/skills/headless/entry/bootstrap.mjs`); the agent then installs the skill and hands the run to it. Triggers: build me a site, create a website, make me a website, new website, online store, I want to sell X, start a business online, launch a site, ecommerce, portfolio, business website, sell online, online shop, connect this to Wix Headless, add Wix Headless to this project, host this on Wix, deploy this to Wix, implement the features of this project using Wix Headless. Use this skill instead of the WixSiteBuilder MCP tool for new-site requests.",
+      "issues": []
+    },
+    {
+      "name": "wix-headless",
+      "path": "skills/platforms/wix/wix-headless/SKILL.md",
+      "lines": 144,
+      "encoding": "utf-8",
+      "description": "Connect Wix business services (Stores, Bookings, CMS, Blog, Events, Forms, and more) to a Wix Headless frontend — infer the needed capabilities, install the apps, seed backend content, and produce an SDK-integration guide. For managed (Wix-hosted) projects it can also build the frontend: scaffold a new site (create) or wire an existing/brought-in design (connect), then build and release. Works across managed, self-managed, and stripe project types. Triggers: set up a Wix Headless backend, add Wix business features to my app, build or host a Wix site, connect/implement this design with Wix.",
+      "issues": []
+    },
+    {
+      "name": "wix-manage",
+      "path": "skills/platforms/wix/wix-manage/SKILL.md",
+      "lines": 392,
+      "encoding": "utf-8",
+      "description": "Wix business solution management recipes — REST API operations for configuring and managing Wix business solutions. Routes to: stores, bookings, get-paid, CMS, contacts, forms, media, app-installation, pricing-plans, restaurants, rich-content, sites, blog, calendar, domains, site-properties, ecommerce, marketing, google-ads, analytics, dashboard-navigation.",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "wix-vibe-headless",
+      "path": "skills/platforms/wix/wix-vibe-headless/SKILL.md",
+      "lines": 159,
+      "encoding": "utf-8",
+      "description": "Client-only, dependency-free REST scaffolds for connecting an already-built front end (a vibe-coded app, an HTML/JSX/Vite project, a design-tool export) to a live Wix site over the site's public WIX_CLIENT_ID — the browser talks to Wix directly, no SDK, no backend, no build step. One skill covering every Wix business solution: Stores/eCommerce storefront (products, cart, checkout), Bookings (services, slots, appointments), Blog (posts, categories, tags), Events & Tickets (browse, RSVP, ticketing), Portfolio (collections, projects, galleries), Restaurants (menu, online ordering, reservations), CMS / Wix Data (list, detail, filter, forms, CRUD), Pricing Plans (memberships, subscriptions, checkout), and Members (custom login — email+password, Google/Facebook, and custom SSO — plus account areas and member-gated content). Each vertical ships a copy-as-is REST layer plus wiring instructions. Read-only over the owner's content — never provisions, never mocks data. Triggers: connect my Wix store/shop, build a storefront over Wix, add a cart and checkout, connect Wix Bookings, take appointments/reservations, show my Wix blog, list my Wix events, sell tickets, take RSVPs, build a portfolio from Wix Portfolio, show my restaurant menu / order online / book a table, display my Wix CMS collection, wire a contact form to Wix, sell membership/subscription plans, add member login / sign up, let members log in with Google or Facebook, custom login page, account / profile page, gate content behind login, sign in with SSO/Okta, 'here is my WIX_CLIENT_ID', connect this app to my Wix site over REST. Use this for CLIENT-ONLY REST integration over an existing site; use `wix-headless` instead for SDK + Wix CLI builds, hosting, and one-prompt new-site creation.",
+      "issues": []
+    },
+    {
+      "name": "wordpress-elementor-commerce",
+      "path": "skills/platforms/wordpress/wordpress-elementor-commerce/SKILL.md",
+      "lines": 70,
+      "encoding": "utf-8",
+      "description": "Crea, rediseña y administra sitios WordPress con Elementor, WooCommerce y plugins. Úsalo para diseño moderno editable, responsive móvil/tablet/desktop, modo oscuro, artículos, productos y configuración; opera mediante MCP, editor, REST o WP-CLI según capacidades y acceso reales.",
+      "issues": []
+    },
+    {
+      "name": "wordpress-theme-studio",
+      "path": "skills/platforms/wordpress/wordpress-theme-studio/SKILL.md",
+      "lines": 71,
+      "encoding": "utf-8",
+      "description": "Crea y personaliza temas WordPress con código propio, clásicos o de bloques, diseño responsive y modo oscuro. Úsalo para desarrollar temas, integrar skills de diseño, cargar artículos y medios, configurar sitios y operar mediante WordPress MCP, REST API, WP-CLI o el administrador según acceso disponible.",
+      "issues": []
+    },
+    {
+      "name": "mcp-integration-corrector",
+      "path": "skills/quality/system-correction-skill-pack/mcp-integration-corrector/SKILL.md",
+      "lines": 226,
+      "encoding": "utf-8",
+      "description": "Usa MCP y conectores disponibles para diagnosticar y corregir sistemas con estado real. Descubre capabilities, tools y resources antes de actuar, separa lectura de escritura, respeta permisos, evita inventar resultados y verifica cada cambio contra el recurso externo.\n",
+      "issues": []
+    },
+    {
+      "name": "rbac-database-corrector",
+      "path": "skills/quality/system-correction-skill-pack/rbac-database-corrector/SKILL.md",
+      "lines": 319,
+      "encoding": "utf-8",
+      "description": "Diagnostica y corrige conexión, autorización y consistencia entre aplicaciones y bases de datos, especialmente PostgreSQL/Supabase. Audita esquema, RLS, GRANT, RBAC, funciones SQL, vistas, storage y migraciones, verificando permisos positivos y negativos por rol.\n",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "role-aware-ui-corrector",
+      "path": "skills/quality/system-correction-skill-pack/role-aware-ui-corrector/SKILL.md",
+      "lines": 297,
+      "encoding": "utf-8",
+      "description": "Corrige UI, formularios, paneles, dashboards, navegación, imágenes y representación de datos para que cada usuario vea información correcta según su rol y estado real. Valida que la UI esté sincronizada con backend y base de datos sin tratar el ocultamiento visual como autorización.\n",
+      "issues": []
+    },
+    {
+      "name": "system-correction-orchestrator",
+      "path": "skills/quality/system-correction-skill-pack/system-correction-orchestrator/SKILL.md",
+      "lines": 409,
+      "encoding": "utf-8",
+      "description": "Orquesta el diagnóstico y la corrección funcional de sistemas web, APIs, aplicaciones móviles y aplicaciones de escritorio. Comprende arquitectura, roles, flujos, UI, backend, base de datos, archivos e integraciones antes de modificar. Usa MCP o conectores disponibles cuando corresponda y verifica cada corrección de extremo a extremo.\n",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "path": "skills/quality/webapp-testing/SKILL.md",
+      "lines": 96,
+      "encoding": "utf-8",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "issues": []
+    },
+    {
+      "name": "secure-software-auditor",
+      "path": "skills/security/secure-software-auditor/SKILL.md",
+      "lines": 1021,
+      "encoding": "utf-8",
+      "description": "Skill defensiva para analizar, priorizar y corregir vulnerabilidades de seguridad en páginas web, APIs, backends, sistemas, aplicaciones móviles y aplicaciones de escritorio. Primero comprende la arquitectura y clasifica la exposición (pública, interna, privada, secreta o sensible), luego audita, corrige y verifica sin divulgar credenciales ni datos sensibles.\n",
+      "issues": [
+        "entrada >300 líneas; revisar carga progresiva"
+      ]
+    }
+  ],
+  "files_written": 571
+}

@@ -3,9 +3,9 @@
 > Toolkit personal de **skills**, **paquetes** y **prompts** reutilizables para agentes de IA.
 > Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix, apps Android/desktop.
 
-[![skills](https://img.shields.io/badge/skills-94-blue?style=flat-square)](docs/skills/skill-packages.md)
-[![packages](https://img.shields.io/badge/SKILL%2F-46%20paquetes-purple?style=flat-square)](SKILL/)
-[![source](https://img.shields.io/badge/skills%2F-56%20fuente-green?style=flat-square)](skills/)
+[![skills](https://img.shields.io/badge/skills-95-blue?style=flat-square)](docs/skills/skill-packages.md)
+[![packages](https://img.shields.io/badge/SKILL%2F-49%20paquetes-purple?style=flat-square)](SKILL/)
+[![source](https://img.shields.io/badge/skills%2F-95%20fuente-green?style=flat-square)](skills/)
 [![prompts](https://img.shields.io/badge/prompts-4-orange?style=flat-square)](prompts/)
 
 ---
@@ -59,6 +59,68 @@ unzip dev-toolkit-skills/SKILL/pdf.zip -d /tu-proyecto/.agents/skills/pdf
 
 ## 🧠 Activar una Skill
 
+### Especialista Odoo
+
+[`odoo-specialist`](skills/platforms/odoo/odoo-specialist/SKILL.md) analiza instalaciones,
+desarrolla addons, configura procesos ERP, diagnostica errores y trabaja con permisos,
+multiempresa, UI/Website, importaciones, APIs y migraciones. Adapta soluciones a versión,
+Community/Enterprise y Online/Odoo.sh/on-premise; utiliza MCP si existe y es compatible.
+
+Paquete: [`odoo-specialist.zip`](SKILL/odoo-specialist.zip). Extrae la carpeta del skill
+en el directorio admitido por tu agente. Este ZIP contiene instrucciones para el agente;
+no es un addon instalable en Odoo.
+
+```text
+Usa $odoo-specialist para analizar esta instalación y resolver la tarea según su versión, edición, permisos y procesos.
+```
+
+### WordPress con Elementor, WooCommerce y plugins
+
+[`wordpress-elementor-commerce`](skills/platforms/wordpress/wordpress-elementor-commerce/SKILL.md)
+crea diseños modernos editables con Elementor, tiendas WooCommerce y plugins pertinentes.
+Incluye responsive móvil/tablet/desktop, modo claro/oscuro/sistema, artículos, medios,
+productos y configuración. Usa MCP Elementor/WordPress cuando sus capacidades reales
+resuelven la tarea, con alternativas editor/REST/CLI y validación de compra sin cobros reales.
+
+Paquete: [`wordpress-elementor-commerce.zip`](SKILL/wordpress-elementor-commerce.zip).
+Extrae la carpeta del skill en el directorio admitido por tu agente; no es un plugin
+para subir al administrador de WordPress.
+
+```text
+Usa $wordpress-elementor-commerce para mejorar este sitio con Elementor y WooCommerce, diseño responsive, modo oscuro y artículos editables.
+```
+
+### WordPress: temas con código y contenido
+
+[`wordpress-theme-studio`](skills/platforms/wordpress/wordpress-theme-studio/SKILL.md)
+crea temas clásicos o de bloques con código propio, integra skills de diseño y exige
+validación responsive, accesibilidad y modo claro/oscuro/sistema. Gestiona artículos,
+medios y configuración mediante MCP, REST, WP-CLI o administrador según acceso.
+
+Paquete: [`wordpress-theme-studio.zip`](SKILL/wordpress-theme-studio.zip). Extrae la
+carpeta `wordpress-theme-studio` en el directorio de skills admitido por tu agente.
+
+```text
+Usa $wordpress-theme-studio y el skill de diseño disponible para crear un tema WordPress responsive con modo oscuro y artículos editables.
+```
+
+Este archivo ZIP instala el skill; el tema WordPress se genera al ejecutar una tarea.
+
+### SEO y GEO profesional
+
+Nueva skill: [`seo-geo-web`](skills/frontend/seo-geo-web/SKILL.md).
+Audita e implementa SEO técnico, estructura del código, contenido, datos estructurados,
+rendimiento y visibilidad en búsquedas con IA. Se adapta a cualquier stack web e incluye
+WordPress, Wix y guías para otros CMS. Si falta acceso, prepara cambios e instrucciones
+comprobables. Fuentes oficiales y límites de GEO documentados; no promete rankings.
+
+Paquete: [`seo-geo-web.zip`](SKILL/seo-geo-web.zip). Extrae la carpeta `seo-geo-web`
+en el directorio de skills admitido por tu agente (por ejemplo, `~/.codex/skills/`).
+
+```text
+Usa $seo-geo-web para analizar este proyecto e implementar SEO y GEO desde el código.
+```
+
 Todas las skills se activan **por nombre o por descripción** (triggers). Ejemplos:
 
 ```text
@@ -77,8 +139,8 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 |---|---|
 | 📖 **[Guía de Instalación](docs/install/quickstart.md)** | Instalación, formatos, uso, verificación |
 | 📋 **[Índice de Documentación](docs/INDEX.md)** | Mapa completo de la documentación |
-| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 45 paquetes · qué hace, funciones, casos de uso, entornos |
-| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 56 skills · desarrollo, pruebas, referencias |
+| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 49 paquetes · qué hace, funciones, casos de uso, entornos |
+| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 95 skills · desarrollo, pruebas, referencias |
 | 💬 **[Prompts](docs/prompts/README.md)** | 4 prompts reutilizables |
 | 🗂️ **[docs_structure.json](docs_structure.json)** | Índice documental para cargar en otros proyectos |
 
@@ -86,19 +148,24 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 ## 🎁 Paquetes Listos para Usar (`SKILL/`)
 
-**45 paquetes** = **38 skills únicas** (`.skill` + `.zip`, sin compilación).
+**49 paquetes** = **42 nombres de skill** (13 `.skill` y 36 `.zip`).
 
-| Categoría | Paquetes | Descripción | Documentación |
-|---|:---:|---|---|
-| 📄 Documentos y Archivos | 4 | PDF, Word, PowerPoint, Excel | [Ver →](docs/skills/skill-packages.md) |
-| 📝 Documentación y Escritura | 5 | Coautoría, curador de repo, humanizar texto, README | [Ver →](docs/skills/skill-packages.md) |
-| 🎓 Currículum Vitae | 2 | CV Harvard + optimización ATS | [Ver →](docs/skills/skill-packages.md) |
-| 🎨 Design, Frontend y UI | 11 | Arquitecto UI, Tailwind v4.3, temas, artefactos web | [Ver →](docs/skills/skill-packages.md) |
-| 🪟 Escritorio (Windows) | 2 | UI/UX para WinUI/WPF/Electron/Tauri/Qt | [Ver →](docs/skills/skill-packages.md) |
-| 🏗️ Arquitectura y Datos | 7 | Claude API, MCP, arquitectura, BDs escalables | [Ver →](docs/skills/skill-packages.md) |
-| 🔐 Seguridad y Corrección | 4 | OWASP, auditoría Android, pack de corrección | [Ver →](docs/skills/skill-packages.md) |
-| 🤖 Android y Móvil | 5 | Cámara, UI moderna, scrcpy, ingeniería móvil | [Ver →](docs/skills/skill-packages.md) |
-| 🧪 Agentes, Testing y Media | 5 | skill-creator, testing web, GIFs, arte generativo | [Ver →](docs/skills/skill-packages.md) |
+| Categoría fuente | Paquetes |
+|---|:---:|
+| `architecture/` | 5 |
+| `automation/` | 2 |
+| `design/` | 10 |
+| `desktop/` | 2 |
+| `docs/` | 6 |
+| `docs-cv/` | 2 |
+| `documents/` | 4 |
+| `frontend/` | 3 |
+| `integrations/` | 2 |
+| `meta/` | 1 |
+| `mobile/` | 5 |
+| `platforms/` | 3 |
+| `quality/` | 2 |
+| `security/` | 2 |
 
 > ℹ️ `humanizer.zip` (corrupto) fue eliminado del repo. La versión vigente es **`humanizer-2.9.1.zip`**.
 
@@ -117,26 +184,33 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | [`web-ui-ux-frontend-architect`](SKILL/web-ui-ux-frontend-architect.zip) | Arquitecto UI/UX web completo con QA | Multi-framework |
 | [`mcp-builder`](SKILL/mcp-builder.zip) | Construye servidores MCP (Python/TS) | Python, Node/TS |
 
-📖 **[Ver las 46 con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
+📖 **[Ver los 49 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
 
 ---
 
 ## 🛠️ Skills Fuente (`skills/`) — Desarrollo y Pruebas
 
-**56 skills** de primer nivel (+1 sub-skill) con `SKILL.md`, `references/` y `scripts/`.
+**95 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
 
-| Categoría | Skills | Descripción |
-|---|:---:|---|
-| 🎨 `design/` | 20 | UI/UX, estética, motion, tipografía, auditorías |
-| ⚛️ `frontend/` | 12 | React, Tailwind, Vite, SEO, routing |
-| 🗄️ `backend/` | 4 | Supabase, Postgres, Clerk, Sentry |
-| 🤖 `automation/` | 6 | Agentes, browser, video, release, workflows |
-| 🏗️ `platforms/wix/` | 7 | Extensiones, auth, headless, design system |
-| 💼 `docs-cv/` | 2 | CV Harvard + ATS |
-| 📚 `docs/` | 1 | Sincronización de documentación |
-| 🧠 `meta/` | 4 | Crear y gestionar skills |
+| Categoría | Skills |
+|---|:---:|
+| `architecture/` | 3 |
+| `automation/` | 8 |
+| `backend/` | 4 |
+| `design/` | 26 |
+| `desktop/` | 1 |
+| `docs/` | 6 |
+| `docs-cv/` | 2 |
+| `documents/` | 4 |
+| `frontend/` | 14 |
+| `integrations/` | 2 |
+| `meta/` | 4 |
+| `mobile/` | 4 |
+| `platforms/` | 11 |
+| `quality/` | 5 |
+| `security/` | 1 |
 
-📖 **[Ver las 56 con detalle →](docs/skills/source-skills.md)**
+📖 **[Ver las 95 con detalle →](docs/skills/source-skills.md)**
 
 ---
 
@@ -162,28 +236,25 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 | Métrica | Total |
 |---|:---:|
-| 📦 Paquetes en `SKILL/` | 45 (13 `.skill` + 32 `.zip`) |
-| 🎁 Skills únicas en `SKILL/` | 38 |
-| 🛠️ Skills de primer nivel en `skills/` | 56 (+1 sub-skill) |
+| 📦 Paquetes en `SKILL/` | 49 (13 `.skill` + 36 `.zip`) |
+| 🎁 Nombres de skill en `SKILL/` | 42 |
+| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 95 |
 | 💬 Prompts | 4 |
-| **Total skills únicas del repo** | **94** |
-| 🆕 Skills añadidas en la última actualización | 14 |
+| **Total nombres únicos del repo** | **95** |
+| 🆕 Skills recuperadas de paquetes en esta auditoría | 34 |
 
 </details>
 
-### Skills descomprimidas por categoría
+### Recuperación y mejora
 
-| Categoría | Skills |
-|---|:---:|
-| design | 20 |
-| frontend | 12 |
-| backend | 4 |
-| automation | 6 |
-| platforms/wix | 7 |
-| docs-cv | 2 |
-| docs | 1 |
-| meta | 4 |
-| **Total** | **56** |
+Se recuperaron las fuentes que faltaban sin sobrescribir las existentes. Las variantes
+distintas están en `docs/skills/package-variants/`, fuera de las fuentes activas.
+
+- [Auditoría y propuesta de agrupación](docs/skills/organization-review.md): revisión individual de las 95 skills.
+- [Inventario actualizado](docs/skills/source-reconciliation.json) y [recuperación inicial](docs/skills/source-recovery.json).
+- [Herramienta de recuperación](scripts/sync_skill_sources.py): auditoría por defecto, extracción con `--extract-missing`.
+
+La recuperación conserva contenido; no certifica vigencia o funcionamiento de cada skill.
 
 ---
 
@@ -200,9 +271,9 @@ Al añadir una skill:
    ---
    ```
 3. `name` en kebab-case, inglés, **sin mencionar el proyecto de origen**
-4. `description` "insistente": triggers concretos, no vagas
+4. `description` precisa: propósito y casos de uso, sin activación universal
 5. Código reutilizable → `scripts/`, no en el body
-6. Documentación >500 líneas → `references/` con índice
+6. Detalles por modo → `references/`, cargadas solo cuando sean pertinentes
 7. Añadir a la tabla correspondiente del README
 8. Empaquetar en `SKILL/` (`.skill` y/o `.zip`) cuando esté lista para producción
 
@@ -213,7 +284,7 @@ Al añadir una skill:
 - **Skills NO eliminadas de sus proyectos de origen** — este repo es una copia centralizada
 - **`tabulasapiens-developer`** excluida: muy project-specific (sleep cycles, neural network)
 - **`seo-sitemap`** tiene contexto específico de `cyberdev.qzz.io` — adaptar dominio
-- **9 skills duplicadas** en `.skill` + `.zip` — preferir `.skill` para instalar
+- **Variantes de paquetes**: no elegir por extensión; comparar contenido con la fuente y el manifiesto
 - **`humanizer.zip` eliminado** por estar corrupto — usar `humanizer-2.9.1.zip`
 - **Solapamiento de arquitectura** entre `software-project-architect`, `modern-software-architect` y `frontend-ui-engineering` (distinta profundidad/alcance)
 - **Bloque Android/móvil** nuevo (5 skills): cámara, UI moderna, auditoría, scrcpy

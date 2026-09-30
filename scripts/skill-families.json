@@ -1,0 +1,60 @@
+{
+  "react-engineering": {
+    "path": "skills/frontend/react-engineering",
+    "specialties": {
+      "architecture": "skills/frontend/react-frontend",
+      "implementation": "skills/frontend/react-frontend-expert",
+      "performance": "skills/frontend/frontend-react-best-practices",
+      "modernization": "skills/frontend/react-2026",
+      "routing": "skills/frontend/react-router-framework-mode"
+    }
+  },
+  "tailwind-engineering": {
+    "path": "skills/frontend/tailwind-engineering",
+    "specialties": {
+      "setup-migration": "skills/frontend/tailwindcss-v4-3-expert",
+      "theming": "skills/frontend/tailwind-theme-builder",
+      "shadcn": "skills/frontend/tailwind-v4-shadcn",
+      "documentation": "skills/frontend/tailwind-4-docs"
+    }
+  },
+  "web-design-suite": {
+    "path": "skills/design/web-design-suite",
+    "specialties": {
+      "direction": "skills/design/frontend-design",
+      "stack": "skills/design/adaptive-web-ui-stack-architect",
+      "discovery": "skills/design/shape",
+      "audit": "skills/design/audit",
+      "responsive": "skills/design/adapt",
+      "layout": "skills/design/layout",
+      "typography": "skills/design/typeset",
+      "color": "skills/design/colorize",
+      "motion": "skills/design/animate",
+      "polish": "skills/design/polish",
+      "performance": "skills/design/optimize",
+      "critique": "skills/design/critique"
+    }
+  },
+  "repository-documentation": {
+    "path": "skills/docs/repository-documentation",
+    "specialties": {
+      "audit": "skills/docs/documentation-repository-curator",
+      "readme": "skills/docs/project-readme-documentation",
+      "changes": "skills/docs/docs-updater"
+    }
+  },
+  "wordpress-suite": {
+    "path": "skills/platforms/wordpress/wordpress-suite",
+    "specialties": {
+      "code": "skills/platforms/wordpress/wordpress-theme-studio",
+      "builder": "skills/platforms/wordpress/wordpress-elementor-commerce"
+    }
+  },
+  "cv-suite": {
+    "path": "skills/docs-cv/cv-suite",
+    "specialties": {
+      "format": "skills/docs-cv/cv-builder-harvard",
+      "ats": "skills/docs-cv/cv-harvard-ats"
+    }
+  }
+}

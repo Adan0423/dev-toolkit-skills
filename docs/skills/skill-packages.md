@@ -1,10 +1,41 @@
 # Skills Listas para Usar (`SKILL/`)
 
-> **45 paquetes** (`.skill` + `.zip`) = **38 skills únicas**. Autocontenidos, sin compilación, listos para instalar directamente en tu agente.
+> **49 paquetes** (13 `.skill` + 36 `.zip`) representan **42 nombres de skill**.
+> [Conciliación fuente/paquetes y variantes](organization-review.md). Las tablas detalladas inferiores conservan el catálogo histórico; consulta el manifiesto para todas las entradas actuales.
 
 > ℹ️ La versión antigua y corrupta `humanizer.zip` fue eliminada; usa **`humanizer-2.9.1.zip`**.
 
 ---
+
+## Nueva adición: SEO y GEO profesional
+
+Nueva adición Odoo (30 de septiembre de 2026):
+[`odoo-specialist.zip`](../../SKILL/odoo-specialist.zip). Skill de desarrollo, configuración,
+diagnóstico e integración Odoo, con siete referencias y plantilla de entrega. Reconoce
+versión/edición/hosting y preserva procesos/permisos. No es un addon Odoo. Posterior
+a los totales históricos del catálogo.
+
+Nueva adición Elementor y WooCommerce (30 de septiembre de 2026):
+[`wordpress-elementor-commerce.zip`](../../SKILL/wordpress-elementor-commerce.zip).
+Skill instalable para diseño editable con builder/plugins, responsive, modo oscuro,
+artículos/productos, configuración y operación MCP/editor/REST/CLI. Incluye siete
+referencias y plantilla de entrega. No es un tema/plugin para instalar en WordPress.
+Posterior a los totales históricos del catálogo.
+
+Nueva adición WordPress (30 de septiembre de 2026):
+[`wordpress-theme-studio.zip`](../../SKILL/wordpress-theme-studio.zip). Skill instalable
+para crear temas WordPress con código, aplicar skills de diseño, validar responsive y
+modo oscuro y gestionar contenido/configuración. Incluye seis referencias y plantilla
+de entrega. Usa MCP/REST/CLI según capacidades reales. Este ZIP contiene un skill;
+no es un tema para subir a Apariencia → Temas. Posterior a totales históricos.
+
+[`seo-geo-web.zip`](../../SKILL/seo-geo-web.zip) contiene la carpeta instalable
+`seo-geo-web/`, con instrucciones, siete referencias, metadatos del agente y plantilla
+de auditoría. Cubre código web de cualquier lenguaje, WordPress/Wix y adaptación a
+otros CMS, con acciones verificables y alternativas cuando falte acceso. Investigación
+basada en documentación oficial; no garantiza posiciones ni citas de IA.
+Esta adición del 30 de septiembre de 2026 es posterior a los totales históricos del catálogo.
+
 
 ## 1. Documentos y Archivos (4)
 

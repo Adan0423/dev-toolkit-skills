@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress: Elementor y WooCommerce"
+  short_description: "Diseño responsive, modo oscuro y contenido con plugins"
+  default_prompt: "Usa $wordpress-elementor-commerce para mejorar este sitio con Elementor, WooCommerce, diseño responsive y modo oscuro."

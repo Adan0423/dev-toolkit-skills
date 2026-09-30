@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO y GEO profesional"
+  short_description: "Audita e implementa SEO y visibilidad en buscadores IA"
+  default_prompt: "Usa $seo-geo-web para analizar este sitio e implementar mejoras de SEO y GEO verificables."
