@@ -1,7 +1,7 @@
 # 🧰 dev-toolkit-skills
 
 > Repositorio centralizado de **skills** y **prompts** reutilizables para agentes de IA (Claude / Antigravity).  
-> Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix.
+> Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix, apps Android/desktop.
 
 ---
 
@@ -22,7 +22,8 @@ Un repositorio personal de skills de agente organizadas por categoría de stack 
 dev-toolkit-skills/
 ├── README.md
 ├── docs_structure.json        ← índice documental generado desde qoder-wiki/docs
-├── SKILL/                     ← Paquetes de skills comprimidos (.zip y .skill) (21 skills)
+├── skills-lock.json           ← lockfile de skills instaladas
+├── SKILL/                     ← Paquetes de skills comprimidos (.zip y .skill) (46 archivos / 38 skills)
 ├── prompts/
 │   ├── meta/          ← Creación, extracción y organización de skills
 │   ├── audit/         ← Auditoría de sistemas full-stack
@@ -31,8 +32,8 @@ dev-toolkit-skills/
     ├── design/        ← UI/UX, estética, diseño visual (20 skills)
     ├── frontend/      ← React, Tailwind, Vite, SEO (12 skills)
     ├── backend/       ← Supabase, Auth, Monitoring (4 skills)
-    ├── automation/    ← Agentes, workflows, browser, release y edición (6 skills)
-    ├── platforms/wix/ ← Skills específicas de Wix CLI (8 skills)
+    ├── automation/    ← Agentes, workflows, browser, release, graphs y video (6 skills)
+    ├── platforms/wix/ ← Skills específicas de Wix CLI (7 skills)
     ├── docs-cv/       ← CV/Harvard y ATS (2 skills)
     ├── docs/          ← Documentación general y sincronización (1 skill)
     └── meta/          ← Crear/gestionar skills de agente (4 skills)
@@ -97,17 +98,20 @@ dev-toolkit-skills/
 
 ---
 
-## 🤖 `skills/automation/` — Agentes, Workflows, Browser
+## 🤖 `skills/automation/` — Agentes, Workflows, Browser, Video
 
 | Skill                     | Cuándo activarla                                                             | Stack           |
 | ------------------------- | ---------------------------------------------------------------------------- | --------------- |
 | `agent-browser`           | Automatización web: navegación, scraping, formularios, capturas de pantalla  | inference.sh    |
 | `agent-ui`                | Componente de chat/agente para React/Next.js con streaming, tools, approvals | React / Next.js |
+| `agent-graphs`            | Workflows multi-agente: grafos de configs con handoff logic entre agentes     | LaunchDarkly    |
 | `ai-automation-workflows` | Pipelines de IA: batch, scheduled, event-driven, agent loops                 | Python / CLI    |
+| `video-editing`           | Edición de video con IA: cortes, vlogs, estructura y pipeline de render      | FFmpeg / Remotion |
+| `version-release`         | Versionar y publicar releases: flujo de release y GitHub Release notes        | Git / GitHub    |
 
 ---
 
-## 🏗️ `skills/platforms/wix/` — Plataforma Wix
+## 🏗️ `skills/platforms/wix/` — Plataforma Wix (7 skills)
 
 | Skill               | Cuándo activarla                                                                  | Stack    |
 | ------------------- | --------------------------------------------------------------------------------- | -------- |
@@ -119,9 +123,19 @@ dev-toolkit-skills/
 | `wix-manage`        | Gestionar soluciones de negocio Wix via REST API                                  | Wix REST |
 | `wix-vibe-headless` | Conectar frontend ya construido a Wix via REST puro (sin SDK, sin build step)     | REST     |
 
+> `wix-headless` incluye una **sub-skill anidada**: `wix-headless-entry` en `skills/platforms/wix/wix-headless/entry/skill.md` — punto de entrada en frío que verifica prerequisitos del sistema, login del Wix CLI y luego delega en la skill principal. Por eso `skills/` contiene 57 archivos `SKILL.md` para 56 skills de primer nivel.
+
 ---
 
-## 💼 `skills/cv-builder-harvard` + `skills/cv-harvard-ats` — Curriculum Vitae
+## 📚 `skills/docs/` — Documentación y Sincronización
+
+| Skill           | Cuándo activarla                                                                                | Stack  |
+| --------------- | ----------------------------------------------------------------------------------------------- | ------ |
+| `docs-updater`  | Sincronizar docs con el código: diff de git contra el último tag, actualiza README y CHANGELOG (Keep a Changelog) | Git / Markdown |
+
+---
+
+## 💼 `skills/docs-cv/` — Curriculum Vitae (2 skills)
 
 | Skill                | Cuándo activarla                                                                                                                                    | Stack                    |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
@@ -214,31 +228,102 @@ El archivo [docs_structure.json](docs_structure.json) funciona como manifest de 
 
 ## 📦 `SKILL/` — Paquetes de Skills Comprimidos (.zip / .skill)
 
-El directorio [`SKILL/`](SKILL/) alberga **21 paquetes de skills comprimidos** (`.zip` y `.skill`). Están optimizados para ser transportados, compartidos o importados de manera atómica en agentes y entornos de desarrollo:
+El directorio [`SKILL/`](SKILL/) alberga **46 archivos comprimidos** (`.zip` y `.skill`) que contienen **38 skills únicas**. Están optimizados para ser transportados, compartidos o importados de manera atómica en agentes y entornos de desarrollo.
+
+- 🆕 **14 skills nuevas** añadidas desde la última versión de este README
+- 💠 Varios skills existen en **ambos formatos** (`.skill` + `.zip`) — elige el que prefieras
+- ⚠️ `humanizer.zip` está **roto** (solo contiene `meta.json`); usa `humanizer-2.9.1.zip`
+
+### 📄 Documentos y Archivos (4)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `pdf.zip` | `pdf` | `.zip` (22.2 KB) | Manipulación integral de archivos PDF (extracción, OCR, unión, rotación, formularios, cifrado). |
+| `pptx.zip` | `pptx` | `.zip` (167.7 KB) | Creación, edición, extracción y formateo de presentaciones en PowerPoint (.pptx / .potx). |
+| `word-document-tools.zip` | `word-document-tools` | `.zip` (250.2 KB) | Creación, lectura, edición y manipulación de documentos de Microsoft Word (.docx / .dotx). |
+| `xlsx.zip` | `xlsx` | `.zip` (155.7 KB) | Procesamiento completo de hojas de cálculo (.xlsx, .csv, .tsv), fórmulas, gráficos y limpieza de datos. |
+
+### 📝 Documentación y Escritura (6)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `doc-coauthoring.zip` | `doc-coauthoring` | `.zip` (6.0 KB) | Workflow estructurado para co-autoría y redacción colaborativa de documentación técnica. |
+| `documentation-repository-curator.skill` | `documentation-repository-curator` | `.skill` (15.4 KB) | 🆕 Auditar el stack real, rediseñar README, consolidar docs duplicadas e identificar archivos obsoletos. |
+| `documentation-repository-curator.zip` | `documentation-repository-curator` | `.zip` (15.4 KB) | 🆕 Misma skill en formato zip. |
+| `humanizer-2.9.1.zip` | `humanizer` | `.zip` (23.9 KB) | 🆕 Eliminar marcas de escritura generada por IA (símbolos inflados, lenguaje promocional, em dash, regla de tres, pasiva). |
+| `humanizer.zip` | `humanizer` | `.zip` (2.1 KB) | ⚠️ **Roto** — solo contiene `meta.json`. Usa `humanizer-2.9.1.zip`. |
+| `project-readme-documentation.skill` | `project-readme-documentation` | `.skill` (5.4 KB) | Análisis de repositorios reales y generación/mejora de README.md basada en evidencias. |
+
+### 🎓 Currículum Vitae (2)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `cv-harvard-ats.skill` | `cv-harvard-ats` | `.skill` (13.1 KB) | Creación, redacción y auditoría de CVs estilo Harvard optimizados para sistemas ATS. |
+| `cv-harvard-ats.zip` | `cv-harvard-ats` | `.zip` (13.8 KB) | Misma skill en formato zip, con `references/` completas. |
+
+### 🎨 Design, Frontend y UI (11)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `adaptive-web-ui-stack-architect.skill` | `adaptive-web-ui-stack-architect` | `.skill` (14.9 KB) | 🆕 Analizar el proyecto **antes** de elegir UI libs, motor CSS, primitivas headless, iconos, animación y design system. |
+| `adaptive-web-ui-stack-architect.zip` | `adaptive-web-ui-stack-architect` | `.zip` (14.9 KB) | 🆕 Misma skill en formato zip, con `scripts/` y 8 `references/`. |
+| `brand-guidelines.zip` | `brand-guidelines` | `.zip` (5.5 KB) | Aplica guías de marca oficiales de Anthropic, tipografías y paletas a cualquier artefacto. |
+| `canvas-design.zip` | `canvas-design` | `.zip` (2.59 MB) | Filosofía y creación de diseño visual artístico en PNG y PDF. |
+| `frontend-design.zip` | `frontend-design` | `.zip` (7.8 KB) | Dirección estética distintiva e intencional al construir o rediseñar interfaces UI. |
+| `tailwindcss-v4-3-expert.skill` | `tailwindcss-v4-3-expert` | `.skill` (14.6 KB) | 🆕 Analizar, instalar, actualizar y validar interfaces con Tailwind v4.3 (plugin `@tailwindcss/vite`, CSS-first, container queries, theming). |
+| `tailwindcss-v4-3-expert.zip` | `tailwindcss-v4-3-expert` | `.zip` (19.0 KB) | 🆕 Misma skill en formato zip. |
+| `theme-factory.zip` | `theme-factory` | `.zip` (121.8 KB) | Motor de temas (10 presets) para aplicar a slides, reportes, landing pages y artefactos HTML. |
+| `web-artifacts-builder.zip` | `web-artifacts-builder` | `.zip` (30.2 KB) | Suite para construir artefactos HTML complejos multi-componente con React, Tailwind CSS y shadcn/ui. |
+| `web-ui-ux-frontend-architect.skill` | `web-ui-ux-frontend-architect` | `.skill` (15.3 KB) | 🆕 Analizar, diseñar, modernizar e implementar UI/UX web (Design-first/Code-first/Hybrid) con QA responsive, visual y de accesibilidad. |
+| `web-ui-ux-frontend-architect.zip` | `web-ui-ux-frontend-architect` | `.zip` (15.3 KB) | 🆕 Misma skill en formato zip. |
+
+### 🪟 Aplicaciones de Escritorio (2)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `windows-desktop-ui-ux-engineer.skill` | `windows-desktop-ui-ux-engineer` | `.skill` (19.0 KB) | 🆕 UI/UX para desktop en Windows: WinUI 3, WPF, WinForms, .NET MAUI, Electron, Tauri, Qt/QML. |
+| `windows-desktop-ui-ux-engineer.zip` | `windows-desktop-ui-ux-engineer` | `.zip` (19.0 KB) | 🆕 Misma skill en formato zip. |
+
+### 🏗️ Arquitectura, Datos y APIs (7)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `llm-api-development.zip` | `llm-api-development` | `.zip` (320.6 KB) | Desarrollo con Anthropic SDK y Claude API (streaming, tool use, MCP, prompt caching, tokens). |
+| `mcp-builder.zip` | `mcp-builder` | `.zip` (42.6 KB) | Guía y desarrollo de servidores MCP (Model Context Protocol) en Python (FastMCP) y Node/TypeScript. |
+| `modern-software-architect.skill` | `modern-software-architect` | `.skill` (16.4 KB) | 🆕 Analizar, diseñar, reorganizar y modernizar arquitecturas: código limpio, escalabilidad proporcional, limpieza de repositorio. |
+| `modern-software-architect.zip` | `modern-software-architect` | `.zip` (16.4 KB) | 🆕 Misma skill en formato zip. |
+| `scalable-database-architect.skill` | `scalable-database-architect` | `.skill` (13.1 KB) | 🆕 Diseñar, auditar y optimizar BDs escalables: relacional vs NoSQL, índices, particiones, RLS/RBAC, pooling. |
+| `scalable-database-architect.zip` | `scalable-database-architect` | `.zip` (13.1 KB) | 🆕 Misma skill en formato zip. |
+| `software-project-architect-skill.zip` | `software-project-architect` | `.zip` (7.8 KB) | Arquitectura global de proyectos de software, estructuras limpias, monolitos, microservicios y monorepos. |
+
+### 🔐 Auditoría, Seguridad y Corrección (4)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `android-codebase-auditor-refactor.zip` | `android-codebase-auditor-refactor` | `.zip` (15.4 KB) | 🆕 Auditar repos Android/Kotlin: deuda técnica, God Classes, almacenamiento inseguro, acoplamiento UI-data. Modo AUDIT read-only primero. |
+| `secure-software-auditor.skill` | `secure-software-auditor` | `.skill` (9.8 KB) | 🆕 Auditoría defensiva de seguridad (OWASP) en web, APIs, backend, móvil y desktop, con priorización de riesgos. |
+| `secure-software-auditor.zip` | `secure-software-auditor` | `.zip` (9.8 KB) | 🆕 Misma skill en formato zip. |
+| `system-correction-skill-pack.zip` | `system-correction-orchestrator` + 3 correctoras | `.zip` (15.4 KB) | 🆕 **Pack de 4 skills**: orquestador de corrección end-to-end, `rbac-database-corrector`, `mcp-integration-corrector`, `role-aware-ui-corrector`. |
+
+### 🤖 Android y Móvil (5)
+
+| Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
+|---|---|---|---|
+| `android-camera-engineering.skill` | `android-camera-engineering` | `.skill` (9.3 KB) | 🆕 Apps de cámara Android: CameraX, Camera2, HDR, RAW, modo noche, fotografía computacional y UI de cámara. |
+| `android-modern-ui-expert.zip` | `android-modern-ui-expert` | `.zip` (14.1 KB) | 🆕 Kotlin/Compose, Material 3 Expressive, layouts adaptativos, dark mode, edge-to-edge, Navigation 3, KMP. |
+| `android-modern-ui-expert-install-ready.zip` | `android-modern-ui-expert` | `.zip` (14.7 KB) | 🆕 Misma skill con rutas ya resueltas en `.agents/skills/` para instalar directamente. |
+| `mobile-app-engineering.skill` | `mobile-app-engineering` | `.skill` (5.4 KB) | Desarrollo móvil profesional para Expo / React Native, Android nativo (Kotlin/Compose) y KMP. |
+| `scrcpy-mobile-dev.zip` | `scrcpy-mobile-dev` | `.zip` (9.2 KB) | 🆕 Usar scrcpy + ADB de forma segura y reproducible en Windows: detectar target, espejo por USB/Wi-Fi, diagnosticar errores. |
+
+### 🧪 Agentes, Testing y Media (5)
 
 | Paquete | Skill Name | Formato / Tamaño | Cuándo activarla / Descripción |
 |---|---|---|---|
 | `algorithmic-art.zip` | `algorithmic-art` | `.zip` (19.4 KB) | Arte algorítmico y generativo con p5.js, flow fields y sistemas de partículas. |
-| `brand-guidelines.zip` | `brand-guidelines` | `.zip` (5.5 KB) | Aplica guías de marca oficiales de Anthropic, tipografías y paletas a cualquier artefacto. |
-| `canvas-design.zip` | `canvas-design` | `.zip` (2.59 MB) | Filosofía y creación de diseño visual artístico en PNG y PDF. |
-| `cv-harvard-ats.skill` | `cv-harvard-ats` | `.skill` (13.1 KB) | Creación, redacción y auditoría de CVs estilo Harvard optimizados para sistemas ATS. |
-| `doc-coauthoring.zip` | `doc-coauthoring` | `.zip` (6.0 KB) | Workflow estructurado para co-autoría y redacción colaborativa de documentación técnica. |
-| `frontend-design.zip` | `frontend-design` | `.zip` (7.8 KB) | Dirección estética distintiva e intencional al construir o rediseñar interfaces UI. |
 | `internal-comms.zip` | `internal-comms` | `.zip` (10.6 KB) | Redacción de comunicaciones internas corporativas (status reports, updates, FAQs, incident reports). |
-| `llm-api-development.zip` | `llm-api-development` | `.zip` (320.6 KB) | Desarrollo completo con Anthropic SDK y Claude API (streaming, tool use, MCP, prompt caching, tokens). |
-| `mcp-builder.zip` | `mcp-builder` | `.zip` (42.6 KB) | Guía y desarrollo de servidores MCP (Model Context Protocol) en Python (FastMCP) y Node/TypeScript. |
-| `mobile-app-engineering.skill` | `mobile-app-engineering` | `.skill` (5.4 KB) | Desarrollo móvil profesional para Expo / React Native, Android nativo (Kotlin/Compose) y KMP. |
-| `pdf.zip` | `pdf` | `.zip` (22.2 KB) | Manipulación integral de archivos PDF (extracción, OCR, unión, rotación, formularios, cifrado). |
-| `pptx.zip` | `pptx` | `.zip` (167.7 KB) | Creación, edición, extracción y formateo de presentaciones en formato PowerPoint (.pptx / .potx). |
-| `project-readme-documentation.skill` | `project-readme-documentation` | `.skill` (5.4 KB) | Análisis de repositorios reales y generación/mejora de README.md y documentación técnica basada en evidencias. |
 | `skill-creator.skill` | `skill-creator` | `.skill` (72.0 KB) | Creación, edición, evals y optimización de descripciones para skills de agente de IA. |
 | `slack-gif-creator.zip` | `slack-gif-creator` | `.zip` (16.3 KB) | Creación de GIFs animados optimizados para Slack con restricciones de tamaño y paleta. |
-| `software-project-architect-skill.zip` | `software-project-architect` | `.zip` (7.8 KB) | Arquitectura global de proyectos de software, estructuras limpias, monolitos, microservicios y monorepos. |
-| `theme-factory.zip` | `theme-factory` | `.zip` (121.8 KB) | Motor de temas (10 presets) para aplicar a slides, reportes, landing pages y artefactos HTML. |
-| `web-artifacts-builder.zip` | `web-artifacts-builder` | `.zip` (30.2 KB) | Suite para construir artefactos HTML complejos multi-componente con React, Tailwind CSS y shadcn/ui. |
 | `webapp-testing.zip` | `webapp-testing` | `.zip` (10.3 KB) | Pruebas de aplicaciones web locales con Playwright, capturas de pantalla y logs de navegador. |
-| `word-document-tools.zip` | `word-document-tools` | `.zip` (250.2 KB) | Creación, lectura, edición y manipulación de documentos de Microsoft Word (.docx / .dotx). |
-| `xlsx.zip` | `xlsx` | `.zip` (155.7 KB) | Procesamiento completo de hojas de cálculo (.xlsx, .csv, .tsv), fórmulas, gráficos y limpieza de datos. |
 
 ---
 
@@ -262,20 +347,38 @@ El directorio [`SKILL/`](SKILL/) alberga **21 paquetes de skills comprimidos** (
 
 ## 📊 Estadísticas
 
+### Skills descomprimidas (`skills/`)
+
 | Categoría | Skills |
 |---|---|
 | design | 20 |
 | frontend | 12 |
 | backend | 4 |
 | automation | 6 |
-| platforms/wix | 8 |
+| platforms/wix | 7 |
 | docs-cv | 2 |
 | docs | 1 |
 | meta | 4 |
-| **SKILL/ (comprimidas)** | **21** |
-| **Total skills descomprimidas** | **57** |
-| **Total paquetes de skills** | **78** |
+| **Total skills descomprimidas** | **56** |
+| Sub-skill anidada (`wix-headless-entry`) | 1 |
+
+### Paquetes comprimidos (`SKILL/`)
+
+| Métrica | Total |
+|---|---|
+| Archivos `.skill` | 13 |
+| Archivos `.zip` | 33 |
+| **Total archivos** | **46** |
+| Skills únicas (desduplicando ambos formatos) | 38 |
+| Skills nuevas desde la última actualización | 14 |
+| `system-correction-skill-pack` contiene | 4 skills |
+
+### Otros
+
+| Métrica | Total |
+|---|---|
 | **Total prompts** | **4** |
+| **Total skills únicas del repo** (descomprimidas + comprimidas) | **94** |
 
 ---
 
@@ -285,3 +388,8 @@ El directorio [`SKILL/`](SKILL/) alberga **21 paquetes de skills comprimidos** (
 - **`tabulasapiens-developer`** excluida: muy project-specific (sleep cycles, neural network)
 - **`seo-sitemap`** tiene contexto específico de `cyberdev.qzz.io` — adaptar dominio al usarla en outro proyecto
 - Skills de React con posible solapamiento (`react-frontend`, `react-frontend-expert`, `react-2026`) se conservan todas — cada una tiene matices diferentes en profundidad y casos de uso
+- **Duplicados por formato**: 9 skills existen como `.skill` y `.zip` a la vez (`adaptive-web-ui-stack-architect`, `cv-harvard-ats`, `documentation-repository-curator`, `modern-software-architect`, `scalable-database-architect`, `secure-software-auditor`, `tailwindcss-v4-3-expert`, `web-ui-ux-frontend-architect`, `windows-desktop-ui-ux-engineer`). Preferir `.skill` (formato nativo de agente) salvo que necesites distribuir el `.zip`
+- **`humanizer.zip` está corrupto** (2.1 KB, solo contiene `meta.json`) — eliminarlo o regenerarlo desde `humanizer-2.9.1.zip`
+- **Solapamiento entre skills de arquitectura**: `software-project-architect`, `modern-software-architect` y `frontend-ui-engineering` cubren territorio similar con distinta profundidad y alcance
+- **Nuevo bloque Android/móvil** (5 skills en `SKILL/`): `android-camera-engineering`, `android-modern-ui-expert` (2 variantes de formato), `android-codebase-auditor-refactor`, `scrcpy-mobile-dev`
+- **Idioma mixto**: varias skills nuevas están redactadas en español (`android-camera-engineering`, `android-codebase-auditor-refactor`, `modern-software-architect`, `scalable-database-architect`, `secure-software-auditor`, `web-ui-ux-frontend-architect`, `windows-desktop-ui-ux-engineer`, `system-correction-*`); el naming de las carpetas sigue en inglés
