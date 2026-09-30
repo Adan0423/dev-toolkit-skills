@@ -1,11 +1,14 @@
 # 🧰 dev-toolkit-skills
 
+
+[Paletas profesionales: nueva skill y guía de uso](docs/skills/color-palettes.md).
+
 > Toolkit personal de **skills**, **paquetes** y **prompts** reutilizables para agentes de IA.
 > Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix, apps Android/desktop.
 
-[![skills](https://img.shields.io/badge/skills-109-blue?style=flat-square)](docs/skills/skill-packages.md)
-[![packages](https://img.shields.io/badge/SKILL%2F-63%20paquetes-purple?style=flat-square)](SKILL/)
-[![source](https://img.shields.io/badge/skills%2F-109%20fuente-green?style=flat-square)](skills/)
+[![skills](https://img.shields.io/badge/skills-110-blue?style=flat-square)](docs/skills/skill-packages.md)
+[![packages](https://img.shields.io/badge/SKILL%2F-64%20paquetes-purple?style=flat-square)](SKILL/)
+[![source](https://img.shields.io/badge/skills%2F-110%20fuente-green?style=flat-square)](skills/)
 [![prompts](https://img.shields.io/badge/prompts-4-orange?style=flat-square)](prompts/)
 
 ---
@@ -159,8 +162,8 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 |---|---|
 | 📖 **[Guía de Instalación](docs/install/quickstart.md)** | Instalación, formatos, uso, verificación |
 | 📋 **[Índice de Documentación](docs/INDEX.md)** | Mapa completo de la documentación |
-| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 63 paquetes · qué hace, funciones, casos de uso, entornos |
-| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 109 skills · desarrollo, pruebas, referencias |
+| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 64 paquetes · qué hace, funciones, casos de uso, entornos |
+| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 110 skills · desarrollo, pruebas, referencias |
 | 💬 **[Prompts](docs/prompts/README.md)** | 4 prompts reutilizables |
 | 🗂️ **[docs_structure.json](docs_structure.json)** | Índice documental para cargar en otros proyectos |
 
@@ -168,13 +171,13 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 ## 🎁 Paquetes Listos para Usar (`SKILL/`)
 
-**63 paquetes** = **56 nombres de skill** (13 `.skill` y 50 `.zip`).
+**64 paquetes** = **57 nombres de skill** (13 `.skill` y 50 `.zip`).
 
 | Categoría fuente | Paquetes |
 |---|:---:|
 | `architecture/` | 6 |
 | `automation/` | 2 |
-| `design/` | 11 |
+| `design/` | 12 |
 | `desktop/` | 2 |
 | `docs/` | 7 |
 | `docs-cv/` | 3 |
@@ -205,20 +208,20 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | [`web-ui-ux-frontend-architect`](SKILL/web-ui-ux-frontend-architect.zip) | Arquitecto UI/UX web completo con QA | Multi-framework |
 | [`mcp-builder`](SKILL/mcp-builder.zip) | Construye servidores MCP (Python/TS) | Python, Node/TS |
 
-📖 **[Ver los 63 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
+📖 **[Ver los 64 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
 
 ---
 
 ## 🛠️ Skills Fuente (`skills/`) — Desarrollo y Pruebas
 
-**109 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
+**110 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
 
 | Categoría | Skills |
 |---|:---:|
 | `architecture/` | 4 |
 | `automation/` | 8 |
 | `backend/` | 4 |
-| `design/` | 27 |
+| `design/` | 28 |
 | `desktop/` | 1 |
 | `docs/` | 7 |
 | `docs-cv/` | 3 |
@@ -232,7 +235,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | `quality/` | 5 |
 | `security/` | 1 |
 
-📖 **[Ver las 109 con detalle →](docs/skills/source-skills.md)**
+📖 **[Ver las 110 con detalle →](docs/skills/source-skills.md)**
 
 ---
 
@@ -258,11 +261,11 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 | Métrica | Total |
 |---|:---:|
-| 📦 Paquetes en `SKILL/` | 63 (13 `.skill` + 50 `.zip`) |
-| 🎁 Nombres de skill en `SKILL/` | 56 |
-| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 109 |
+| 📦 Paquetes en `SKILL/` | 64 (13 `.skill` + 51 `.zip`) |
+| 🎁 Nombres de skill en `SKILL/` | 57 |
+| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 110 |
 | 💬 Prompts | 4 |
-| **Total nombres únicos del repo** | **109** |
+| **Total nombres únicos del repo** | **110** |
 | 🆕 Skills recuperadas de paquetes en esta auditoría | 34 |
 
 </details>

@@ -8,7 +8,7 @@ No se han fusionado instrucciones ni reemplazado skills existentes.
 ## Agrupación posterior implementada
 
 Se añadieron [siete familias con carga selectiva](family-skills.md), sin reemplazar
-las fuentes anteriores. El inventario actual tiene 109 skills y 63 paquetes.
+las fuentes anteriores. El inventario actual tiene 110 skills y 64 paquetes.
 Las cifras y la matriz de abajo documentan la auditoría previa de 95 skills.
 
 ## Recuperación completada

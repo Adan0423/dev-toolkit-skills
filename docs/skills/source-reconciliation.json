@@ -1,7 +1,7 @@
 {
   "mode": "audit",
-  "source_skills_before": 109,
-  "source_skills_after": 109,
+  "source_skills_before": 110,
+  "source_skills_after": 110,
   "archives": [
     {
       "archive": "adaptive-web-ui-stack-architect.skill",
@@ -101,6 +101,17 @@
       "target": "skills/design/canvas-design",
       "payload_sha256": "b9ae310f12090043d02f69749c78436707c50258051bfd4fe6219041552c8193",
       "files": 83,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "color-palette-studio.zip",
+      "archive_sha256": "d82fb42b5c8b585a434d7c25cf6b7c0c17078ada4510900fa4de1e184597ba3c",
+      "names": [
+        "color-palette-studio"
+      ],
+      "target": "skills/design/color-palette-studio",
+      "payload_sha256": "a9b4d17e1ee75b77a8a877f1d73476265d707eb0ed8550a605d91206b6851ab2",
+      "files": 12,
       "status": "equivalente a fuente"
     },
     {
@@ -586,13 +597,13 @@
     },
     {
       "archive": "web-design-suite.zip",
-      "archive_sha256": "334756e040107e95108f1dc914c68f85243a86fb2d9e4865056da6d4fad1af6f",
+      "archive_sha256": "5c2d7df4beac62feb42b944ee03bf97803260cb18f1c60a86cdaaa6a66a4ee76",
       "names": [
         "web-design-suite"
       ],
       "target": "skills/design/web-design-suite",
-      "payload_sha256": "55f9fecb5c30301eb7d8645c5dcd735c3bc57a72392f0699a04dbe876c47b817",
-      "files": 31,
+      "payload_sha256": "daa03369148ca7ae48900cd0277c7334e255a26a4a592bd42f60617b95e93da4",
+      "files": 41,
       "status": "equivalente a fuente"
     },
     {
@@ -783,6 +794,17 @@
       "target": "skills/design/canvas-design",
       "was_missing": false,
       "selected_archive": "canvas-design.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "color-palette-studio",
+      "names": [
+        "color-palette-studio"
+      ],
+      "target": "skills/design/color-palette-studio",
+      "was_missing": false,
+      "selected_archive": "color-palette-studio.zip",
       "selection": "Mayor número de archivos; no implica más reciente/mejor",
       "variants": []
     },
@@ -1523,6 +1545,14 @@
       "issues": []
     },
     {
+      "name": "color-palette-studio",
+      "path": "skills/design/color-palette-studio/SKILL.md",
+      "lines": 56,
+      "encoding": "utf-8",
+      "description": "Elige, aplica y revisa paletas de color para interfaces web, apps y contenido visual; convierte colores de marca o referencias en tokens, estados y temas claro/oscuro con contraste comprobado. Úsalo al crear un sistema de color o corregir su aplicación.",
+      "issues": []
+    },
+    {
       "name": "colorize",
       "path": "skills/design/colorize/SKILL.md",
       "lines": 143,
@@ -1657,7 +1687,7 @@
     {
       "name": "web-design-suite",
       "path": "skills/design/web-design-suite/SKILL.md",
-      "lines": 47,
+      "lines": 52,
       "encoding": "utf-8",
       "description": "Diseña y mejora interfaces web seleccionando dirección visual, layout, responsive, tipografía, color, motion, auditoría, rendimiento o acabado. Úsalo para trabajo visual o UX con una especialidad concreta; conserva lógica del producto salvo alcance distinto.",
       "issues": []

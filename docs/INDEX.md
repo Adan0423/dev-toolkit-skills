@@ -1,5 +1,8 @@
 # 📚 Documentación del Toolkit de Skills
 
+
+[Paletas profesionales: nueva skill y guía de uso](skills/color-palettes.md).
+
 > Guía completa de uso, instalación y referencia de todas las skills y prompts disponibles.
 
 ## 🚀 Inicio Rápido
@@ -14,8 +17,8 @@
 
 - [Familias con carga selectiva](skills/family-skills.md) — Siete skills principales y 34 especialidades internas.
 
-- [Skills Listadas (`SKILL/` — Listas para Usar)](skills/skill-packages.md) — 63 paquetes (56 nombres de skill). Formato listo para producción, sin compilación.
-- [Skills Fuente (`skills/` — Desarrollo/Pruebas)](skills/source-skills.md) — 109 skills únicas, incluyendo especialistas anidados. Úsalas para desarrollo, pruebas y mejora.
+- [Skills Listadas (`SKILL/` — Listas para Usar)](skills/skill-packages.md) — 64 paquetes (57 nombres de skill). Formato listo para producción, sin compilación.
+- [Skills Fuente (`skills/` — Desarrollo/Pruebas)](skills/source-skills.md) — 110 skills únicas, incluyendo especialistas anidados. Úsalas para desarrollo, pruebas y mejora.
 
 - [Auditoría y propuesta de agrupación](skills/organization-review.md) — Fuentes recuperadas, variantes y mejoras para las 95 skills.
 

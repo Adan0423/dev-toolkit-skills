@@ -3,7 +3,7 @@
 Se añadieron siete skills principales y 34 especialidades internas. Cada entrada
 elige el modo que corresponde a la tarea y lee solo su guía inicial; carga recursos
 adicionales cuando la implementación los necesita. Las 95 fuentes anteriores se
-conservan: ahora hay 109 SKILL.md y 63 paquetes; marketing añade además seis fuentes individuales.
+conservan: ahora hay 110 SKILL.md y 64 paquetes; marketing añade además seis fuentes individuales.
 
 | Familia | Especialidades | Paquete |
 |---|---|---|
@@ -31,7 +31,7 @@ $wordpress-suite para preparar un artículo como borrador». Las especialidades 
 referencias internas (`guide.md`), no skills anidadas que dependan de descubrimiento
 automático. Cada paquete incluye sus guías, recursos y scripts correspondientes.
 
-Las entradas principales tienen entre 30 y 49 líneas. La carga selectiva permite
+Las entradas principales tienen entre 30 y 52 líneas. La carga selectiva permite
 evitar lecturas innecesarias, pero no se ha medido un porcentaje de ahorro de tokens.
 No se instaló ninguna familia globalmente.
 

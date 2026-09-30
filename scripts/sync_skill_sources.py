@@ -113,7 +113,7 @@ def category(name):
         return "automation"
     if name in {"tailwindcss-v4-3-expert"}:
         return "frontend"
-    if name in {"adaptive-web-ui-stack-architect", "web-ui-ux-frontend-architect", "brand-guidelines", "canvas-design", "theme-factory", "web-artifacts-builder"}:
+    if name in {"adaptive-web-ui-stack-architect", "web-ui-ux-frontend-architect", "brand-guidelines", "canvas-design", "theme-factory", "web-artifacts-builder", "color-palette-studio"}:
         return "design"
     raise ValueError(f"Categoría pendiente para {name}; revisar antes de extraer")
 
