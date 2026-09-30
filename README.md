@@ -10,7 +10,7 @@
 Un repositorio personal de skills de agente organizadas por categoría de stack — **no por proyecto de origen**. Cada skill es un patrón reutilizable que puede activarse en cualquier proyecto futuro que use el mismo stack.
 
 - **Skills** (`skills/`): Carpetas con `SKILL.md` que los agentes cargan automáticamente para tareas específicas.
-- **Skills Comprimidas** (`SKILL/`): Paquetes comprimidos (`.zip` y `.skill`) listos para compartir, desplegar o importar bajo demanda (21 skills).
+- **Skills Comprimidas** (`SKILL/`): Paquetes comprimidos (`.zip` y `.skill`) listos para compartir, desplegar o importar bajo demanda (46 archivos = **38 skills únicas**).
 - **Prompts** (`prompts/`): Prompts de alto valor para tareas recurrentes (auditoría, documentación, meta-gestión de skills).
 - **Docs Index** (`docs_structure.json`): Manifest principal de uso rápido; expone el skill de documentación Qoder (`qoder-wiki`) y el mapa real de documentos disponibles en el repo para cargarlo en proyectos ajenos.
 
