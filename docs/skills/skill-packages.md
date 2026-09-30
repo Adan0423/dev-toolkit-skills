@@ -1,8 +1,8 @@
 # Skills Listas para Usar (`SKILL/`)
 
-> **46 paquetes** (`.skill` + `.zip`) = **38 skills únicas**. Autocontenidos, sin compilación, listos para instalar directamente en tu agente.
+> **45 paquetes** (`.skill` + `.zip`) = **38 skills únicas**. Autocontenidos, sin compilación, listos para instalar directamente en tu agente.
 
-> ⚠️ **Importante:** `humanizer.zip` está **corrupto** (solo contiene `meta.json`). Usa **`humanizer-2.9.1.zip`**.
+> ℹ️ La versión antigua y corrupta `humanizer.zip` fue eliminada; usa **`humanizer-2.9.1.zip`**.
 
 ---
 
@@ -15,7 +15,7 @@
 | `word-document-tools.zip` | `.zip` | 250.2 KB | **Documentos Word (.docx/.dotx)** | Crear/leer/editar, buscar/reemplazar, tablas, TOC, encabezados/pies, imágenes, comentarios, tracked changes | Informes, propuestas, contratos, plantillas corporativas | Multi-entorno |
 | `xlsx.zip` | `.zip` | 155.7 KB | **Hojas de cálculo (.xlsx/.csv/.tsv)** | Leer/crear/editar, limpieza, fórmulas, formatos, gráficos, validación, transformación de datos desordenados | ETL ligero, reportes, limpieza masiva, análisis tabular | Multi-entorno |
 
-## 2. Documentación y Escritura (6)
+## 2. Documentación y Escritura (5)
 
 | Paquete | Formato | Tamaño | ¿Qué hace? | Funciones principales | Casos de uso | Entornos |
 |---|---|---|---|---|---|---|
@@ -23,7 +23,6 @@
 | `documentation-repository-curator.skill` | `.skill` | 15.4 KB | **Curador de documentación + repo** | Audita el repo **antes de escribir**, detecta stack real desde deps/config, rediseña README veraz, consolida duplicados, marca obsoletos con evidencia | Mejorar README, reducir deuda documental, preparar open-source, sincronizar docs | Multi-entorno (cualquier lenguaje/monorepo) |
 | `documentation-repository-curator.zip` | `.zip` | 15.4 KB | *Idéntico* (con referencias) | Mismas funciones | Igual que anterior | Multi-entorno |
 | `humanizer-2.9.1.zip` | `.zip` | 23.9 KB | **Humaniza texto IA → natural** | Detecta y corrige patrones de IA (lenguaje inflado, promocional, em dashes, regla de 3, pasiva, relleno) **preservando la información** | Pulir texto IA, editar artículos, reducir "olor a IA", mejorar naturalidad | Multi-entorno |
-| `humanizer.zip` | `.zip` | 2.1 KB | **⚠️ CORRUPTO** — usar 2.9.1 | Solo contiene `meta.json`. No funcional | — | — |
 | `project-readme-documentation.skill` | `.skill` | 5.4 KB | **README basado en evidencia** | Analiza el repo real (no inventa), genera/mejora README con secciones útiles, comandos verificables | Onboarding, documentación inicial, sincronizar README con el estado real | Multi-entorno |
 
 ## 3. Currículum Vitae (2)
@@ -105,4 +104,4 @@
 - **`.zip`** (33): Contiene carpeta de la skill con `SKILL.md` + `references/` + `scripts/`. Requiere descomprimir.
 - **9 skills están en ambos formatos** — elige el que prefieras.
 - `system-correction-skill-pack.zip` contiene **4 skills** empaquetadas juntas.
-- **Total skills únicas:** 38.
+- **Total skills únicas:** 38 (45 archivos, ya que algunas se duplican por formato).
