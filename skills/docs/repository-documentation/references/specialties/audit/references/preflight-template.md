@@ -39,6 +39,6 @@ Only include documents that are relevant.
 
 Only list uncertainties that cannot be resolved from the repository.
 
-## Approval request
+## Scope and authorization
 
-Ask for explicit approval to proceed with the proposed writes and cleanup operations.
+Proceed with authorized reversible writes. Ask only for missing authorization for destructive cleanup or expanded scope.

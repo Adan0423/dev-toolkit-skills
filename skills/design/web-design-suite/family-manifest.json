@@ -9,6 +9,7 @@
         "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
         "license": "Complete terms in LICENSE.txt"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "35c43b9d10c2388dbb228047ad028c989a14033750812125f351c85aa42c7a4a"
       },
@@ -20,6 +21,7 @@
         "name": "adaptive-web-ui-stack-architect",
         "description": "Analyze a web/frontend project before selecting UI libraries, CSS engines, headless primitives, component systems, icons, animation, data UI, and design systems. Choose the smallest coherent stack based on framework, product, UX, accessibility, performance, maintainability, compatibility, licensing, and existing architecture; then integrate or refactor it safely."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "README.md": "623d687c71ee2a87d504af26297496d81054c6cb52377d4862896d2ecbe47e93",
         "references/accessibility-performance.md": "ecd272dda1038efd42c1e715a1b654d050376944f9f100be6769ddf6b55afde8",
@@ -47,6 +49,7 @@
         "user-invocable": true,
         "argument-hint": "[feature to shape]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "3150e0c216e55c57ff3ec3e369ec7b25dcceac2d60e91e20a8b895275e37d0d2"
       },
@@ -63,6 +66,7 @@
         "user-invocable": true,
         "argument-hint": "[area (feature, page, component...)]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "9cecba04542aa07d0849ca56047ef098a6b258ba6d6f963e607580154922aa2e"
       },
@@ -79,6 +83,7 @@
         "user-invocable": true,
         "argument-hint": "[target] [context (mobile, tablet, print...)]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "300334ad51a97f93010672b91b5b963517a6e22a942d6ee121cc1ffd87058059"
       },
@@ -95,11 +100,13 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {
+        "skills/design/impeccable/reference/spatial-design.md": "c76eb186ddf04c03470f1efca0feeb85db14d53b6a6b770f524b51e6a23754e8"
+      },
       "source_files_sha256": {
         "SKILL.md": "0be169c9ac11c2254e0b50087e71228eae48a8284a0a4cf7a1a86967d571c0bc"
       },
       "adaptations": [
-        "Dependencia no autocontenida eliminada: reference/spatial-design.md",
         "Preparación Impeccable sustituida por contexto de familia"
       ]
     },
@@ -112,11 +119,13 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {
+        "skills/design/impeccable/reference/typography.md": "a78c6cd9e3c702fffadd0198d583e26f2c01d6f0b318287bb6f56712a3c3ef96"
+      },
       "source_files_sha256": {
         "SKILL.md": "d8375e70d99d22f451e371bdb201ba6cb6d5987847413414b462119b1b16bd37"
       },
       "adaptations": [
-        "Dependencia no autocontenida eliminada: reference/typography.md",
         "Preparación Impeccable sustituida por contexto de familia"
       ]
     },
@@ -129,6 +138,7 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "abf7264b72e601446846980b8f5e79c700f5b8a7893f48908f0b6ed22e9a591f"
       },
@@ -145,6 +155,7 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "42fafb3c1810eb963386deaedbd29afa22f9cfce66acc54ebe4a1c92ef656f16"
       },
@@ -161,6 +172,7 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "3b3332ab107b88cdc1d6609e84a9591f209ce12787b0d76ef828a20f3c0dee95"
       },
@@ -177,6 +189,7 @@
         "user-invocable": true,
         "argument-hint": "[target]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "3a4b20c725d267a9d2a907af3017808d2f9d0c7e6e300406abd876bb31e1c80f"
       },
@@ -191,6 +204,7 @@
         "user-invocable": true,
         "argument-hint": "[area (feature, page, component...)]"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "reference/cognitive-load.md": "391d0e54c121159728add60b5f0a494ca384e7dadd72e6c3522fb99f736b7990",
         "reference/heuristics-scoring.md": "b8cd6d25784e090d8272a428551277a5f7da1797ec843a8f338e142a193b3c7f",
@@ -213,6 +227,7 @@
     "references/specialties/direction/guide.md",
     "references/specialties/discovery/guide.md",
     "references/specialties/layout/guide.md",
+    "references/specialties/layout/reference/spatial-design.md",
     "references/specialties/motion/guide.md",
     "references/specialties/performance/guide.md",
     "references/specialties/polish/guide.md",
@@ -229,6 +244,7 @@
     "references/specialties/stack/references/stack-recipes.md",
     "references/specialties/stack/scripts/inspect_frontend_stack.py",
     "references/specialties/stack/scripts/validate_skill.py",
-    "references/specialties/typography/guide.md"
+    "references/specialties/typography/guide.md",
+    "references/specialties/typography/reference/typography.md"
   ]
 }

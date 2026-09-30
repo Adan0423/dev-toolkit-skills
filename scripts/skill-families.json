@@ -20,6 +20,10 @@
   },
   "web-design-suite": {
     "path": "skills/design/web-design-suite",
+    "resources": {
+      "layout": {"reference/spatial-design.md": "skills/design/impeccable/reference/spatial-design.md"},
+      "typography": {"reference/typography.md": "skills/design/impeccable/reference/typography.md"}
+    },
     "specialties": {
       "direction": "skills/design/frontend-design",
       "stack": "skills/design/adaptive-web-ui-stack-architect",

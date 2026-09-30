@@ -77,6 +77,7 @@ def adapt_markdown(content, source_file, source_root, mapping, adaptations):
                     new = path_part.rsplit("/", 1)
                     new[-1] = "guide.md"
                     return f"[{label}]({'/'.join(new)}{separator}{fragment})"
+                return match.group(0)
             if resolved.exists():
                 return match.group(0)
         adaptations.append(f"Dependencia no autocontenida eliminada: {target}")
@@ -111,6 +112,15 @@ def expected_family(name, specification):
         sources = {}
         adaptations = []
         source_metadata = None
+        supplemental = specification.get("resources", {}).get(mode, {})
+        for virtual in supplemental:
+            mapping[inside(source / virtual, source)] = virtual
+        supplemental_hashes = {}
+        for virtual, actual in supplemental.items():
+            resource = inside(ROOT / actual, ROOT / "skills")
+            data = resource.read_bytes()
+            supplemental_hashes[actual] = sha(data)
+            expected[f"references/specialties/{mode}/{virtual}"] = data
         for p in source_files:
             data = p.read_bytes()
             sources[p.relative_to(source).as_posix()] = sha(data)
@@ -128,14 +138,32 @@ def expected_family(name, specification):
                                "del usuario, alcance y contrato común de la familia delimitan "
                                "sus recomendaciones. No invoca otras skills por defecto.\n\n" + content)
                 content = adapt_markdown(content, p, source, mapping, adaptations)
+                if mode == "audit" and name == "repository-documentation":
+                    replacements = {
+                        "Produce a preflight proposal and wait for approval before writing, moving, merging, or deleting documentation files.": "Review evidence and scope, then carry out authorized reversible documentation edits. Ask only for missing authorization for expanded scope or destructive changes.",
+                        "Mandatory preflight approval gate": "Evidence preflight and authorized scope",
+                        "Before modifying anything, show the user:": "Before modifying documentation, review the following evidence; summarize what matters for the requested scope:",
+                        "Then WAIT for explicit approval before full generation or destructive repository changes.": "Proceed with already authorized documentation work. Seek explicit approval only for destructive changes or expanded scope without prior authorization.",
+                        "Quality pass after approval and generation": "Quality pass after implementation",
+                        "After approved changes, summarize:": "After changes, summarize:",
+                        "## Approval request": "## Scope and authorization",
+                        "Ask for explicit approval to proceed with the proposed writes and cleanup operations.": "Proceed with authorized reversible writes. Ask only for missing authorization for destructive cleanup or expanded scope.",
+                    }
+                    for old, new in replacements.items():
+                        if old in content:
+                            content = content.replace(old, new)
+                            adaptations.append("Documentación: respeta autorización existente para cambios reversibles")
                 data = content.encode("utf-8")
             # Copied helpers that inspect their entrypoint must use the renamed file.
             elif p.suffix == ".py" and b"SKILL.md" in data:
                 data = data.replace(b"SKILL.md", b"guide.md")
+                if mode == "audit" and name == "repository-documentation":
+                    data = data.replace(b"Mandatory preflight approval gate", b"Evidence preflight and authorized scope")
                 adaptations.append(f"Helper {output}: referencia SKILL.md adaptada a guide.md")
             expected[f"references/specialties/{mode}/{output}"] = data
         provenance["specialties"][mode] = {
             "source": relative, "source_metadata": source_metadata,
+            "supplemental_files_sha256": supplemental_hashes,
             "source_files_sha256": sources, "adaptations": sorted(set(adaptations))}
     display = {
         "react-engineering": ("React: ingeniería selectiva", "React por tarea: componentes, datos y rendimiento"),

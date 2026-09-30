@@ -53,7 +53,7 @@ Analyze what's weak about the current spatial design:
 
 ## Plan Layout Improvements
 
-Consult the spatial design reference (recurso externo no incluido; usa herramientas disponibles si hace falta) from the impeccable skill for detailed guidance on grids, rhythm, and container queries.
+Consult the [spatial design reference](reference/spatial-design.md) from the impeccable skill for detailed guidance on grids, rhythm, and container queries.
 
 Create a systematic plan:
 

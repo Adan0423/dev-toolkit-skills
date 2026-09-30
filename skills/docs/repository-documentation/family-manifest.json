@@ -8,6 +8,7 @@
         "name": "documentation-repository-curator",
         "description": "Audit a software project before writing documentation; verify the real stack from dependency/config files, redesign README and project docs, consolidate duplicate documentation, identify obsolete files safely, and keep docs accurate, consistent, scalable, and maintainable. Use for any language, framework, monorepo, application, library, API, agent system, CLI, desktop, mobile, or web project."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "README.md": "0ffc495271db0e381e479407ed61259c2430a3796daf1ee90c969dea5850679b",
         "references/cleanup-policy.md": "74a959f0be5fc105785557b635f3d10140052e40bd268b96b5def7ee2bbdaa8f",
@@ -22,6 +23,7 @@
         "SKILL.md": "ee2a8187b51840bd79485d00c6b492731ae67aa915db80fd570fb291ec37aaa5"
       },
       "adaptations": [
+        "Documentación: respeta autorización existente para cambios reversibles",
         "Helper scripts/validate_skill.py: referencia SKILL.md adaptada a guide.md"
       ]
     },
@@ -31,6 +33,7 @@
         "name": "project-readme-documentation",
         "description": "Analiza un repositorio real y crea o actualiza su README y documentación técnica con evidencia del código, dependencias y configuración. Úsala cuando el usuario pida documentar un proyecto, mejorar README.md, generar docs/ARCHITECTURE.md, docs/PROGRESS.md, docs/AGENTS.md, docs/SKILLS.md, docs/TODO.md o CONTRIBUTING.md, o estandarizar la documentación de un repositorio sin asumir su stack."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "0f732b62cb7e45b5373d585ffce8a4de8ebd5f2f9d0053d44879fac4b8f63279"
       },
@@ -43,6 +46,7 @@
         "description": "Provides automated documentation updates by analyzing git changes between the current branch and the last release tag. Performs git diff analysis to identify modifications, then updates README.md, CHANGELOG.md following Keep a Changelog standard, and discovers documentation folders for contextual updates. Use when preparing a release, maintaining documentation sync, or before creating a pull request. Triggers on \"update docs\", \"update changelog\", \"sync documentation\", \"update readme\", \"prepare release documentation\".",
         "allowed-tools": "Read, Edit, Bash"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/examples.md": "e577b240851734d2e10bad0d065d2c2233ac92141d5bfd4b768911ec2d6239a3",
         "SKILL.md": "70c4d7c387610d126e2c33c0faff109211f5d663988aca458b582c56a11530b5"

@@ -5,6 +5,12 @@ extensión de entradas, estructura de paquetes y ejemplos representativos. No se
 probado las 95 skills en proyectos reales ni certificado sus scripts/APIs externos.
 No se han fusionado instrucciones ni reemplazado skills existentes.
 
+## Agrupación posterior implementada
+
+Se añadieron [seis familias con carga selectiva](family-skills.md), sin reemplazar
+las fuentes anteriores. El inventario actual tiene 101 skills y 55 paquetes.
+Las cifras y la matriz de abajo documentan la auditoría previa de 95 skills.
+
 ## Recuperación completada
 
 - Antes: 61 SKILL.md en skills/. Después: 95, con 95 nombres únicos.

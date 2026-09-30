@@ -30,11 +30,11 @@ Always begin with an evidence-based repository audit:
 7. Identify conflicting, duplicated, stale, orphaned, generated, temporary, or superseded documentation.
 8. Identify files that appear disposable, but do not delete them yet.
 9. Verify claims against source/configuration evidence.
-10. Produce a preflight proposal and wait for approval before writing, moving, merging, or deleting documentation files.
+10. Review evidence and scope, then carry out authorized reversible documentation edits. Ask only for missing authorization for expanded scope or destructive changes.
 
-## Mandatory preflight approval gate
+## Evidence preflight and authorized scope
 
-Before modifying anything, show the user:
+Before modifying documentation, review the following evidence; summarize what matters for the requested scope:
 
 ### A. Detected project facts
 - project type and boundaries
@@ -67,7 +67,7 @@ Show the proposed table of contents/section structure for every document that wi
 ### D. Cleanup proposal
 List each merge/move/archive/delete candidate with reason and evidence. Never group destructive changes into an unexplained “cleanup”.
 
-Then WAIT for explicit approval before full generation or destructive repository changes.
+Proceed with already authorized documentation work. Seek explicit approval only for destructive changes or expanded scope without prior authorization.
 
 ## Stack verification rules
 
@@ -373,7 +373,7 @@ Commands must match package managers and scripts that actually exist.
 
 Do not write `npm install` when the repository establishes pnpm/yarn/bun, or `pip install -r requirements.txt` when the project uses uv/Poetry, unless there is evidence supporting that command.
 
-## Quality pass after approval and generation
+## Quality pass after implementation
 
 After writing:
 1. validate internal relative links
@@ -416,7 +416,7 @@ See `references/source-baseline.md` and `references/research-policy.md`.
 
 ## Completion report
 
-After approved changes, summarize:
+After changes, summarize:
 - documents created
 - documents updated
 - documents merged

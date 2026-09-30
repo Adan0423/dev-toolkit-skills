@@ -22,7 +22,7 @@ if missing:
     sys.exit(1)
 
 text = (root / "guide.md").read_text(encoding="utf-8")
-for needle in ["analyze before writing", "Mandatory preflight approval gate", "Safe deletion protocol", "Never print secret values"]:
+for needle in ["analyze before writing", "Evidence preflight and authorized scope", "Safe deletion protocol", "Never print secret values"]:
     if needle.lower() not in text.lower():
         print(f"FAIL: guide.md missing required concept: {needle}")
         sys.exit(1)

@@ -10,6 +10,7 @@
         "description": "React architecture patterns, TypeScript, Next.js, hooks, and testing. Use when working with React component structure, state management, Next.js routing, Vitest, React Testing Library, or reviewing React code. For visual design and aesthetic direction, use frontend-design instead.",
         "paths": "**/*.tsx,**/*.jsx"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/e2e-testing.md": "2c26a29d099c7f450b7a15fbc6490d179b471202e3c67e504bbd405105db55e2",
         "references/testing.md": "d5f3831ef71ec2f0bedf5856c4d57cb00246cbb963cfca384f471ad27d72620e",
@@ -36,6 +37,7 @@
         "allowed-tools": "Read Edit Write Bash(npm:*) Bash(npx:*)",
         "context": "fork"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/component-templates.md": "1abee9e269a202482f76c95c108c0634aaac4e3882899839fdcac25e5d5cafb6",
         "references/tanstack-query-patterns.md": "e6ad5d168619e742614ca9682a4686bedab4d9c37a5e5bfc881ef206d0cda6e3",
@@ -49,6 +51,7 @@
         "name": "frontend-react-best-practices",
         "description": "React performance optimization guidelines. Use when writing, reviewing, or refactoring React components to ensure optimal rendering and bundle patterns. Triggers on tasks involving React components, hooks, memoization, or bundle optimization."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "rules/bundle-barrel-imports.md": "15b8a00c1b6349125e074caf8eb30e855e84b59a4449ac29c593855d803abb2d",
         "rules/bundle-conditional.md": "6d4e08fc7ee843ec55c3b1e933c3c6928613f5718ce0a6b4a21710c7f26ae6ba",
@@ -111,6 +114,7 @@
           "hoc-pattern"
         ]
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "SKILL.md": "9e28474e9bbdc678987a2aa27614242c79a9fd44de74eb08fa80e8f379db8e16"
       },
@@ -123,6 +127,7 @@
         "description": "Build full-stack React applications using React Router's framework mode. Use when configuring routes, working with loaders and actions, handling forms, handling navigation, pending/optimistic UI, error boundaries, or working with react-router.config.ts or other react router conventions.",
         "license": "MIT"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/actions.md": "abf5215c8debaabcd77ffc9026f4f2675f365590bb915625fefaf126c46571bf",
         "references/data-loading.md": "61322b7f6dbef4fbf3d459afb5c8731050e0dc418cc64b8b63c3cd2456f0eb1e",

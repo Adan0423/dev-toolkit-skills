@@ -1,9 +1,11 @@
 # Skills Listas para Usar (`SKILL/`)
 
-> **49 paquetes** (13 `.skill` + 36 `.zip`) representan **42 nombres de skill**.
+> **55 paquetes** (13 `.skill` + 42 `.zip`) representan **48 nombres de skill**.
 > [Conciliación fuente/paquetes y variantes](organization-review.md). Las tablas detalladas inferiores conservan el catálogo histórico; consulta el manifiesto para todas las entradas actuales.
 
 > ℹ️ La versión antigua y corrupta `humanizer.zip` fue eliminada; usa **`humanizer-2.9.1.zip`**.
+
+Consulta los [seis paquetes de familias selectivas](family-skills.md).
 
 ---
 

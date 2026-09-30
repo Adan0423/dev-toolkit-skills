@@ -1,7 +1,7 @@
 {
-  "mode": "extract-missing",
-  "source_skills_before": 95,
-  "source_skills_after": 95,
+  "mode": "audit",
+  "source_skills_before": 101,
+  "source_skills_after": 101,
   "archives": [
     {
       "archive": "adaptive-web-ui-stack-architect.skill",
@@ -126,6 +126,17 @@
       "files": 8,
       "status": "variante distinta; sin sobrescribir fuente",
       "variant_path": "docs/skills/package-variants/cv-harvard-ats.zip"
+    },
+    {
+      "archive": "cv-suite.zip",
+      "archive_sha256": "4958e6ef299a41c9d75e979e2bf5a72cc65573618c92cf968e13f342668d6b40",
+      "names": [
+        "cv-suite"
+      ],
+      "target": "skills/docs-cv/cv-suite",
+      "payload_sha256": "0d8e8bd128455dac5c80420db580c44f3543d0f24c08476c4698ae6a4c99db82",
+      "files": 11,
+      "status": "equivalente a fuente"
     },
     {
       "archive": "doc-coauthoring.zip",
@@ -294,6 +305,28 @@
       "status": "equivalente a fuente"
     },
     {
+      "archive": "react-engineering.zip",
+      "archive_sha256": "783e25a4e023ac7e108d4c1e1d76dd760833c12145b6d81565cdb12e64340838",
+      "names": [
+        "react-engineering"
+      ],
+      "target": "skills/frontend/react-engineering",
+      "payload_sha256": "5f1a1a060c25bb0150e9df584b4dad00bf74204e91b3b76c1ac65b8b3675cf39",
+      "files": 61,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "repository-documentation.zip",
+      "archive_sha256": "2509db8601802b90e42a64d965ef822f5a897b2318b069696610e290191077ce",
+      "names": [
+        "repository-documentation"
+      ],
+      "target": "skills/docs/repository-documentation",
+      "payload_sha256": "89e87e13681ccef7cc35ce403b6cc7cccc77d267c6c3e8a5d0f6884103640983",
+      "files": 17,
+      "status": "equivalente a fuente"
+    },
+    {
       "archive": "scalable-database-architect.skill",
       "archive_sha256": "53d353d675094f85f437c77494d36cf451b80f45fcbb28aa1277d6d4e8a89322",
       "names": [
@@ -408,6 +441,17 @@
       "status": "equivalente a fuente"
     },
     {
+      "archive": "tailwind-engineering.zip",
+      "archive_sha256": "8cd820eb74e7d47a4f86295e76e41ecfd79f9177cda10c7d26b832f9c95168f3",
+      "names": [
+        "tailwind-engineering"
+      ],
+      "target": "skills/frontend/tailwind-engineering",
+      "payload_sha256": "ca836ef32e3cf8e9d3b9d8fb2e280923bef331ac8f736e69e4859c466e92a7c5",
+      "files": 42,
+      "status": "equivalente a fuente"
+    },
+    {
       "archive": "tailwindcss-v4-3-expert.skill",
       "archive_sha256": "b589c384950e0098f6fdd7ce811eeb0d5af14216d2773c6b069b3ed41fb6067f",
       "names": [
@@ -450,6 +494,17 @@
       "target": "skills/design/web-artifacts-builder",
       "payload_sha256": "65e2d003a783b68c0525fa194e21550d4d63218234d8399a92a0cd5f2953cf85",
       "files": 5,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "web-design-suite.zip",
+      "archive_sha256": "334756e040107e95108f1dc914c68f85243a86fb2d9e4865056da6d4fad1af6f",
+      "names": [
+        "web-design-suite"
+      ],
+      "target": "skills/design/web-design-suite",
+      "payload_sha256": "55f9fecb5c30301eb7d8645c5dcd735c3bc57a72392f0699a04dbe876c47b817",
+      "files": 31,
       "status": "equivalente a fuente"
     },
     {
@@ -527,6 +582,17 @@
       "target": "skills/platforms/wordpress/wordpress-elementor-commerce",
       "payload_sha256": "abfdb51dde92f1fb2c57e5c752907b698b47e98c3eb8073dcaf23fb49708bf1b",
       "files": 10,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "wordpress-suite.zip",
+      "archive_sha256": "9216299e4ad2fa675a1c7e384f1560c6eec78613b7a0bd883dcd582f26571c15",
+      "names": [
+        "wordpress-suite"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-suite",
+      "payload_sha256": "75a0027bcf331fa9dacfe7218605671ff11497996672ba9f1896555587f20ebe",
+      "files": 20,
       "status": "equivalente a fuente"
     },
     {
@@ -645,6 +711,17 @@
         "docs/skills/package-variants/cv-harvard-ats.skill",
         "docs/skills/package-variants/cv-harvard-ats.zip"
       ]
+    },
+    {
+      "group": "cv-suite",
+      "names": [
+        "cv-suite"
+      ],
+      "target": "skills/docs-cv/cv-suite",
+      "was_missing": false,
+      "selected_archive": "cv-suite.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
     },
     {
       "group": "doc-coauthoring",
@@ -792,6 +869,28 @@
       "variants": []
     },
     {
+      "group": "react-engineering",
+      "names": [
+        "react-engineering"
+      ],
+      "target": "skills/frontend/react-engineering",
+      "was_missing": false,
+      "selected_archive": "react-engineering.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "repository-documentation",
+      "names": [
+        "repository-documentation"
+      ],
+      "target": "skills/docs/repository-documentation",
+      "was_missing": false,
+      "selected_archive": "repository-documentation.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
       "group": "scalable-database-architect",
       "names": [
         "scalable-database-architect"
@@ -885,6 +984,17 @@
       "variants": []
     },
     {
+      "group": "tailwind-engineering",
+      "names": [
+        "tailwind-engineering"
+      ],
+      "target": "skills/frontend/tailwind-engineering",
+      "was_missing": false,
+      "selected_archive": "tailwind-engineering.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
       "group": "tailwindcss-v4-3-expert",
       "names": [
         "tailwindcss-v4-3-expert"
@@ -916,6 +1026,17 @@
       "target": "skills/design/web-artifacts-builder",
       "was_missing": false,
       "selected_archive": "web-artifacts-builder.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "web-design-suite",
+      "names": [
+        "web-design-suite"
+      ],
+      "target": "skills/design/web-design-suite",
+      "was_missing": false,
+      "selected_archive": "web-design-suite.zip",
       "selection": "Mayor número de archivos; no implica más reciente/mejor",
       "variants": []
     },
@@ -971,6 +1092,17 @@
       "target": "skills/platforms/wordpress/wordpress-elementor-commerce",
       "was_missing": false,
       "selected_archive": "wordpress-elementor-commerce.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
+      "group": "wordpress-suite",
+      "names": [
+        "wordpress-suite"
+      ],
+      "target": "skills/platforms/wordpress/wordpress-suite",
+      "was_missing": false,
+      "selected_archive": "wordpress-suite.zip",
       "selection": "Mayor número de archivos; no implica más reciente/mejor",
       "variants": []
     },
@@ -1339,6 +1471,14 @@
       "issues": []
     },
     {
+      "name": "web-design-suite",
+      "path": "skills/design/web-design-suite/SKILL.md",
+      "lines": 47,
+      "encoding": "utf-8",
+      "description": "Diseña y mejora interfaces web seleccionando dirección visual, layout, responsive, tipografía, color, motion, auditoría, rendimiento o acabado. Úsalo para trabajo visual o UX con una especialidad concreta; conserva lógica del producto salvo alcance distinto.",
+      "issues": []
+    },
+    {
       "name": "web-ui-ux-frontend-architect",
       "path": "skills/design/web-ui-ux-frontend-architect/SKILL.md",
       "lines": 432,
@@ -1415,6 +1555,14 @@
       "issues": []
     },
     {
+      "name": "repository-documentation",
+      "path": "skills/docs/repository-documentation/SKILL.md",
+      "lines": 30,
+      "encoding": "utf-8",
+      "description": "Audita y mantiene documentación de repositorios seleccionando revisión documental, creación/mejora de README o actualización desde cambios Git. Úsalo para documentación técnica basada en el código real; no para escritura editorial o comunicación general.",
+      "issues": []
+    },
+    {
       "name": "cv-builder-harvard",
       "path": "skills/docs-cv/cv-builder-harvard/SKILL.md",
       "lines": 60,
@@ -1428,6 +1576,14 @@
       "lines": 71,
       "encoding": "utf-8",
       "description": "Crea, reescribe o audita un CV/currículum siguiendo el modelo Harvard (orientado a logros cuantificados) combinado con optimización ATS (Applicant Tracking System), para maximizar el score en herramientas de diagnóstico de CV (ATS, Enfoque, Impacto, Claridad, Contacto, Legibilidad) y aumentar la tasa de respuesta de reclutadores. Funciona para CUALQUIER área o industria (tecnología, salud, ventas, administración, educación, legal, operaciones, marketing, ingeniería, seguridad, etc.), no solo tech. Usa este skill siempre que el usuario pida mejorar u optimizar un CV, subir el score ATS, reescribir logros con métricas, adaptar un CV a una vacante específica, o si comparte un diagnóstico o reporte de un analizador de CV (score, palabras clave faltantes, hallazgos) y pide corregirlo. También úsalo si el usuario simplemente pega su experiencia laboral y pide \"hazme un CV\" o \"revisa mi CV\", aunque no mencione \"Harvard\" o \"ATS\" explícitamente.\n",
+      "issues": []
+    },
+    {
+      "name": "cv-suite",
+      "path": "skills/docs-cv/cv-suite/SKILL.md",
+      "lines": 31,
+      "encoding": "utf-8",
+      "description": "Crea y revisa currículums seleccionando formato Harvard o adaptación ATS y logros. Úsalo para estructurar un CV, adaptarlo a una vacante real o auditar su claridad, preservando hechos y sin prometer puntuaciones o resultados de contratación.",
       "issues": []
     },
     {
@@ -1495,6 +1651,14 @@
       ]
     },
     {
+      "name": "react-engineering",
+      "path": "skills/frontend/react-engineering/SKILL.md",
+      "lines": 42,
+      "encoding": "utf-8",
+      "description": "Implementa, revisa y moderniza aplicaciones React/TypeScript seleccionando solo la especialidad necesaria de arquitectura, componentes/datos, rendimiento o React Router. Úsalo para desarrollo funcional React; el diseño visual tiene una familia independiente.",
+      "issues": []
+    },
+    {
       "name": "react-frontend",
       "path": "skills/frontend/react-frontend/SKILL.md",
       "lines": 189,
@@ -1544,6 +1708,14 @@
       "lines": 77,
       "encoding": "utf-8",
       "description": "Comprehensive Tailwind CSS v4 documentation snapshot and workflow guidance. Use when answering Tailwind v4 questions, selecting utilities/variants, configuring Tailwind v4, or migrating projects from v3 to v4 with official docs and gotcha checks.",
+      "issues": []
+    },
+    {
+      "name": "tailwind-engineering",
+      "path": "skills/frontend/tailwind-engineering/SKILL.md",
+      "lines": 33,
+      "encoding": "utf-8",
+      "description": "Configura, migra y depura Tailwind CSS con selección de especialidad para instalación, integración, tokens/dark mode, shadcn o consulta de documentación. Úsalo para problemas del sistema CSS Tailwind y adapta instrucciones a la versión y framework instalados.",
       "issues": []
     },
     {
@@ -1762,6 +1934,14 @@
       "lines": 70,
       "encoding": "utf-8",
       "description": "Crea, rediseña y administra sitios WordPress con Elementor, WooCommerce y plugins. Úsalo para diseño moderno editable, responsive móvil/tablet/desktop, modo oscuro, artículos, productos y configuración; opera mediante MCP, editor, REST o WP-CLI según capacidades y acceso reales.",
+      "issues": []
+    },
+    {
+      "name": "wordpress-suite",
+      "path": "skills/platforms/wordpress/wordpress-suite/SKILL.md",
+      "lines": 38,
+      "encoding": "utf-8",
+      "description": "Trabaja en WordPress seleccionando temas con código propio o diseño con Elementor, WooCommerce y plugins, y carga únicamente la guía pertinente para contenido y acceso. Úsalo para construir, rediseñar o configurar sitios WordPress adaptados a su instalación.",
       "issues": []
     },
     {

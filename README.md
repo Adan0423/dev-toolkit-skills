@@ -3,9 +3,9 @@
 > Toolkit personal de **skills**, **paquetes** y **prompts** reutilizables para agentes de IA.
 > Extraídos y depurados desde proyectos reales: portafolio-svelte, TabulaSapiens, tienda-dropshipping, wix, apps Android/desktop.
 
-[![skills](https://img.shields.io/badge/skills-95-blue?style=flat-square)](docs/skills/skill-packages.md)
-[![packages](https://img.shields.io/badge/SKILL%2F-49%20paquetes-purple?style=flat-square)](SKILL/)
-[![source](https://img.shields.io/badge/skills%2F-95%20fuente-green?style=flat-square)](skills/)
+[![skills](https://img.shields.io/badge/skills-101-blue?style=flat-square)](docs/skills/skill-packages.md)
+[![packages](https://img.shields.io/badge/SKILL%2F-55%20paquetes-purple?style=flat-square)](SKILL/)
+[![source](https://img.shields.io/badge/skills%2F-101%20fuente-green?style=flat-square)](skills/)
 [![prompts](https://img.shields.io/badge/prompts-4-orange?style=flat-square)](prompts/)
 
 ---
@@ -56,6 +56,12 @@ unzip dev-toolkit-skills/SKILL/pdf.zip -d /tu-proyecto/.agents/skills/pdf
 </details>
 
 ---
+
+## Familias con carga selectiva
+
+Seis entradas principales reúnen 28 especialidades: React, Tailwind, diseño web,
+documentación, WordPress y CV. Cada una carga la guía necesaria para la tarea.
+[Ver familias, paquetes y mantenimiento](docs/skills/family-skills.md).
 
 ## 🧠 Activar una Skill
 
@@ -139,8 +145,8 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 |---|---|
 | 📖 **[Guía de Instalación](docs/install/quickstart.md)** | Instalación, formatos, uso, verificación |
 | 📋 **[Índice de Documentación](docs/INDEX.md)** | Mapa completo de la documentación |
-| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 49 paquetes · qué hace, funciones, casos de uso, entornos |
-| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 95 skills · desarrollo, pruebas, referencias |
+| 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 55 paquetes · qué hace, funciones, casos de uso, entornos |
+| 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 101 skills · desarrollo, pruebas, referencias |
 | 💬 **[Prompts](docs/prompts/README.md)** | 4 prompts reutilizables |
 | 🗂️ **[docs_structure.json](docs_structure.json)** | Índice documental para cargar en otros proyectos |
 
@@ -148,22 +154,22 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 ## 🎁 Paquetes Listos para Usar (`SKILL/`)
 
-**49 paquetes** = **42 nombres de skill** (13 `.skill` y 36 `.zip`).
+**55 paquetes** = **48 nombres de skill** (13 `.skill` y 42 `.zip`).
 
 | Categoría fuente | Paquetes |
 |---|:---:|
 | `architecture/` | 5 |
 | `automation/` | 2 |
-| `design/` | 10 |
+| `design/` | 11 |
 | `desktop/` | 2 |
-| `docs/` | 6 |
-| `docs-cv/` | 2 |
+| `docs/` | 7 |
+| `docs-cv/` | 3 |
 | `documents/` | 4 |
-| `frontend/` | 3 |
+| `frontend/` | 5 |
 | `integrations/` | 2 |
 | `meta/` | 1 |
 | `mobile/` | 5 |
-| `platforms/` | 3 |
+| `platforms/` | 4 |
 | `quality/` | 2 |
 | `security/` | 2 |
 
@@ -184,33 +190,33 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | [`web-ui-ux-frontend-architect`](SKILL/web-ui-ux-frontend-architect.zip) | Arquitecto UI/UX web completo con QA | Multi-framework |
 | [`mcp-builder`](SKILL/mcp-builder.zip) | Construye servidores MCP (Python/TS) | Python, Node/TS |
 
-📖 **[Ver los 49 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
+📖 **[Ver los 55 paquetes con detalle (qué hace, funciones, casos de uso) →](docs/skills/skill-packages.md)**
 
 ---
 
 ## 🛠️ Skills Fuente (`skills/`) — Desarrollo y Pruebas
 
-**95 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
+**101 skills únicas**, contando todos los `SKILL.md` y especialistas anidados.
 
 | Categoría | Skills |
 |---|:---:|
 | `architecture/` | 3 |
 | `automation/` | 8 |
 | `backend/` | 4 |
-| `design/` | 26 |
+| `design/` | 27 |
 | `desktop/` | 1 |
-| `docs/` | 6 |
-| `docs-cv/` | 2 |
+| `docs/` | 7 |
+| `docs-cv/` | 3 |
 | `documents/` | 4 |
-| `frontend/` | 14 |
+| `frontend/` | 16 |
 | `integrations/` | 2 |
 | `meta/` | 4 |
 | `mobile/` | 4 |
-| `platforms/` | 11 |
+| `platforms/` | 12 |
 | `quality/` | 5 |
 | `security/` | 1 |
 
-📖 **[Ver las 95 con detalle →](docs/skills/source-skills.md)**
+📖 **[Ver las 101 con detalle →](docs/skills/source-skills.md)**
 
 ---
 
@@ -236,11 +242,11 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 | Métrica | Total |
 |---|:---:|
-| 📦 Paquetes en `SKILL/` | 49 (13 `.skill` + 36 `.zip`) |
-| 🎁 Nombres de skill en `SKILL/` | 42 |
-| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 95 |
+| 📦 Paquetes en `SKILL/` | 55 (13 `.skill` + 42 `.zip`) |
+| 🎁 Nombres de skill en `SKILL/` | 48 |
+| 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 101 |
 | 💬 Prompts | 4 |
-| **Total nombres únicos del repo** | **95** |
+| **Total nombres únicos del repo** | **101** |
 | 🆕 Skills recuperadas de paquetes en esta auditoría | 34 |
 
 </details>
@@ -250,7 +256,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 Se recuperaron las fuentes que faltaban sin sobrescribir las existentes. Las variantes
 distintas están en `docs/skills/package-variants/`, fuera de las fuentes activas.
 
-- [Auditoría y propuesta de agrupación](docs/skills/organization-review.md): revisión individual de las 95 skills.
+- [Auditoría y propuesta de agrupación](docs/skills/organization-review.md): revisión individual de las 95 skills anteriores.
 - [Inventario actualizado](docs/skills/source-reconciliation.json) y [recuperación inicial](docs/skills/source-recovery.json).
 - [Herramienta de recuperación](scripts/sync_skill_sources.py): auditoría por defecto, extracción con `--extract-missing`.
 

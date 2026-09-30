@@ -9,6 +9,7 @@
         "description": "Expert skill for analyzing, installing, migrating, designing, refactoring, and validating production interfaces with Tailwind CSS v4.3 across modern web stacks. Verifies the real project before changing code, prefers CSS-first v4 patterns, reusable components, design tokens, responsive/container-query design, accessibility, and minimal dependencies.",
         "version": "1.0.0"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "README.md": "029b833723f66adfd1d7dfcb10cd972aaab82050cb59f1f96b6785e9a220ca84",
         "references/custom-utilities-and-variants.md": "226f68ecd86c90267460e6e760435b665d427c150d5c62aa4bba2c1521eee182",
@@ -36,6 +37,7 @@
         "description": "Set up Tailwind v4 + shadcn/ui themed UI with dark mode. Install deps, configure CSS variables via @theme inline, wire dark mode toggle, verify. Use whenever the user mentions Tailwind v4, setting up Tailwind theming, shadcn/ui colours, dark mode, or troubleshooting colours not working, tw-animate-css errors, @theme inline conflicts, @apply breaking after upgrade, or v3 → v4 migration issues.",
         "compatibility": "claude-code-only"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "assets/components.json": "6cfbacfe2152a809d94f0d79d2915f97b3b3bb3f115c730a7df65d4a2b4757f0",
         "assets/index.css": "6ff8dbfe8bc4bcf6d557d51329cd8a92a63cb1bc8a08183425ba081264e70dae",
@@ -78,6 +80,7 @@
         },
         "license": "MIT"
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/advanced-usage.md": "f5b6a3993faa4d667265e27e9a9d30905fb529935bc3d4aa00bb7f8e5e82b65a",
         "references/common-gotchas.md": "81962c632d174587bc39915ee6aa643f10c8fed56f36c79895a14cc020f4aed0",
@@ -101,6 +104,7 @@
         "description": "Comprehensive Tailwind CSS v4 documentation snapshot and workflow guidance. Use when answering Tailwind v4 questions, selecting utilities/variants, configuring Tailwind v4, or migrating projects from v3 to v4 with official docs and gotcha checks.",
         "compatibility": "Requires git, Python 3, and internet access to initialize the Tailwind docs snapshot from tailwindcss.com."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "references/docs-source.txt": "1e2af62917531de3c5ea3340add673daa1b501c54f8fd4464527ea484291a9dd",
         "references/engineering-playbook.md": "ea3ce55791f5d909a44c15d63d8abca3300c1e5caca322c3d08758c0bf90baa9",

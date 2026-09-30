@@ -1,8 +1,10 @@
 # Skills Fuente para Desarrollo y Pruebas (`skills/`)
 
-> **95 skills únicas**, contando todos los SKILL.md y especialistas anidados.
+> **101 skills únicas**, contando todos los SKILL.md y especialistas anidados.
 > Estas son el **código fuente**: úsalas para **desarrollar, probar, debuggear y mejorar** skills. Para instalar en producción, prefiere los paquetes de [`SKILL/`](skill-packages.md).
 > [Inventario y revisión individual actuales](organization-review.md). Las tablas detalladas antiguas conservan el catálogo histórico; la recuperación y las nuevas categorías están en el inventario enlazado.
+
+Consulta las [seis familias selectivas](family-skills.md) y su proceso de actualización.
 
 ## Cuándo usar esta carpeta
 

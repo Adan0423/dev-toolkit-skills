@@ -8,6 +8,7 @@
         "name": "wordpress-theme-studio",
         "description": "Crea y personaliza temas WordPress con código propio, clásicos o de bloques, diseño responsive y modo oscuro. Úsalo para desarrollar temas, integrar skills de diseño, cargar artículos y medios, configurar sitios y operar mediante WordPress MCP, REST API, WP-CLI o el administrador según acceso disponible."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "assets/entrega-wordpress.md": "a8742e2b67504658cac036e21897fe98aba8c343b64c277e2bf2ff26207e69f8",
         "references/connections.md": "8c3820b613bb6c1f3814eb8aa6ca8df220fcbbb9fe5d791030fbe5fddc817186",
@@ -26,6 +27,7 @@
         "name": "wordpress-elementor-commerce",
         "description": "Crea, rediseña y administra sitios WordPress con Elementor, WooCommerce y plugins. Úsalo para diseño moderno editable, responsive móvil/tablet/desktop, modo oscuro, artículos, productos y configuración; opera mediante MCP, editor, REST o WP-CLI según capacidades y acceso reales."
       },
+      "supplemental_files_sha256": {},
       "source_files_sha256": {
         "assets/entrega-sitio.md": "5ec69c5a34e5de30f4c75df6d1f3eb07ff5155175de13d88726e0e7b03530891",
         "references/connections-plugins.md": "b0391de15219a2d491217e739e6a29980dc23542b5a4a3587f95e2ca1d5af9ec",
