@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paletas de color profesionales"
+  short_description: "Paletas, tokens y contraste para interfaces accesibles"
+  default_prompt: "Usa $color-palette-studio para elegir y aplicar una paleta profesional adaptada al proyecto."

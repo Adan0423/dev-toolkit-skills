@@ -1,0 +1,61 @@
+{
+  "name": "Teal interface example",
+  "provenance": {
+    "source": "https://colorhunt.co/palette/222831393e4600adb5eeeeee",
+    "verified_on": "2026-09-30",
+    "original_palette": ["#222831", "#393E46", "#00ADB5", "#EEEEEE"],
+    "note": "Adaptación propia para roles de interfaz; las variantes y estados añadidos no son una paleta publicada por Color Hunt."
+  },
+  "themes": {
+    "light": {
+      "background": "#F6F8FA", "surface": "#FFFFFF", "text": "#202832", "text-muted": "#52616B",
+      "action": "#006B70", "on-action": "#FFFFFF", "action-hover": "#00565A", "action-active": "#00474B",
+      "link": "#006B70", "focus": "#006B70", "border-control": "#6F7D86", "border-decorative": "#D4DDE3",
+      "selection": "#D6F4F5", "success-surface": "#E5F5EB", "success-text": "#176B3A",
+      "error-surface": "#FFEBE7", "error-text": "#B42318", "warning-surface": "#FFF3CF", "warning-text": "#805600",
+      "info-surface": "#E7F2FC", "info-text": "#175FA3"
+    },
+    "dark": {
+      "background": "#141A20", "surface": "#202832", "text": "#EEF2F5", "text-muted": "#ABB8C3",
+      "action": "#55DCE4", "on-action": "#12272A", "action-hover": "#83E9EE", "action-active": "#39C7D0",
+      "link": "#55DCE4", "focus": "#55DCE4", "border-control": "#758694", "border-decorative": "#39434D",
+      "selection": "#1D4B50", "success-surface": "#173727", "success-text": "#9BE5B5",
+      "error-surface": "#482522", "error-text": "#FFB4AB", "warning-surface": "#3A2E16", "warning-text": "#F8D783",
+      "info-surface": "#1B3049", "info-text": "#A9D2FF"
+    }
+  },
+  "checks": [
+    {"id":"light-text-background","theme":"light","foreground":"text","background":"background","kind":"text"},
+    {"id":"light-text-surface","theme":"light","foreground":"text","background":"surface","kind":"text"},
+    {"id":"light-muted-background","theme":"light","foreground":"text-muted","background":"background","kind":"text"},
+    {"id":"light-muted-surface","theme":"light","foreground":"text-muted","background":"surface","kind":"text"},
+    {"id":"light-action","theme":"light","foreground":"on-action","background":"action","kind":"text"},
+    {"id":"light-action-hover","theme":"light","foreground":"on-action","background":"action-hover","kind":"text"},
+    {"id":"light-action-active","theme":"light","foreground":"on-action","background":"action-active","kind":"text"},
+    {"id":"light-link","theme":"light","foreground":"link","background":"surface","kind":"text"},
+    {"id":"light-focus-background","theme":"light","foreground":"focus","background":"background","kind":"ui"},
+    {"id":"light-focus-surface","theme":"light","foreground":"focus","background":"surface","kind":"ui"},
+    {"id":"light-border-control","theme":"light","foreground":"border-control","background":"surface","kind":"ui"},
+    {"id":"light-selection","theme":"light","foreground":"text","background":"selection","kind":"text"},
+    {"id":"light-success","theme":"light","foreground":"success-text","background":"success-surface","kind":"text"},
+    {"id":"light-error","theme":"light","foreground":"error-text","background":"error-surface","kind":"text"},
+    {"id":"light-warning","theme":"light","foreground":"warning-text","background":"warning-surface","kind":"text"},
+    {"id":"light-info","theme":"light","foreground":"info-text","background":"info-surface","kind":"text"},
+    {"id":"dark-text-background","theme":"dark","foreground":"text","background":"background","kind":"text"},
+    {"id":"dark-text-surface","theme":"dark","foreground":"text","background":"surface","kind":"text"},
+    {"id":"dark-muted-background","theme":"dark","foreground":"text-muted","background":"background","kind":"text"},
+    {"id":"dark-muted-surface","theme":"dark","foreground":"text-muted","background":"surface","kind":"text"},
+    {"id":"dark-action","theme":"dark","foreground":"on-action","background":"action","kind":"text"},
+    {"id":"dark-action-hover","theme":"dark","foreground":"on-action","background":"action-hover","kind":"text"},
+    {"id":"dark-action-active","theme":"dark","foreground":"on-action","background":"action-active","kind":"text"},
+    {"id":"dark-link","theme":"dark","foreground":"link","background":"surface","kind":"text"},
+    {"id":"dark-focus-background","theme":"dark","foreground":"focus","background":"background","kind":"ui"},
+    {"id":"dark-focus-surface","theme":"dark","foreground":"focus","background":"surface","kind":"ui"},
+    {"id":"dark-border-control","theme":"dark","foreground":"border-control","background":"surface","kind":"ui"},
+    {"id":"dark-selection","theme":"dark","foreground":"text","background":"selection","kind":"text"},
+    {"id":"dark-success","theme":"dark","foreground":"success-text","background":"success-surface","kind":"text"},
+    {"id":"dark-error","theme":"dark","foreground":"error-text","background":"error-surface","kind":"text"},
+    {"id":"dark-warning","theme":"dark","foreground":"warning-text","background":"warning-surface","kind":"text"},
+    {"id":"dark-info","theme":"dark","foreground":"info-text","background":"info-surface","kind":"text"}
+  ]
+}

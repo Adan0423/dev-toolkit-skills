@@ -33,6 +33,11 @@ texto. Audit produce evidencia técnica; critique evalúa UX; polish corrige det
 Stack solo si elegir/cambiar tecnología forma parte del problema. Para rediseño amplio
 puedes pasar de direction a responsive/polish cuando ese trabajo concreto empiece.
 
+Cuando el diseño implique elegir una paleta o crear temas, aplica la guía color
+antes de implementar los colores. Conserva los tokens existentes que ya resuelven
+la tarea; carga únicamente los recursos de color necesarios para comprobar roles,
+contraste y estados. No añade un tema nuevo por ajustar un color aislado.
+
 ## Contrato de todas las especialidades
 
 Guías internas con rutas relativas propias, sin registro automático de sub-skills.

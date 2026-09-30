@@ -130,20 +130,27 @@
       ]
     },
     "color": {
-      "source": "skills/design/colorize",
+      "source": "skills/design/color-palette-studio",
       "source_metadata": {
-        "name": "colorize",
-        "description": "Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and expressive. Use when the user mentions the design looking gray, dull, lacking warmth, needing more color, or wanting a more vibrant or expressive palette.",
-        "version": "2.1.1",
-        "user-invocable": true,
-        "argument-hint": "[target]"
+        "name": "color-palette-studio",
+        "description": "Elige, aplica y revisa paletas de color para interfaces web, apps y contenido visual; convierte colores de marca o referencias en tokens, estados y temas claro/oscuro con contraste comprobado. Úsalo al crear un sistema de color o corregir su aplicación."
       },
       "supplemental_files_sha256": {},
       "source_files_sha256": {
-        "SKILL.md": "abf7264b72e601446846980b8f5e79c700f5b8a7893f48908f0b6ed22e9a591f"
+        "assets/palette-example.json": "78596b80fdb1e5ed2b44298f923f13f0c5c15cd80c1355630c1429f709548ec5",
+        "assets/palette-handoff.md": "81f5b02d68b416ab4186581972346bfdeb2bff345c246bdee59ae266648e92c1",
+        "assets/tokens-example.css": "8b6504c946b705347eb45639e829aa722399d239cf5151f89e599139ee79d294",
+        "references/accessibility.md": "120f5b0b44d3a4c4f159d95efa08a968acaf6b3d3c1e37e4589c9b23561869ff",
+        "references/data-visualization.md": "755a3f47a0aae453f7ab2953c059d1494456a44d49281e1014517e290012f96b",
+        "references/implementation.md": "78e21b8ec7a3c17d92cb435d812cec478d5e59b4e71c11f28e1ce60aa72f0cbf",
+        "references/palette-selection.md": "c4eeeb764ce65c2582550fa8193646c7f516cf7ee8cf3f2a9917bb4ffbff9d2a",
+        "references/research-sources.md": "3fdcf5dd2fe7655dfd36f254ef2e8601671c88121fdc7c3867a34497ea26fa79",
+        "references/tool-contract.md": "ac929c6f2115c784ca3145c0f29f7fafc925e210a7b6702993eb40d011f7d437",
+        "scripts/contrast_audit.py": "22abf6d618fcfefd169c48787a7455fc0c34acdaaf2a3ab46a27f64517e6aa56",
+        "SKILL.md": "c367873ff65db1336484f435aa9b7ae31da0faeaa69469ef38ba1e9a7ebd79b5"
       },
       "adaptations": [
-        "Preparación Impeccable sustituida por contexto de familia"
+        "Dependencia no autocontenida eliminada: https:/la especialidad direction de esta familia.style/"
       ]
     },
     "motion": {
@@ -219,7 +226,17 @@
   "generated_files": [
     "agents/openai.yaml",
     "references/specialties/audit/guide.md",
+    "references/specialties/color/assets/palette-example.json",
+    "references/specialties/color/assets/palette-handoff.md",
+    "references/specialties/color/assets/tokens-example.css",
     "references/specialties/color/guide.md",
+    "references/specialties/color/references/accessibility.md",
+    "references/specialties/color/references/data-visualization.md",
+    "references/specialties/color/references/implementation.md",
+    "references/specialties/color/references/palette-selection.md",
+    "references/specialties/color/references/research-sources.md",
+    "references/specialties/color/references/tool-contract.md",
+    "references/specialties/color/scripts/contrast_audit.py",
     "references/specialties/critique/guide.md",
     "references/specialties/critique/reference/cognitive-load.md",
     "references/specialties/critique/reference/heuristics-scoring.md",
