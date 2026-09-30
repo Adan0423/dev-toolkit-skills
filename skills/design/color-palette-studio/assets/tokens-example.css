@@ -1,0 +1,78 @@
+/* Derived semantic tokens. Adapt to project roles; contrast checks are separate. */
+
+:root {
+  color-scheme: light;
+  --color-background: #F6F8FA;
+  --color-surface: #FFFFFF;
+  --color-text: #202832;
+  --color-text-muted: #52616B;
+  --color-action: #006B70;
+  --color-on-action: #FFFFFF;
+  --color-action-hover: #00565A;
+  --color-action-active: #00474B;
+  --color-link: #006B70;
+  --color-focus: #006B70;
+  --color-border-control: #6F7D86;
+  --color-border-decorative: #D4DDE3;
+  --color-selection: #D6F4F5;
+  --color-success-surface: #E5F5EB;
+  --color-success-text: #176B3A;
+  --color-error-surface: #FFEBE7;
+  --color-error-text: #B42318;
+  --color-warning-surface: #FFF3CF;
+  --color-warning-text: #805600;
+  --color-info-surface: #E7F2FC;
+  --color-info-text: #175FA3;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-background: #141A20;
+  --color-surface: #202832;
+  --color-text: #EEF2F5;
+  --color-text-muted: #ABB8C3;
+  --color-action: #55DCE4;
+  --color-on-action: #12272A;
+  --color-action-hover: #83E9EE;
+  --color-action-active: #39C7D0;
+  --color-link: #55DCE4;
+  --color-focus: #55DCE4;
+  --color-border-control: #758694;
+  --color-border-decorative: #39434D;
+  --color-selection: #1D4B50;
+  --color-success-surface: #173727;
+  --color-success-text: #9BE5B5;
+  --color-error-surface: #482522;
+  --color-error-text: #FFB4AB;
+  --color-warning-surface: #3A2E16;
+  --color-warning-text: #F8D783;
+  --color-info-surface: #1B3049;
+  --color-info-text: #A9D2FF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    color-scheme: dark;
+    --color-background: #141A20;
+    --color-surface: #202832;
+    --color-text: #EEF2F5;
+    --color-text-muted: #ABB8C3;
+    --color-action: #55DCE4;
+    --color-on-action: #12272A;
+    --color-action-hover: #83E9EE;
+    --color-action-active: #39C7D0;
+    --color-link: #55DCE4;
+    --color-focus: #55DCE4;
+    --color-border-control: #758694;
+    --color-border-decorative: #39434D;
+    --color-selection: #1D4B50;
+    --color-success-surface: #173727;
+    --color-success-text: #9BE5B5;
+    --color-error-surface: #482522;
+    --color-error-text: #FFB4AB;
+    --color-warning-surface: #3A2E16;
+    --color-warning-text: #F8D783;
+    --color-info-surface: #1B3049;
+    --color-info-text: #A9D2FF;
+  }
+}
