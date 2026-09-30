@@ -1,0 +1,27 @@
+{
+  "validator": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["tenant_id", "order_id", "customer_id", "currency", "items"],
+      "properties": {
+        "tenant_id": {"bsonType": "string", "minLength": 1},
+        "order_id": {"bsonType": "string", "minLength": 1},
+        "customer_id": {"bsonType": "string", "minLength": 1},
+        "currency": {"bsonType": "string", "pattern": "^[A-Z]{3}$"},
+        "items": {
+          "bsonType": "array", "minItems": 1, "maxItems": 100,
+          "items": {
+            "bsonType": "object", "required": ["product_id", "quantity", "unit_price_minor"],
+            "properties": {
+              "product_id": {"bsonType": "string", "minLength": 1},
+              "quantity": {"bsonType": ["int", "long"], "minimum": 1},
+              "unit_price_minor": {"bsonType": ["int", "long"], "minimum": 0}
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationLevel": "strict",
+  "validationAction": "error"
+}
