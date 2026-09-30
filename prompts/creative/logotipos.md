@@ -43,7 +43,7 @@ Control de calidad: Comprobar reconocimiento, margen de seguridad y relación co
 ```text
 Actúa como diseñador y desarrollador SVG. Construye un archivo SVG para {{marca}} a partir de {{concepto_o_referencia}}, con geometría {{geometria}}, viewBox, formas o paths editables y color {{color}}. Fondo transparente y lectura a 24 px. No incrustes raster para fingir vector. Usa texto editable {{texto_exacto}} solo si se requiere, indicando fuente; convierte a contornos únicamente con herramientas disponibles. Evita scripts, eventos y recursos externos. Entrega código y archivo si puedes escribirlo; si la referencia excede lo reproducible, indica simplificaciones.
 
-Genera la imagen en {{formato}} para {{destino}}. Las referencias adjuntas guían únicamente su función indicada. Configura tamaño y cantidad en los controles disponibles. Si una capacidad no existe, explica el paso pendiente; no simula archivos editables o transparencia.
+Entrega SVG editable para {{destino}} y una vista previa solo si puedes renderizarla. Si no puedes escribir archivos, entrega el código completo. Explica simplificaciones y dependencias de tipografía; no presenta una imagen raster como SVG.
 
 Control de calidad: Validar XML, viewBox, recorte, ausencia de raster/scripts y versión monocroma.
 ```

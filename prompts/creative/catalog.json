@@ -1,0 +1,1300 @@
+{
+  "version": 1,
+  "language": "es",
+  "new_prompt_count": 64,
+  "category_count": 15,
+  "categories": [
+    {
+      "slug": "anime-caricaturas",
+      "title": "Anime y caricaturas",
+      "path": "prompts/creative/anime-caricaturas.md",
+      "prompts": [
+        {
+          "id": "ANI-01",
+          "title": "Escena de anime original",
+          "category": "anime-caricaturas",
+          "mode": "generacion",
+          "path": "prompts/creative/anime-caricaturas.md",
+          "anchor": "ani-01",
+          "variables": [
+            "accion",
+            "composicion",
+            "destino",
+            "emocion",
+            "escenario",
+            "formato",
+            "luz",
+            "paleta",
+            "personaje",
+            "referencia_personaje"
+          ]
+        },
+        {
+          "id": "ANI-02",
+          "title": "Chibi para sticker",
+          "category": "anime-caricaturas",
+          "mode": "generacion",
+          "path": "prompts/creative/anime-caricaturas.md",
+          "anchor": "ani-02",
+          "variables": [
+            "borde",
+            "destino",
+            "expresion",
+            "fondo",
+            "formato",
+            "paleta",
+            "personaje",
+            "pose",
+            "rasgos_distintivos",
+            "referencia"
+          ]
+        },
+        {
+          "id": "ANI-03",
+          "title": "Caricatura editorial reconocible",
+          "category": "anime-caricaturas",
+          "mode": "generacion",
+          "path": "prompts/creative/anime-caricaturas.md",
+          "anchor": "ani-03",
+          "variables": [
+            "contexto",
+            "destino",
+            "expresion",
+            "fondo",
+            "formato",
+            "paleta",
+            "persona",
+            "rasgos_a_enfatizar",
+            "referencia_identidad",
+            "tecnica"
+          ]
+        },
+        {
+          "id": "ANI-04",
+          "title": "Viñeta de manga",
+          "category": "anime-caricaturas",
+          "mode": "generacion",
+          "path": "prompts/creative/anime-caricaturas.md",
+          "anchor": "ani-04",
+          "variables": [
+            "accion",
+            "destino",
+            "encuadre",
+            "escenario",
+            "espacio_dialogo",
+            "formato",
+            "personaje",
+            "referencia_personaje"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "comida",
+      "title": "Comida y fotografía gastronómica",
+      "path": "prompts/creative/comida.md",
+      "prompts": [
+        {
+          "id": "COM-01",
+          "title": "Plato protagonista para carta",
+          "category": "comida",
+          "mode": "generacion",
+          "path": "prompts/creative/comida.md",
+          "anchor": "com-01",
+          "variables": [
+            "angulo",
+            "destino",
+            "fondo",
+            "formato",
+            "ingredientes",
+            "plato",
+            "porcion",
+            "referencia_plato_o_descripcion",
+            "restaurante",
+            "vajilla"
+          ]
+        },
+        {
+          "id": "COM-02",
+          "title": "Bebida comercial",
+          "category": "comida",
+          "mode": "generacion",
+          "path": "prompts/creative/comida.md",
+          "anchor": "com-02",
+          "variables": [
+            "bebida",
+            "destino",
+            "fondo",
+            "formato",
+            "ingredientes_presentacion",
+            "luz",
+            "paleta",
+            "recipiente",
+            "referencia",
+            "superficie",
+            "temperatura_real",
+            "zona_copy"
+          ]
+        },
+        {
+          "id": "COM-03",
+          "title": "Mesa gastronómica cenital",
+          "category": "comida",
+          "mode": "generacion",
+          "path": "prompts/creative/comida.md",
+          "anchor": "com-03",
+          "variables": [
+            "destino",
+            "distribucion",
+            "formato",
+            "ocasion",
+            "paleta",
+            "platos",
+            "referencias",
+            "superficie",
+            "utensilios_decoracion"
+          ]
+        },
+        {
+          "id": "COM-04",
+          "title": "Serie de platos para catálogo",
+          "category": "comida",
+          "mode": "generacion",
+          "path": "prompts/creative/comida.md",
+          "anchor": "com-04",
+          "variables": [
+            "angulo",
+            "cantidad",
+            "destino",
+            "fondo",
+            "formato",
+            "negocio",
+            "platos_referencias",
+            "vajilla"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "diseno-marca",
+      "title": "Diseño de marca",
+      "path": "prompts/creative/diseno-marca.md",
+      "prompts": [
+        {
+          "id": "MAR-01",
+          "title": "Dirección visual de marca",
+          "category": "diseno-marca",
+          "mode": "generacion",
+          "path": "prompts/creative/diseno-marca.md",
+          "anchor": "mar-01",
+          "variables": [
+            "atributos",
+            "destino",
+            "formato",
+            "marca",
+            "oferta",
+            "paleta",
+            "publico",
+            "referencia_logo"
+          ]
+        },
+        {
+          "id": "MAR-02",
+          "title": "Concepto de packaging",
+          "category": "diseno-marca",
+          "mode": "generacion",
+          "path": "prompts/creative/diseno-marca.md",
+          "anchor": "mar-02",
+          "variables": [
+            "destino",
+            "envase",
+            "fondo",
+            "formato",
+            "marca",
+            "material",
+            "paleta",
+            "producto",
+            "referencia_logo",
+            "textos"
+          ]
+        },
+        {
+          "id": "MAR-03",
+          "title": "Sistema visual para redes",
+          "category": "diseno-marca",
+          "mode": "generacion",
+          "path": "prompts/creative/diseno-marca.md",
+          "anchor": "mar-03",
+          "variables": [
+            "campana",
+            "cta",
+            "destino",
+            "estilo",
+            "formato",
+            "formatos_derivados",
+            "marca",
+            "paleta",
+            "publico",
+            "referencia_logo",
+            "subtitulo",
+            "sujeto",
+            "titular"
+          ]
+        },
+        {
+          "id": "MAR-04",
+          "title": "Mockup de papelería",
+          "category": "diseno-marca",
+          "mode": "generacion",
+          "path": "prompts/creative/diseno-marca.md",
+          "anchor": "mar-04",
+          "variables": [
+            "acabado",
+            "destino",
+            "formato",
+            "marca",
+            "material",
+            "piezas",
+            "referencias_artes",
+            "superficie"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ecommerce",
+      "title": "E-commerce y catálogo",
+      "path": "prompts/creative/ecommerce.md",
+      "prompts": [
+        {
+          "id": "ECO-01",
+          "title": "Foto principal de catálogo",
+          "category": "ecommerce",
+          "mode": "generacion",
+          "path": "prompts/creative/ecommerce.md",
+          "anchor": "eco-01",
+          "variables": [
+            "alpha",
+            "angulo",
+            "canal",
+            "destino",
+            "fondo_requerido",
+            "formato",
+            "margen",
+            "producto",
+            "referencia_producto"
+          ]
+        },
+        {
+          "id": "ECO-02",
+          "title": "Serie de vistas de ficha",
+          "category": "ecommerce",
+          "mode": "generacion",
+          "path": "prompts/creative/ecommerce.md",
+          "anchor": "eco-02",
+          "variables": [
+            "cantidad",
+            "destino",
+            "fondo",
+            "formato",
+            "objetivos_tomas",
+            "producto",
+            "referencias_producto"
+          ]
+        },
+        {
+          "id": "ECO-03",
+          "title": "Beneficios con información verificada",
+          "category": "ecommerce",
+          "mode": "generacion",
+          "path": "prompts/creative/ecommerce.md",
+          "anchor": "eco-03",
+          "variables": [
+            "beneficios_reales",
+            "destino",
+            "formato",
+            "jerarquia",
+            "paleta",
+            "producto",
+            "publico",
+            "referencia_producto",
+            "textos_exactos"
+          ]
+        },
+        {
+          "id": "ECO-04",
+          "title": "Banner de categoría adaptable",
+          "category": "ecommerce",
+          "mode": "generacion",
+          "path": "prompts/creative/ecommerce.md",
+          "anchor": "eco-04",
+          "variables": [
+            "adaptacion_movil",
+            "categoria",
+            "destino",
+            "estetica",
+            "fondo",
+            "formato",
+            "paleta",
+            "referencias_productos",
+            "tienda",
+            "zona_copy",
+            "zona_productos"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "edicion-fotos",
+      "title": "Edición de fotos",
+      "path": "prompts/creative/edicion-fotos.md",
+      "prompts": [
+        {
+          "id": "EDI-01",
+          "title": "Retoque natural y corrección de color",
+          "category": "edicion-fotos",
+          "mode": "edicion",
+          "path": "prompts/creative/edicion-fotos.md",
+          "anchor": "edi-01",
+          "variables": [
+            "ajustes",
+            "ambiente",
+            "destino",
+            "formato",
+            "sujeto",
+            "uso"
+          ]
+        },
+        {
+          "id": "EDI-02",
+          "title": "Cambiar fondo con integración creíble",
+          "category": "edicion-fotos",
+          "mode": "edicion",
+          "path": "prompts/creative/edicion-fotos.md",
+          "anchor": "edi-02",
+          "variables": [
+            "alpha",
+            "destino",
+            "direccion_luz",
+            "escena",
+            "formato",
+            "referencia_fondo"
+          ]
+        },
+        {
+          "id": "EDI-03",
+          "title": "Eliminar un objeto sin alterar la escena",
+          "category": "edicion-fotos",
+          "mode": "edicion",
+          "path": "prompts/creative/edicion-fotos.md",
+          "anchor": "edi-03",
+          "variables": [
+            "destino",
+            "elementos_protegidos",
+            "formato",
+            "objeto",
+            "region",
+            "superficie"
+          ]
+        },
+        {
+          "id": "EDI-04",
+          "title": "Restaurar y ampliar una fotografía antigua",
+          "category": "edicion-fotos",
+          "mode": "edicion",
+          "path": "prompts/creative/edicion-fotos.md",
+          "anchor": "edi-04",
+          "variables": [
+            "destino",
+            "dimension_objetivo",
+            "formato",
+            "tratamiento_color",
+            "zonas"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "efectos-visuales",
+      "title": "Efectos visuales",
+      "path": "prompts/creative/efectos-visuales.md",
+      "prompts": [
+        {
+          "id": "VFX-01",
+          "title": "Relighting cinematográfico",
+          "category": "efectos-visuales",
+          "mode": "edicion",
+          "path": "prompts/creative/efectos-visuales.md",
+          "anchor": "vfx-01",
+          "variables": [
+            "color",
+            "destino",
+            "direccion",
+            "formato",
+            "intensidad",
+            "referencia_imagen",
+            "temperatura",
+            "tipo_luz"
+          ]
+        },
+        {
+          "id": "VFX-02",
+          "title": "Partículas con profundidad",
+          "category": "efectos-visuales",
+          "mode": "edicion",
+          "path": "prompts/creative/efectos-visuales.md",
+          "anchor": "vfx-02",
+          "variables": [
+            "destino",
+            "direccion_movimiento",
+            "elementos_protegidos",
+            "formato",
+            "fuente_luz",
+            "material_particulas",
+            "referencia_imagen",
+            "region"
+          ]
+        },
+        {
+          "id": "VFX-03",
+          "title": "Lluvia o niebla integrada",
+          "category": "efectos-visuales",
+          "mode": "edicion",
+          "path": "prompts/creative/efectos-visuales.md",
+          "anchor": "vfx-03",
+          "variables": [
+            "clima",
+            "destino",
+            "formato",
+            "intensidad",
+            "referencia_imagen",
+            "sujeto_protegido",
+            "viento_luz"
+          ]
+        },
+        {
+          "id": "VFX-04",
+          "title": "Doble exposición",
+          "category": "efectos-visuales",
+          "mode": "edicion",
+          "path": "prompts/creative/efectos-visuales.md",
+          "anchor": "vfx-04",
+          "variables": [
+            "destino",
+            "escena_interior",
+            "foco",
+            "fondo",
+            "formato",
+            "mensaje",
+            "region_silueta",
+            "sujeto",
+            "zona_texto"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estilo-artistico",
+      "title": "Estilo artístico",
+      "path": "prompts/creative/estilo-artistico.md",
+      "prompts": [
+        {
+          "id": "ART-01",
+          "title": "Acuarela editorial",
+          "category": "estilo-artistico",
+          "mode": "generacion",
+          "path": "prompts/creative/estilo-artistico.md",
+          "anchor": "art-01",
+          "variables": [
+            "composicion",
+            "destino",
+            "escena",
+            "foco",
+            "formato",
+            "paleta",
+            "sujeto"
+          ]
+        },
+        {
+          "id": "ART-02",
+          "title": "Óleo contemporáneo",
+          "category": "estilo-artistico",
+          "mode": "generacion",
+          "path": "prompts/creative/estilo-artistico.md",
+          "anchor": "art-02",
+          "variables": [
+            "composicion",
+            "destino",
+            "escenario",
+            "formato",
+            "luz",
+            "paleta",
+            "referencia",
+            "sujeto",
+            "zonas_empaste"
+          ]
+        },
+        {
+          "id": "ART-03",
+          "title": "Grabado de una tinta",
+          "category": "estilo-artistico",
+          "mode": "generacion",
+          "path": "prompts/creative/estilo-artistico.md",
+          "anchor": "art-03",
+          "variables": [
+            "composicion",
+            "destino",
+            "formato",
+            "papel",
+            "sujeto",
+            "tamano_uso",
+            "tinta"
+          ]
+        },
+        {
+          "id": "ART-04",
+          "title": "Collage analógico conceptual",
+          "category": "estilo-artistico",
+          "mode": "generacion",
+          "path": "prompts/creative/estilo-artistico.md",
+          "anchor": "art-04",
+          "variables": [
+            "composicion",
+            "destino",
+            "formato",
+            "materiales",
+            "mensaje",
+            "paleta",
+            "protagonista",
+            "referencias",
+            "tema"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ilustracion-3d",
+      "title": "Ilustración y 3D",
+      "path": "prompts/creative/ilustracion-3d.md",
+      "prompts": [
+        {
+          "id": "ILU-01",
+          "title": "Ilustración editorial con metáfora",
+          "category": "ilustracion-3d",
+          "mode": "generacion",
+          "path": "prompts/creative/ilustracion-3d.md",
+          "anchor": "ilu-01",
+          "variables": [
+            "destino",
+            "formas",
+            "formato",
+            "mensaje",
+            "metafora",
+            "paleta",
+            "publico",
+            "tema",
+            "textura",
+            "zona_texto"
+          ]
+        },
+        {
+          "id": "ILU-02",
+          "title": "Escena isométrica de servicio",
+          "category": "ilustracion-3d",
+          "mode": "generacion",
+          "path": "prompts/creative/ilustracion-3d.md",
+          "anchor": "ilu-02",
+          "variables": [
+            "destino",
+            "elementos",
+            "fondo",
+            "formato",
+            "inicio",
+            "paleta",
+            "resultado",
+            "servicio"
+          ]
+        },
+        {
+          "id": "ILU-03",
+          "title": "Render conceptual de objeto",
+          "category": "ilustracion-3d",
+          "mode": "generacion",
+          "path": "prompts/creative/ilustracion-3d.md",
+          "anchor": "ilu-03",
+          "variables": [
+            "acabado",
+            "camara",
+            "destino",
+            "fondo",
+            "formato",
+            "geometria",
+            "material",
+            "objeto",
+            "referencia"
+          ]
+        },
+        {
+          "id": "ILU-04",
+          "title": "Familia de iconos 3D",
+          "category": "ilustracion-3d",
+          "mode": "generacion",
+          "path": "prompts/creative/ilustracion-3d.md",
+          "anchor": "ilu-04",
+          "variables": [
+            "cantidad",
+            "conceptos",
+            "destino",
+            "fondo",
+            "formato",
+            "lenguaje",
+            "material",
+            "paleta"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "interiores",
+      "title": "Diseño de interiores",
+      "path": "prompts/creative/interiores.md",
+      "prompts": [
+        {
+          "id": "INT-01",
+          "title": "Rediseñar una habitación",
+          "category": "interiores",
+          "mode": "generacion",
+          "path": "prompts/creative/interiores.md",
+          "anchor": "int-01",
+          "variables": [
+            "cambios_permitidos",
+            "destino",
+            "estilo",
+            "formato",
+            "mobiliario",
+            "paleta",
+            "referencia_espacio",
+            "uso"
+          ]
+        },
+        {
+          "id": "INT-02",
+          "title": "Escenificación virtual inmobiliaria",
+          "category": "interiores",
+          "mode": "generacion",
+          "path": "prompts/creative/interiores.md",
+          "anchor": "int-02",
+          "variables": [
+            "decoracion",
+            "destino",
+            "estilo",
+            "formato",
+            "muebles",
+            "publico",
+            "referencia_espacio"
+          ]
+        },
+        {
+          "id": "INT-03",
+          "title": "Concepto de local comercial",
+          "category": "interiores",
+          "mode": "generacion",
+          "path": "prompts/creative/interiores.md",
+          "anchor": "int-03",
+          "variables": [
+            "destino",
+            "formato",
+            "local",
+            "luz",
+            "marca",
+            "materiales",
+            "mobiliario",
+            "paleta",
+            "publico",
+            "referencia_plano",
+            "restricciones",
+            "zonas"
+          ]
+        },
+        {
+          "id": "INT-04",
+          "title": "Comparar acabados del mismo espacio",
+          "category": "interiores",
+          "mode": "generacion",
+          "path": "prompts/creative/interiores.md",
+          "anchor": "int-04",
+          "variables": [
+            "alternativas",
+            "cantidad",
+            "destino",
+            "formato",
+            "referencia_espacio",
+            "superficies_editables"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "logotipos",
+      "title": "Logotipos e iconos",
+      "path": "prompts/creative/logotipos.md",
+      "prompts": [
+        {
+          "id": "LOG-01",
+          "title": "Símbolo original de marca",
+          "category": "logotipos",
+          "mode": "generacion",
+          "path": "prompts/creative/logotipos.md",
+          "anchor": "log-01",
+          "variables": [
+            "atributos",
+            "concepto",
+            "destino",
+            "fondo",
+            "formato",
+            "marca",
+            "referencias_a_evitar",
+            "sector"
+          ]
+        },
+        {
+          "id": "LOG-02",
+          "title": "Wordmark con nombre exacto",
+          "category": "logotipos",
+          "mode": "generacion",
+          "path": "prompts/creative/logotipos.md",
+          "anchor": "log-02",
+          "variables": [
+            "color",
+            "destino",
+            "detalle_distintivo",
+            "distribucion",
+            "familia_tipografica",
+            "fondo",
+            "formato",
+            "nombre_exacto",
+            "personalidad"
+          ]
+        },
+        {
+          "id": "LOG-03",
+          "title": "Icono de aplicación",
+          "category": "logotipos",
+          "mode": "generacion",
+          "path": "prompts/creative/logotipos.md",
+          "anchor": "log-03",
+          "variables": [
+            "aplicacion",
+            "destino",
+            "fondo",
+            "formato",
+            "funcion",
+            "metafora",
+            "paleta"
+          ]
+        },
+        {
+          "id": "LOG-04",
+          "title": "Construir un SVG editable real",
+          "category": "logotipos",
+          "mode": "codigo-svg",
+          "path": "prompts/creative/logotipos.md",
+          "anchor": "log-04",
+          "variables": [
+            "color",
+            "concepto_o_referencia",
+            "destino",
+            "geometria",
+            "marca",
+            "texto_exacto"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "personajes",
+      "title": "Diseño de personajes",
+      "path": "prompts/creative/personajes.md",
+      "prompts": [
+        {
+          "id": "PER-01",
+          "title": "Ficha de personaje original",
+          "category": "personajes",
+          "mode": "generacion",
+          "path": "prompts/creative/personajes.md",
+          "anchor": "per-01",
+          "variables": [
+            "destino",
+            "formato",
+            "nombre",
+            "paleta",
+            "personalidad",
+            "publico",
+            "rasgos",
+            "silueta",
+            "universo",
+            "vestuario"
+          ]
+        },
+        {
+          "id": "PER-02",
+          "title": "Turnaround coherente",
+          "category": "personajes",
+          "mode": "generacion",
+          "path": "prompts/creative/personajes.md",
+          "anchor": "per-02",
+          "variables": [
+            "destino",
+            "detalles_posteriores",
+            "fondo",
+            "formato",
+            "personaje",
+            "referencia_personaje"
+          ]
+        },
+        {
+          "id": "PER-03",
+          "title": "Hoja de expresiones",
+          "category": "personajes",
+          "mode": "generacion",
+          "path": "prompts/creative/personajes.md",
+          "anchor": "per-03",
+          "variables": [
+            "destino",
+            "estilo",
+            "expresiones",
+            "fondo",
+            "formato",
+            "personaje",
+            "referencia_personaje"
+          ]
+        },
+        {
+          "id": "PER-04",
+          "title": "Mascota en escena de marca",
+          "category": "personajes",
+          "mode": "generacion",
+          "path": "prompts/creative/personajes.md",
+          "anchor": "per-04",
+          "variables": [
+            "accion",
+            "actitud",
+            "composicion",
+            "destino",
+            "escenario",
+            "formato",
+            "marca",
+            "paleta",
+            "personaje",
+            "referencia_personaje",
+            "zona_texto"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "producto-comercial",
+      "title": "Producto comercial",
+      "path": "prompts/creative/producto-comercial.md",
+      "prompts": [
+        {
+          "id": "PRO-01",
+          "title": "Hero de campaña",
+          "category": "producto-comercial",
+          "mode": "generacion",
+          "path": "prompts/creative/producto-comercial.md",
+          "anchor": "pro-01",
+          "variables": [
+            "destino",
+            "fondo",
+            "formato",
+            "luz",
+            "marca",
+            "material",
+            "paleta",
+            "producto",
+            "referencia_producto",
+            "zona_texto"
+          ]
+        },
+        {
+          "id": "PRO-02",
+          "title": "Producto en uso cotidiano",
+          "category": "producto-comercial",
+          "mode": "generacion",
+          "path": "prompts/creative/producto-comercial.md",
+          "anchor": "pro-02",
+          "variables": [
+            "accion",
+            "destino",
+            "escenario",
+            "formato",
+            "luz",
+            "perspectiva",
+            "producto",
+            "publico",
+            "referencia_producto"
+          ]
+        },
+        {
+          "id": "PRO-03",
+          "title": "Macro de material y acabado",
+          "category": "producto-comercial",
+          "mode": "generacion",
+          "path": "prompts/creative/producto-comercial.md",
+          "anchor": "pro-03",
+          "variables": [
+            "destino",
+            "detalle",
+            "fondo",
+            "formato",
+            "material",
+            "producto",
+            "referencia_producto"
+          ]
+        },
+        {
+          "id": "PRO-04",
+          "title": "Bodegón de colección",
+          "category": "producto-comercial",
+          "mode": "generacion",
+          "path": "prompts/creative/producto-comercial.md",
+          "anchor": "pro-04",
+          "variables": [
+            "atrezzo",
+            "coleccion",
+            "destino",
+            "formato",
+            "paleta",
+            "productos",
+            "protagonista",
+            "superficie",
+            "zona_texto"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "retrato-fotografico",
+      "title": "Retrato fotográfico y avatar",
+      "path": "prompts/creative/retrato-fotografico.md",
+      "prompts": [
+        {
+          "id": "RET-01",
+          "title": "Retrato profesional de estudio",
+          "category": "retrato-fotografico",
+          "mode": "generacion",
+          "path": "prompts/creative/retrato-fotografico.md",
+          "anchor": "ret-01",
+          "variables": [
+            "destino",
+            "expresion",
+            "fondo",
+            "formato",
+            "persona",
+            "referencia_identidad",
+            "uso",
+            "vestuario"
+          ]
+        },
+        {
+          "id": "RET-02",
+          "title": "Retrato editorial en contexto",
+          "category": "retrato-fotografico",
+          "mode": "generacion",
+          "path": "prompts/creative/retrato-fotografico.md",
+          "anchor": "ret-02",
+          "variables": [
+            "destino",
+            "encuadre",
+            "expresion",
+            "formato",
+            "historia",
+            "localizacion",
+            "luz",
+            "paleta",
+            "persona",
+            "referencia_identidad"
+          ]
+        },
+        {
+          "id": "RET-03",
+          "title": "Avatar ilustrado reconocible",
+          "category": "retrato-fotografico",
+          "mode": "generacion",
+          "path": "prompts/creative/retrato-fotografico.md",
+          "anchor": "ret-03",
+          "variables": [
+            "destino",
+            "estilo",
+            "expresion",
+            "fondo",
+            "formato",
+            "persona",
+            "referencia_identidad"
+          ]
+        },
+        {
+          "id": "RET-04",
+          "title": "Serie con identidad consistente",
+          "category": "retrato-fotografico",
+          "mode": "generacion",
+          "path": "prompts/creative/retrato-fotografico.md",
+          "anchor": "ret-04",
+          "variables": [
+            "campana",
+            "cantidad",
+            "destino",
+            "fondo",
+            "formato",
+            "luz",
+            "persona",
+            "referencia_identidad",
+            "variaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "visuales-creativos",
+      "title": "Visuales creativos",
+      "path": "prompts/creative/visuales-creativos.md",
+      "prompts": [
+        {
+          "id": "CRE-01",
+          "title": "Publicidad surrealista",
+          "category": "visuales-creativos",
+          "mode": "generacion",
+          "path": "prompts/creative/visuales-creativos.md",
+          "anchor": "cre-01",
+          "variables": [
+            "destino",
+            "formato",
+            "marca",
+            "mensaje",
+            "metafora",
+            "paleta",
+            "producto",
+            "referencia_producto",
+            "zona_copy"
+          ]
+        },
+        {
+          "id": "CRE-02",
+          "title": "Póster conceptual original",
+          "category": "visuales-creativos",
+          "mode": "generacion",
+          "path": "prompts/creative/visuales-creativos.md",
+          "anchor": "cre-02",
+          "variables": [
+            "composicion",
+            "concepto",
+            "datos",
+            "destino",
+            "emocion",
+            "formato",
+            "genero",
+            "luz",
+            "paleta",
+            "proyecto",
+            "sujeto",
+            "titulo"
+          ]
+        },
+        {
+          "id": "CRE-03",
+          "title": "Campaña con adaptaciones",
+          "category": "visuales-creativos",
+          "mode": "generacion",
+          "path": "prompts/creative/visuales-creativos.md",
+          "anchor": "cre-03",
+          "variables": [
+            "campana",
+            "datos_verificados",
+            "destino",
+            "estilo",
+            "fondo",
+            "formato",
+            "formatos_derivados",
+            "idea",
+            "marca",
+            "paleta",
+            "publico",
+            "referencias_marca",
+            "sujeto",
+            "zona_texto"
+          ]
+        },
+        {
+          "id": "CRE-04",
+          "title": "Fondo abstracto para interfaz",
+          "category": "visuales-creativos",
+          "mode": "generacion",
+          "path": "prompts/creative/visuales-creativos.md",
+          "anchor": "cre-04",
+          "variables": [
+            "destino",
+            "formas_materiales",
+            "formato",
+            "idea",
+            "paleta",
+            "recorte",
+            "uso",
+            "zona_contenido",
+            "zona_decorativa"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "paginas-web",
+      "title": "Páginas web y experiencias digitales",
+      "path": "prompts/web/paginas-web.md",
+      "prompts": [
+        {
+          "id": "WEB-01",
+          "title": "Landing comercial con conversión",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-01",
+          "variables": [
+            "assets",
+            "beneficios",
+            "conversion",
+            "cta",
+            "faq",
+            "marca",
+            "oferta",
+            "paleta",
+            "proyecto_o_stack",
+            "publico",
+            "referencias_marca"
+          ]
+        },
+        {
+          "id": "WEB-02",
+          "title": "Tienda online con catálogo real",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-02",
+          "variables": [
+            "alcance",
+            "assets",
+            "contratos",
+            "fuente_catalogo",
+            "marca",
+            "proyecto_o_plataforma",
+            "publico"
+          ]
+        },
+        {
+          "id": "WEB-03",
+          "title": "Portfolio editorial",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-03",
+          "variables": [
+            "assets",
+            "canal_contacto",
+            "especialidad",
+            "estilo",
+            "paleta",
+            "profesional",
+            "proyectos_reales",
+            "stack_o_proyecto"
+          ]
+        },
+        {
+          "id": "WEB-04",
+          "title": "Restaurante con menú editable",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-04",
+          "variables": [
+            "alergenos",
+            "assets",
+            "direccion",
+            "horarios",
+            "menu_real",
+            "proyecto_o_cms",
+            "reservas_pedidos",
+            "restaurante"
+          ]
+        },
+        {
+          "id": "WEB-05",
+          "title": "SaaS y dashboard con estados reales",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-05",
+          "variables": [
+            "contratos",
+            "fuente_datos",
+            "paleta",
+            "pantallas",
+            "producto",
+            "proyecto",
+            "roles",
+            "tareas_usuario"
+          ]
+        },
+        {
+          "id": "WEB-06",
+          "title": "Rediseño visual preservando lógica",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-06",
+          "variables": [
+            "alcance_dark",
+            "alcance_visual",
+            "estilo_objetivo",
+            "marca",
+            "paleta_existente",
+            "proyecto"
+          ]
+        },
+        {
+          "id": "WEB-07",
+          "title": "WordPress o CMS editable",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-07",
+          "variables": [
+            "acceso",
+            "assets",
+            "contenido",
+            "marca",
+            "paginas",
+            "paleta",
+            "sitio_y_entorno",
+            "tema_builder",
+            "version"
+          ]
+        },
+        {
+          "id": "WEB-08",
+          "title": "Referencia visual a implementación",
+          "category": "paginas-web",
+          "mode": "web",
+          "path": "prompts/web/paginas-web.md",
+          "anchor": "web-08",
+          "variables": [
+            "contenido_real",
+            "marca",
+            "pagina",
+            "paleta",
+            "proyecto_o_stack",
+            "referencia_visual"
+          ]
+        }
+      ]
+    }
+  ]
+}

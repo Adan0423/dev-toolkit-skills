@@ -9,7 +9,7 @@
 [![skills](https://img.shields.io/badge/skills-110-blue?style=flat-square)](docs/skills/skill-packages.md)
 [![packages](https://img.shields.io/badge/SKILL%2F-64%20paquetes-purple?style=flat-square)](SKILL/)
 [![source](https://img.shields.io/badge/skills%2F-110%20fuente-green?style=flat-square)](skills/)
-[![prompts](https://img.shields.io/badge/prompts-4-orange?style=flat-square)](prompts/)
+[![prompts](https://img.shields.io/badge/prompts-68-orange?style=flat-square)](prompts/)
 
 ---
 
@@ -164,7 +164,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | 📋 **[Índice de Documentación](docs/INDEX.md)** | Mapa completo de la documentación |
 | 🎁 **[Paquetes `SKILL/`](docs/skills/skill-packages.md)** | 64 paquetes · qué hace, funciones, casos de uso, entornos |
 | 🛠️ **[Skills fuente `skills/`](docs/skills/source-skills.md)** | 110 skills · desarrollo, pruebas, referencias |
-| 💬 **[Prompts](docs/prompts/README.md)** | 4 prompts reutilizables |
+| 💬 **[Prompts](docs/prompts/README.md)** | 68 prompts reutilizables |
 | 🗂️ **[docs_structure.json](docs_structure.json)** | Índice documental para cargar en otros proyectos |
 
 ---
@@ -241,7 +241,11 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 
 ## 💬 Prompts (`prompts/`)
 
-4 prompts reutilizables listos para copiar/pegar en cualquier agente:
+68 prompts reutilizables: **64 nuevos para imagen, edición y páginas web**, más los cuatro de repositorio.
+
+[Catálogo creativo organizado](prompts/creative/README.md) · [Guía de uso](prompts/creative/guia-de-uso.md).
+
+Los cuatro prompts de repositorio:
 
 | Prompt | Para qué | Cuándo |
 |---|---|---|
@@ -250,7 +254,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | `audit/prompt-auditoria.md` | Auditoría full-stack (arquitectura, UX, seguridad, performance) | Revisar un sistema completo |
 | `docs/prompt-mejorar-readme.md` | Sincronizar README con el código | Documentar un proyecto |
 
-📖 **[Ver los 4 prompts en detalle →](docs/prompts/README.md)**
+📖 **[Ver los 68 prompts en detalle →](docs/prompts/README.md)**
 
 ---
 
@@ -264,7 +268,7 @@ La mayoría se dispara automáticamente por los **triggers** definidos en su `de
 | 📦 Paquetes en `SKILL/` | 64 (13 `.skill` + 51 `.zip`) |
 | 🎁 Nombres de skill en `SKILL/` | 57 |
 | 🛠️ Skills únicas en `skills/` (incluye especialistas anidados) | 110 |
-| 💬 Prompts | 4 |
+| 💬 Prompts | 68 |
 | **Total nombres únicos del repo** | **110** |
 | 🆕 Skills recuperadas de paquetes en esta auditoría | 34 |
 

@@ -1,6 +1,14 @@
 # Prompts Disponibles
 
-> 4 prompts reutilizables para tareas recurrentes de creación, organización, auditoría y documentación.
+> 68 prompts: 64 de creación visual, edición y web, más cuatro de repositorio.
+
+[Catálogo profesional de imágenes y web](../../prompts/creative/README.md) ·
+[Guía de adaptación](../../prompts/creative/guia-de-uso.md) ·
+[Fuentes investigadas](../../prompts/creative/fuentes.md).
+
+La biblioteca nueva cubre 15 categorías con IDs estables y bloques completos. Incluye
+14 categorías de imagen y ocho prompts de páginas web. Los cuatro prompts anteriores
+se conservan sin cambios. No requiere paquetes ZIP o instalación como skill.
 
 ## Prompts Meta (Creación y Organización)
 

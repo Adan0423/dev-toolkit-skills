@@ -24,7 +24,7 @@
 
 ## 💬 Prompts
 
-- [Prompts Disponibles](prompts/README.md) — 4 prompts reutilizables (meta, auditoría, docs).
+- [Prompts Disponibles](prompts/README.md) — 68 prompts: imagen, edición, web y repositorio.
 
 ## 🗂️ Archivos de Referencia
 

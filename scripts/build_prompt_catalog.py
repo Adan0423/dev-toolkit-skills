@@ -29,7 +29,7 @@ def build():
                 raise ValueError('Ancla ausente: ' + identifier)
             body = blocks[0]
             entries.append({'id': identifier, 'title': title, 'category': path.stem,
-                            'mode': 'web' if path.parent.name == 'web' else 'edicion' if path.stem in {'edicion-fotos', 'efectos-visuales'} else 'generacion',
+                            'mode': 'web' if path.parent.name == 'web' else 'codigo-svg' if identifier == 'LOG-04' else 'edicion' if path.stem in {'edicion-fotos', 'efectos-visuales'} else 'generacion',
                             'path': path.relative_to(ROOT).as_posix(), 'anchor': identifier.lower(),
                             'variables': sorted(set(re.findall(r'\{\{([a-z0-9_]+)\}\}', body)))})
         categories.append({'slug': path.stem, 'title': text.splitlines()[0].removeprefix('# '),

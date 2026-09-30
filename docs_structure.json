@@ -124,11 +124,15 @@
       "categories": {
         "audit": {
           "path": "prompts/audit",
-          "promptFiles": ["prompt_auditoria.md"]
+          "promptFiles": [
+            "prompt-auditoria.md"
+          ]
         },
         "docs": {
           "path": "prompts/docs",
-          "promptFiles": ["prompt_mejorar_readme.md"]
+          "promptFiles": [
+            "prompt-mejorar-readme.md"
+          ]
         },
         "meta": {
           "path": "prompts/meta",
@@ -136,8 +140,35 @@
             "prompt-organizar-skills-repo.md",
             "prompt-skill-creator.md"
           ]
+        },
+        "creative": {
+          "path": "prompts/creative",
+          "promptFiles": [
+            "anime-caricaturas.md",
+            "comida.md",
+            "diseno-marca.md",
+            "ecommerce.md",
+            "edicion-fotos.md",
+            "efectos-visuales.md",
+            "estilo-artistico.md",
+            "ilustracion-3d.md",
+            "interiores.md",
+            "logotipos.md",
+            "personajes.md",
+            "producto-comercial.md",
+            "retrato-fotografico.md",
+            "visuales-creativos.md"
+          ]
+        },
+        "web": {
+          "path": "prompts/web",
+          "promptFiles": [
+            "paginas-web.md"
+          ]
         }
-      }
+      },
+      "catalogPath": "prompts/creative/catalog.json",
+      "promptCount": 68
     },
     "agentConfig": {
       "path": ".agents",

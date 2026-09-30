@@ -12,7 +12,7 @@ con repositorios que ya existían. Los 64 nuevos están organizados en 15 catego
 |---|---|
 | Retoque, fondos, restauración, ampliación | [Edición de fotos](creative/edicion-fotos.md) |
 | Fotografía de personas | [Retrato fotográfico](creative/retrato-fotografico.md) |
-| Avatares para perfiles y comunidades | [Retrato y avatar](creative/retrato-avatar.md) |
+| Avatares para perfiles y comunidades | [Retrato y avatar](creative/retrato-fotografico.md#ret-03) |
 | Identidad, packaging y sistema visual | [Diseño de marca](creative/diseno-marca.md) |
 | Símbolos, wordmarks e iconos | [Logotipos](creative/logotipos.md) |
 | Campañas y fotografía de producto | [Producto comercial](creative/producto-comercial.md) |
