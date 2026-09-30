@@ -1,7 +1,7 @@
 {
   "mode": "audit",
-  "source_skills_before": 108,
-  "source_skills_after": 108,
+  "source_skills_before": 109,
+  "source_skills_after": 109,
   "archives": [
     {
       "archive": "adaptive-web-ui-stack-architect.skill",
@@ -136,6 +136,17 @@
       "target": "skills/docs-cv/cv-suite",
       "payload_sha256": "0d8e8bd128455dac5c80420db580c44f3543d0f24c08476c4698ae6a4c99db82",
       "files": 11,
+      "status": "equivalente a fuente"
+    },
+    {
+      "archive": "database-engineering-suite.zip",
+      "archive_sha256": "49f14f472471bffb15b449eda649bb232aeedc12abff11ba9b2e975b8e3f84c4",
+      "names": [
+        "database-engineering-suite"
+      ],
+      "target": "skills/architecture/database-engineering-suite",
+      "payload_sha256": "1ac5b5a9a8cb351c85f532036dbd03bea6e6f3eadcaa4c23795d4a3044269e33",
+      "files": 15,
       "status": "equivalente a fuente"
     },
     {
@@ -801,6 +812,17 @@
       "variants": []
     },
     {
+      "group": "database-engineering-suite",
+      "names": [
+        "database-engineering-suite"
+      ],
+      "target": "skills/architecture/database-engineering-suite",
+      "was_missing": false,
+      "selected_archive": "database-engineering-suite.zip",
+      "selection": "Mayor número de archivos; no implica más reciente/mejor",
+      "variants": []
+    },
+    {
       "group": "doc-coauthoring",
       "names": [
         "doc-coauthoring"
@@ -1284,6 +1306,14 @@
     }
   ],
   "inventory": [
+    {
+      "name": "database-engineering-suite",
+      "path": "skills/architecture/database-engineering-suite/SKILL.md",
+      "lines": 66,
+      "encoding": "utf-8",
+      "description": "Modela, crea y revisa bases de datos SQL y NoSQL; diseña relaciones, tablas o documentos, migraciones, índices y seguridad de filas/columnas. Úsalo para crear esquemas, auditar permisos o mejorar consultas, mediante código y MCP compatible.",
+      "issues": []
+    },
     {
       "name": "modern-software-architect",
       "path": "skills/architecture/modern-software-architect/SKILL.md",

@@ -24,7 +24,7 @@ def main():
         if not item.is_file() or set(relative.parts) & EXCLUDE or item.suffix == ".pyc":
             continue
         inside(item, source)
-        if item.name == ".env" or item.name.startswith(".env."):
+        if item.name.casefold() == ".env" or item.name.casefold().startswith(".env."):
             parser.error("Revisar y retirar archivos de entorno antes de empaquetar")
         if item.name == "SKILL.md" and relative.as_posix() != "SKILL.md":
             parser.error("Las skills anidadas requieren un empaquetador específico")

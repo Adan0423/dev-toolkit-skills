@@ -3,7 +3,7 @@
 Se añadieron siete skills principales y 34 especialidades internas. Cada entrada
 elige el modo que corresponde a la tarea y lee solo su guía inicial; carga recursos
 adicionales cuando la implementación los necesita. Las 95 fuentes anteriores se
-conservan: ahora hay 108 SKILL.md y 62 paquetes; marketing añade además seis fuentes individuales.
+conservan: ahora hay 109 SKILL.md y 63 paquetes; marketing añade además seis fuentes individuales.
 
 | Familia | Especialidades | Paquete |
 |---|---|---|

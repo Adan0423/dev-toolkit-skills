@@ -24,7 +24,7 @@ autorización y límites; prefiere conteos/aggregados/muestras sintéticas para 
 No presume que SQL iniciado con SELECT es libre de efectos; revisa funciones y operación.
 Ejecutar triggers/procedimientos no es lectura de metadatos.
 
-Use mecanismos read-only y timeouts soportados por motor/proveedor cuando ayuden.
+Usa mecanismos read-only y timeouts soportados por motor/proveedor cuando ayuden.
 «Read-only» no convierte una consulta pesada en económica. Reporta truncado/paginación;
 ausencia, denegación, error y desconocido son estados distintos. Inventario bajo un rol
 restringido no demuestra inexistencia de objetos ni grants invisibles.

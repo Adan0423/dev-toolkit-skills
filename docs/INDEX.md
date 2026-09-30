@@ -8,12 +8,14 @@
 
 ## 🧠 Skills
 
+- [Bases de datos: modelado y seguridad](skills/database-engineering.md) — SQL/NoSQL, migraciones, permisos y MCP compatible.
+
 - [Marketing profesional](skills/marketing-skills.md) — Estrategia, contenido, Meta Ads, Google Ads, TikTok Ads y medición.
 
 - [Familias con carga selectiva](skills/family-skills.md) — Siete skills principales y 34 especialidades internas.
 
-- [Skills Listadas (`SKILL/` — Listas para Usar)](skills/skill-packages.md) — 62 paquetes (55 nombres de skill). Formato listo para producción, sin compilación.
-- [Skills Fuente (`skills/` — Desarrollo/Pruebas)](skills/source-skills.md) — 108 skills únicas, incluyendo especialistas anidados. Úsalas para desarrollo, pruebas y mejora.
+- [Skills Listadas (`SKILL/` — Listas para Usar)](skills/skill-packages.md) — 63 paquetes (56 nombres de skill). Formato listo para producción, sin compilación.
+- [Skills Fuente (`skills/` — Desarrollo/Pruebas)](skills/source-skills.md) — 109 skills únicas, incluyendo especialistas anidados. Úsalas para desarrollo, pruebas y mejora.
 
 - [Auditoría y propuesta de agrupación](skills/organization-review.md) — Fuentes recuperadas, variantes y mejoras para las 95 skills.
 
