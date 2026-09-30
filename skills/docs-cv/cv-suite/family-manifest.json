@@ -1,0 +1,45 @@
+{
+  "family": "cv-suite",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "format": {
+      "source": "skills/docs-cv/cv-builder-harvard",
+      "source_metadata": {
+        "name": "cv-builder-harvard",
+        "description": "Formats resumes/CVs following the Harvard OCS (Office of Career Services) resume guidelines — a clean, one-page, reverse-chronological format widely recognized by recruiters. Use this skill whenever the user asks for a CV or resume \"estilo Harvard\", \"modelo Harvard\", \"Harvard format\", or wants their resume tightened up, made more scannable, or brought in line with a standard professional/academic resume format. Also use when reviewing or critiquing an existing CV for formatting, structure, or wording issues (passive language, missing action verbs, inconsistent dates, too long, personal pronouns, etc.), even if the user doesn't explicitly say \"Harvard\". Applies to any language — translate section labels but keep the underlying structure and rules."
+      },
+      "source_files_sha256": {
+        "references/action-verbs.md": "b51a6de7138add115709a9112f68ca1ec12dc8b81008e90eb0a886efb314cbae",
+        "SKILL.md": "a448c8c69003cc740fbb8b7bf1888edf7759cd93475c3ac45a6797960f251bae"
+      },
+      "adaptations": []
+    },
+    "ats": {
+      "source": "skills/docs-cv/cv-harvard-ats",
+      "source_metadata": {
+        "name": "cv-harvard-ats",
+        "description": "Crea, reescribe o audita un CV/currículum siguiendo el modelo Harvard (orientado a logros cuantificados) combinado con optimización ATS (Applicant Tracking System), para maximizar el score en herramientas de diagnóstico de CV (ATS, Enfoque, Impacto, Claridad, Contacto, Legibilidad) y aumentar la tasa de respuesta de reclutadores. Funciona para CUALQUIER área o industria (tecnología, salud, ventas, administración, educación, legal, operaciones, marketing, ingeniería, seguridad, etc.), no solo tech. Usa este skill siempre que el usuario pida mejorar u optimizar un CV, subir el score ATS, reescribir logros con métricas, adaptar un CV a una vacante específica, o si comparte un diagnóstico o reporte de un analizador de CV (score, palabras clave faltantes, hallazgos) y pide corregirlo. También úsalo si el usuario simplemente pega su experiencia laboral y pide \"hazme un CV\" o \"revisa mi CV\", aunque no mencione \"Harvard\" o \"ATS\" explícitamente.\n"
+      },
+      "source_files_sha256": {
+        "references/adaptacion_por_industria.md": "2d824ce9ad91aff8cb20694f8d39e13e6a4b3285f2ce8a39ec13ccfae01a8fb8",
+        "references/checklist_dimensiones.md": "eaf3de34a3b637db969738d9053a06580f9c73d989f4d2da0655f51727a5fa02",
+        "references/estructura_harvard.md": "ccf71a57eff8618ef0054c0d02b8093ca59b3aa86cf0f2f494ee75d7f7c4a6d9",
+        "references/formula_logros.md": "8f7e34ac83f9736e725f0cb6b25ee4915916818b4bd6a31d6311fbf78e00b897",
+        "references/reglas_ats.md": "e99fa0bd0d6ade86d93f725524f68a00e64dce30ac07bb48385243a25c3c4f75",
+        "SKILL.md": "8fb21d29830a7b7783a75846e6950dc6beb147b90b9156b1f14581e1c6264d08"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/ats/guide.md",
+    "references/specialties/ats/references/adaptacion_por_industria.md",
+    "references/specialties/ats/references/checklist_dimensiones.md",
+    "references/specialties/ats/references/estructura_harvard.md",
+    "references/specialties/ats/references/formula_logros.md",
+    "references/specialties/ats/references/reglas_ats.md",
+    "references/specialties/format/guide.md",
+    "references/specialties/format/references/action-verbs.md"
+  ]
+}

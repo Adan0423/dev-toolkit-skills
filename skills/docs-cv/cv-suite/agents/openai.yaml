@@ -1,0 +1,4 @@
+interface:
+  display_name: "CV: formato y adaptación ATS"
+  short_description: "CV por tarea: formato Harvard, logros y ATS"
+  default_prompt: "Usa $cv-suite para esta tarea y carga solo la especialidad necesaria."

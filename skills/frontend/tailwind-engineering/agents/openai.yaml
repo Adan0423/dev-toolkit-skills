@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailwind: configuración y temas"
+  short_description: "Tailwind por tarea: instalación, temas y shadcn"
+  default_prompt: "Usa $tailwind-engineering para esta tarea y carga solo la especialidad necesaria."

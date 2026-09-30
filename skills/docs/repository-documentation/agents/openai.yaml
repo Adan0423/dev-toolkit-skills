@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentación de repositorios"
+  short_description: "Auditoría, README y actualización por cambios"
+  default_prompt: "Usa $repository-documentation para esta tarea y carga solo la especialidad necesaria."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "React: ingeniería selectiva"
+  short_description: "React por tarea: componentes, datos y rendimiento"
+  default_prompt: "Usa $react-engineering para esta tarea y carga solo la especialidad necesaria."

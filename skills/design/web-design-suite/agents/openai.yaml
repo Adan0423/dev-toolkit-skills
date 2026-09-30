@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diseño web: especialidades"
+  short_description: "Diseño por tarea: responsive, estilo y acabado"
+  default_prompt: "Usa $web-design-suite para esta tarea y carga solo la especialidad necesaria."

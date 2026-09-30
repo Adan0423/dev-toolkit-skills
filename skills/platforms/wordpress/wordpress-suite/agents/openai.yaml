@@ -1,0 +1,4 @@
+interface:
+  display_name: "WordPress: selector de especialidad"
+  short_description: "WordPress por tarea: código, builder y contenido"
+  default_prompt: "Usa $wordpress-suite para esta tarea y carga solo la especialidad necesaria."

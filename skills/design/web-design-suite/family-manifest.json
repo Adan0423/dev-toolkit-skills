@@ -1,0 +1,234 @@
+{
+  "family": "web-design-suite",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "direction": {
+      "source": "skills/design/frontend-design",
+      "source_metadata": {
+        "name": "frontend-design",
+        "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+        "license": "Complete terms in LICENSE.txt"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "35c43b9d10c2388dbb228047ad028c989a14033750812125f351c85aa42c7a4a"
+      },
+      "adaptations": []
+    },
+    "stack": {
+      "source": "skills/design/adaptive-web-ui-stack-architect",
+      "source_metadata": {
+        "name": "adaptive-web-ui-stack-architect",
+        "description": "Analyze a web/frontend project before selecting UI libraries, CSS engines, headless primitives, component systems, icons, animation, data UI, and design systems. Choose the smallest coherent stack based on framework, product, UX, accessibility, performance, maintainability, compatibility, licensing, and existing architecture; then integrate or refactor it safely."
+      },
+      "source_files_sha256": {
+        "README.md": "623d687c71ee2a87d504af26297496d81054c6cb52377d4862896d2ecbe47e93",
+        "references/accessibility-performance.md": "ecd272dda1038efd42c1e715a1b654d050376944f9f100be6769ddf6b55afde8",
+        "references/catalog.md": "c2f3f58e49c4aeb1098790e52f187b53298ce9bed7d830406cde9d2896cdad36",
+        "references/decision-engine.md": "620ec4cb111850457a484d5cd45a378e2dff28ddb14ca951753173913e879045",
+        "references/migration-safety.md": "444bcb7ea7ed5ecf7676ccb3aab8543fc813fffdf9617db7b859a8f673fb8731",
+        "references/research-policy.md": "f26b32bbdcc4ee27813234fb98519cd6c000105e16769c51c064f7d56fa9a1a8",
+        "references/scoring-model.md": "9f6c5b63511ddf14003c106f0c12a1658b1d9d023e86e0cbe07204f42073ea32",
+        "references/source-baseline.md": "3d95b0f1bfc8cd1c4a98fa8655792f59fd8bd7a0e194a82fdffcf7490350b8fe",
+        "references/stack-recipes.md": "c3d966f8787b736f42c80721edf199bafaae076abb6c361445e8eaece437adae",
+        "scripts/inspect_frontend_stack.py": "9751ff4543c00bcd08f96489152916209f7918f0867e4a0ce5276a6b1833df83",
+        "scripts/validate_skill.py": "568a869ecb35441d7d61325bb714d82433f368dbed7829a5cb118ae28adfa890",
+        "SKILL.md": "cec5027a71449c1223f3f0dc86d4d7b835d6fa1d825c156ac43bfd3e527b16b7"
+      },
+      "adaptations": [
+        "Helper scripts/validate_skill.py: referencia SKILL.md adaptada a guide.md"
+      ]
+    },
+    "discovery": {
+      "source": "skills/design/shape",
+      "source_metadata": {
+        "name": "shape",
+        "description": "Plan the UX and UI for a feature before writing code. Runs a structured discovery interview, then produces a design brief that guides implementation. Use during the planning phase to establish design direction, constraints, and strategy before any code is written.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[feature to shape]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "3150e0c216e55c57ff3ec3e369ec7b25dcceac2d60e91e20a8b895275e37d0d2"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "audit": {
+      "source": "skills/design/audit",
+      "source_metadata": {
+        "name": "audit",
+        "description": "Run technical quality checks across accessibility, performance, theming, responsive design, and anti-patterns. Generates a scored report with P0-P3 severity ratings and actionable plan. Use when the user wants an accessibility check, performance audit, or technical quality review.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[area (feature, page, component...)]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "9cecba04542aa07d0849ca56047ef098a6b258ba6d6f963e607580154922aa2e"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "responsive": {
+      "source": "skills/design/adapt",
+      "source_metadata": {
+        "name": "adapt",
+        "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Implements breakpoints, fluid layouts, and touch targets. Use when the user mentions responsive design, mobile layouts, breakpoints, viewport adaptation, or cross-device compatibility.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target] [context (mobile, tablet, print...)]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "300334ad51a97f93010672b91b5b963517a6e22a942d6ee121cc1ffd87058059"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "layout": {
+      "source": "skills/design/layout",
+      "source_metadata": {
+        "name": "layout",
+        "description": "Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy. Use when the user mentions layout feeling off, spacing issues, visual hierarchy, crowded UI, alignment problems, or wanting better composition.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "0be169c9ac11c2254e0b50087e71228eae48a8284a0a4cf7a1a86967d571c0bc"
+      },
+      "adaptations": [
+        "Dependencia no autocontenida eliminada: reference/spatial-design.md",
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "typography": {
+      "source": "skills/design/typeset",
+      "source_metadata": {
+        "name": "typeset",
+        "description": "Improves typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional. Use when the user mentions fonts, type, readability, text hierarchy, sizing looks off, or wants more polished, intentional typography.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "d8375e70d99d22f451e371bdb201ba6cb6d5987847413414b462119b1b16bd37"
+      },
+      "adaptations": [
+        "Dependencia no autocontenida eliminada: reference/typography.md",
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "color": {
+      "source": "skills/design/colorize",
+      "source_metadata": {
+        "name": "colorize",
+        "description": "Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and expressive. Use when the user mentions the design looking gray, dull, lacking warmth, needing more color, or wanting a more vibrant or expressive palette.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "abf7264b72e601446846980b8f5e79c700f5b8a7893f48908f0b6ed22e9a591f"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "motion": {
+      "source": "skills/design/animate",
+      "source_metadata": {
+        "name": "animate",
+        "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight. Use when the user mentions adding animation, transitions, micro-interactions, motion design, hover effects, or making the UI feel more alive.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "42fafb3c1810eb963386deaedbd29afa22f9cfce66acc54ebe4a1c92ef656f16"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "polish": {
+      "source": "skills/design/polish",
+      "source_metadata": {
+        "name": "polish",
+        "description": "Performs a final quality pass fixing alignment, spacing, consistency, and micro-detail issues before shipping. Use when the user mentions polish, finishing touches, pre-launch review, something looks off, or wants to go from good to great.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "3b3332ab107b88cdc1d6609e84a9591f209ce12787b0d76ef828a20f3c0dee95"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    },
+    "performance": {
+      "source": "skills/design/optimize",
+      "source_metadata": {
+        "name": "optimize",
+        "description": "Diagnoses and fixes UI performance across loading speed, rendering, animations, images, and bundle size. Use when the user mentions slow, laggy, janky, performance, bundle size, load time, or wants a faster, smoother experience.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[target]"
+      },
+      "source_files_sha256": {
+        "SKILL.md": "3a4b20c725d267a9d2a907af3017808d2f9d0c7e6e300406abd876bb31e1c80f"
+      },
+      "adaptations": []
+    },
+    "critique": {
+      "source": "skills/design/critique",
+      "source_metadata": {
+        "name": "critique",
+        "description": "Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring, persona-based testing, automated anti-pattern detection, and actionable feedback. Use when the user asks to review, critique, evaluate, or give feedback on a design or component.",
+        "version": "2.1.1",
+        "user-invocable": true,
+        "argument-hint": "[area (feature, page, component...)]"
+      },
+      "source_files_sha256": {
+        "reference/cognitive-load.md": "391d0e54c121159728add60b5f0a494ca384e7dadd72e6c3522fb99f736b7990",
+        "reference/heuristics-scoring.md": "b8cd6d25784e090d8272a428551277a5f7da1797ec843a8f338e142a193b3c7f",
+        "reference/personas.md": "e226d8caa54eb011bac76675acd85e3c1afd9f1dc44348341ae76284ae209c4d",
+        "SKILL.md": "5cb00da0390d9918edd7006ca361c843a37a40873c9ceaf178578359e686bfce"
+      },
+      "adaptations": [
+        "Preparación Impeccable sustituida por contexto de familia"
+      ]
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/audit/guide.md",
+    "references/specialties/color/guide.md",
+    "references/specialties/critique/guide.md",
+    "references/specialties/critique/reference/cognitive-load.md",
+    "references/specialties/critique/reference/heuristics-scoring.md",
+    "references/specialties/critique/reference/personas.md",
+    "references/specialties/direction/guide.md",
+    "references/specialties/discovery/guide.md",
+    "references/specialties/layout/guide.md",
+    "references/specialties/motion/guide.md",
+    "references/specialties/performance/guide.md",
+    "references/specialties/polish/guide.md",
+    "references/specialties/responsive/guide.md",
+    "references/specialties/stack/README.md",
+    "references/specialties/stack/guide.md",
+    "references/specialties/stack/references/accessibility-performance.md",
+    "references/specialties/stack/references/catalog.md",
+    "references/specialties/stack/references/decision-engine.md",
+    "references/specialties/stack/references/migration-safety.md",
+    "references/specialties/stack/references/research-policy.md",
+    "references/specialties/stack/references/scoring-model.md",
+    "references/specialties/stack/references/source-baseline.md",
+    "references/specialties/stack/references/stack-recipes.md",
+    "references/specialties/stack/scripts/inspect_frontend_stack.py",
+    "references/specialties/stack/scripts/validate_skill.py",
+    "references/specialties/typography/guide.md"
+  ]
+}

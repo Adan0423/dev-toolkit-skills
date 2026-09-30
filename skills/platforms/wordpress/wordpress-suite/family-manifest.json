@@ -1,0 +1,63 @@
+{
+  "family": "wordpress-suite",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "code": {
+      "source": "skills/platforms/wordpress/wordpress-theme-studio",
+      "source_metadata": {
+        "name": "wordpress-theme-studio",
+        "description": "Crea y personaliza temas WordPress con código propio, clásicos o de bloques, diseño responsive y modo oscuro. Úsalo para desarrollar temas, integrar skills de diseño, cargar artículos y medios, configurar sitios y operar mediante WordPress MCP, REST API, WP-CLI o el administrador según acceso disponible."
+      },
+      "source_files_sha256": {
+        "assets/entrega-wordpress.md": "a8742e2b67504658cac036e21897fe98aba8c343b64c277e2bf2ff26207e69f8",
+        "references/connections.md": "8c3820b613bb6c1f3814eb8aa6ca8df220fcbbb9fe5d791030fbe5fddc817186",
+        "references/content-operations.md": "cf97f432b614bd130b430222d8738b286effdd958e75020d076df3acd5f7e81a",
+        "references/design.md": "eb795197921e3c5aa8462b0f866d653bf37163ae7cb5b9053e5430d8ec06102c",
+        "references/quality.md": "92010f736a6c1303199a521400c37b242b00a33d95e43b643e1d0be4db6e426c",
+        "references/sources.md": "2aaa82185d0be9987f1d08d909fec33e48fda826d6c2a5f5b9e97d3b6a3469cc",
+        "references/theme-engineering.md": "80ae1e7dcd6e9daff5ce4a6608eb3262e9a4a663f93d8e21385d5ef7281e8c88",
+        "SKILL.md": "8d66883a240fed5a3937258a9c4c23f02161b7a4342a76bdb095dc8e911f375f"
+      },
+      "adaptations": []
+    },
+    "builder": {
+      "source": "skills/platforms/wordpress/wordpress-elementor-commerce",
+      "source_metadata": {
+        "name": "wordpress-elementor-commerce",
+        "description": "Crea, rediseña y administra sitios WordPress con Elementor, WooCommerce y plugins. Úsalo para diseño moderno editable, responsive móvil/tablet/desktop, modo oscuro, artículos, productos y configuración; opera mediante MCP, editor, REST o WP-CLI según capacidades y acceso reales."
+      },
+      "source_files_sha256": {
+        "assets/entrega-sitio.md": "5ec69c5a34e5de30f4c75df6d1f3eb07ff5155175de13d88726e0e7b03530891",
+        "references/connections-plugins.md": "b0391de15219a2d491217e739e6a29980dc23542b5a4a3587f95e2ca1d5af9ec",
+        "references/content.md": "e004c921b4e71557fa37f48f200e44f40889704d355b553fd5289b45b3b04e69",
+        "references/elementor.md": "8d9940c007b44b26cd79b8a31f2dec8c4d8a09cc86736d456a99954ce8e34ec1",
+        "references/quality.md": "b5138a3c21d5e6b39147da0fb3c87cb7619e6d0c0ed271883cb6cf734c774c01",
+        "references/responsive-dark.md": "8c71e99d72f1192e7244b581d8990bbcdbd0668758de4d16d979f5bb2077755b",
+        "references/sources.md": "7fdf46d116c20866e44b407775ed84e1eabaea79ad0e0198d19831dd2648414a",
+        "references/woocommerce.md": "68d8760caff8e8f3f956d35c0e60eff69762de6b5794e487c9ed22f0b0cc0238",
+        "SKILL.md": "6e61650abcaaa675243f544a4f2da3acb6b3ea0ca890f0a568598faba5ab7b2e"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/builder/assets/entrega-sitio.md",
+    "references/specialties/builder/guide.md",
+    "references/specialties/builder/references/connections-plugins.md",
+    "references/specialties/builder/references/content.md",
+    "references/specialties/builder/references/elementor.md",
+    "references/specialties/builder/references/quality.md",
+    "references/specialties/builder/references/responsive-dark.md",
+    "references/specialties/builder/references/sources.md",
+    "references/specialties/builder/references/woocommerce.md",
+    "references/specialties/code/assets/entrega-wordpress.md",
+    "references/specialties/code/guide.md",
+    "references/specialties/code/references/connections.md",
+    "references/specialties/code/references/content-operations.md",
+    "references/specialties/code/references/design.md",
+    "references/specialties/code/references/quality.md",
+    "references/specialties/code/references/sources.md",
+    "references/specialties/code/references/theme-engineering.md"
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "family": "react-engineering",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "architecture": {
+      "source": "skills/frontend/react-frontend",
+      "source_metadata": {
+        "name": "react-frontend",
+        "class": "language",
+        "description": "React architecture patterns, TypeScript, Next.js, hooks, and testing. Use when working with React component structure, state management, Next.js routing, Vitest, React Testing Library, or reviewing React code. For visual design and aesthetic direction, use frontend-design instead.",
+        "paths": "**/*.tsx,**/*.jsx"
+      },
+      "source_files_sha256": {
+        "references/e2e-testing.md": "2c26a29d099c7f450b7a15fbc6490d179b471202e3c67e504bbd405105db55e2",
+        "references/testing.md": "d5f3831ef71ec2f0bedf5856c4d57cb00246cbb963cfca384f471ad27d72620e",
+        "SKILL.md": "16d22061078b6bdf5d04ab2bfe964be3ed3d13b7d384147d37ab00922462ded1",
+        "SPEC.md": "78cad72ff11415808aeae54da350ce57f61b6abfaa4cc64d4c0c349c65c56deb"
+      },
+      "adaptations": [
+        "Dependencia no autocontenida eliminada: ../ia-tailwind-css/SKILL.md",
+        "Dependencia no autocontenida eliminada: ../ia-writing-tests/SKILL.md"
+      ]
+    },
+    "implementation": {
+      "source": "skills/frontend/react-frontend-expert",
+      "source_metadata": {
+        "name": "react-frontend-expert",
+        "description": "React/TypeScript frontend implementation patterns. Use during the implementation phase when creating or modifying React components, custom hooks, pages, data fetching logic with TanStack Query, forms, or routing. Covers component structure, hooks rules, custom hook design (useAuth, useDebounce, usePagination), TypeScript strict-mode conventions, form handling, accessibility requirements, and project structure. Does NOT cover testing (use react-testing-patterns), E2E testing (use e2e-testing), or deployment.",
+        "license": "MIT",
+        "compatibility": "React 18+, TypeScript 5+, TanStack Query 5+, Vite 5+, React Router 6+",
+        "metadata": {
+          "author": "platform-team",
+          "version": "1.0.0",
+          "sdlc-phase": "implementation"
+        },
+        "allowed-tools": "Read Edit Write Bash(npm:*) Bash(npx:*)",
+        "context": "fork"
+      },
+      "source_files_sha256": {
+        "references/component-templates.md": "1abee9e269a202482f76c95c108c0634aaac4e3882899839fdcac25e5d5cafb6",
+        "references/tanstack-query-patterns.md": "e6ad5d168619e742614ca9682a4686bedab4d9c37a5e5bfc881ef206d0cda6e3",
+        "SKILL.md": "6fbcb099f663849fdb739fc5a31d0b6fda4bd1c4acf7b531738f59a5cc13492d"
+      },
+      "adaptations": []
+    },
+    "performance": {
+      "source": "skills/frontend/frontend-react-best-practices",
+      "source_metadata": {
+        "name": "frontend-react-best-practices",
+        "description": "React performance optimization guidelines. Use when writing, reviewing, or refactoring React components to ensure optimal rendering and bundle patterns. Triggers on tasks involving React components, hooks, memoization, or bundle optimization."
+      },
+      "source_files_sha256": {
+        "rules/bundle-barrel-imports.md": "15b8a00c1b6349125e074caf8eb30e855e84b59a4449ac29c593855d803abb2d",
+        "rules/bundle-conditional.md": "6d4e08fc7ee843ec55c3b1e933c3c6928613f5718ce0a6b4a21710c7f26ae6ba",
+        "rules/bundle-preload.md": "dc67346c4b237c3825889cd85069af74026bcb2a6d18cfe7a9eee9a89cc0943c",
+        "rules/client-localstorage-schema.md": "e79ae68f0753ed24ea3c804427116541bf25aaf5483680a02442015727131f6e",
+        "rules/client-passive-event-listeners.md": "74907b2dbadb37bcd0f3626e60caeb0106e7377b7b4002a9522c478ca38f3321",
+        "rules/composition-avoid-boolean-props.md": "f40163a6f7009684f51580ba8385a3f8f7c709ef0ba3a47e10187b9014920aba",
+        "rules/composition-avoid-overabstraction.md": "d3a7c1128c62d4c3c8ad68e12741aa1ed8014467d4971ff1c4e690b6fe8ed23a",
+        "rules/composition-children-over-render-props.md": "95678abc139cecf52e450a047dd17d9c49a803c193643e8df5d063e592ce2cb3",
+        "rules/composition-compound-components.md": "2e48da5def2c425000fddb371051ed48f4eea905ad15e90b31a3414288734396",
+        "rules/composition-explicit-variants.md": "cfeeefdf59fab6ee4249d1d30068ca1d35d72950a2d87a98b0082cd8276f9cb0",
+        "rules/composition-state-provider.md": "856b45d331b9c8bf8fa2087049e86175e7cc1d1104ba1afe6f773ba082323afb",
+        "rules/composition-typescript-namespaces.md": "4296581fc8349a804b869324b2570155a35729933cc9520476a74f245abb52e8",
+        "rules/fault-tolerant-error-boundaries.md": "efbb44830f3ca5762ae805e891b6913ded6b2076fa7fbe9aa89e36c0bd166d23",
+        "rules/hooks-limit-useeffect.md": "2654170fa0f35ab13d4b67eb13624207d90bb7c1ec5bc58b043a61ebd2826dbe",
+        "rules/hooks-useeffect-named-functions.md": "f01503ae644605717e07a33400b0d55b817f971ba4330862bbc62ecda9123c14",
+        "rules/rendering-animate-svg-wrapper.md": "18bd8acd859f999403be5ef532060a74889bcf742325c045856ef74a6d2fabae",
+        "rules/rendering-client-only.md": "948494338ce83874cd3ed04edcc69884a0b777385b9cf10ed9ae09432305d2b6",
+        "rules/rendering-conditional-render.md": "a4c779310a1ac6f41f0047434fc1b52eef9d3458fc82c2ab8fda66b009f9d19f",
+        "rules/rendering-content-visibility.md": "26d30826ad3f8a88a795b2343e88ba9cb1524a60f3e819d9b05c42d5f10e5a48",
+        "rules/rendering-hoist-jsx.md": "3b85a65e8530301718d6faf90c24a77577c1f2b9da189559746cbb65085f47d4",
+        "rules/rendering-hydration-no-flicker.md": "3f7471fcc41169a4b55861805aebf3b02c4c2d3cae642b8f60dfd3316a2c9dc4",
+        "rules/rendering-hydration-suppress-warning.md": "d50517485f27db273e1b37abecbb479584ead1655911f18a47dbcb959a4214e0",
+        "rules/rendering-svg-precision.md": "d57cdfaaaf660a28a9a5d6d10e97202a5eb13e1bc1675e024cb1ccbfa8bb2c32",
+        "rules/rendering-use-hydrated.md": "e0ad71d1bcdbb0b8faf61c296ea35878504dd7b3a9362eb39dd73a805f20f631",
+        "rules/rendering-usetransition-loading.md": "75f4df0e2b0ea1a614ca0361db6c4d82bb38a698943f6a2ff971c1d4f357d25a",
+        "rules/rerender-dependencies.md": "b7f2a3ec925a57b7cc076b4d4bd99bb58db0c4970dd739c5f2b6f6bf81c11334",
+        "rules/rerender-derived-state-no-effect.md": "fb375d460530e37f3cc897eebf53b7b0fc8d2e69a3e3917843408b7f581fcfbe",
+        "rules/rerender-derived-state.md": "57ce7f3b53986f58a7b5c3a89b9c6b02873ea798d2874b4101b61ae60b0c9321",
+        "rules/rerender-functional-setstate.md": "53bd668779085b60ed641295203b65b965175ed07ab1db7732d1eaf74e5d65b6",
+        "rules/rerender-lazy-state-init.md": "d55bb2aa09f563ba4037095dcf7bcaf309ec248f0c944d9e5648cdd77c35ddc6",
+        "rules/rerender-memo-with-default-value.md": "57d5d90f1bd2d5c889e9fe98c505e51fc4794b86196fe5ae6beedb140459d28a",
+        "rules/rerender-memo.md": "72e53abe090e6ed27562331587f58d17e6ea8ebb17f75a2d1c252cf0ae36f96f",
+        "rules/rerender-move-effect-to-event.md": "e034641963b3d9784914a13bd71f92c63d7004a98c26a17536fe7d4988945903",
+        "rules/rerender-simple-expression-in-memo.md": "0ca8d27f1fc6a9debdd026010ffc0e08966e9c755f65239cc1269b19014c349a",
+        "rules/rerender-transitions.md": "c0f397a2c2947fb122e94445c088273ada5b6000003caf3f41855137feeee526",
+        "rules/rerender-use-ref-transient-values.md": "1f5c21796fead0a05ecf08055a1dd3cfcf85a422b444b2d608942b7c516f4bda",
+        "SKILL.md": "52e1687091b4ab398fa5a7c28e6aa770e47ec7cb6acf8189038bd72f3a1b6181"
+      },
+      "adaptations": []
+    },
+    "modernization": {
+      "source": "skills/frontend/react-2026",
+      "source_metadata": {
+        "name": "react-2026",
+        "description": "Provides a comprehensive guide to the modern React 2026 stack. Use when starting a new React project or modernizing an existing one with current frameworks, build tools, routing, state management, or AI integration.",
+        "context": "fork",
+        "allowed-tools": "Read, Grep, Glob",
+        "paths": [
+          "**/*.tsx",
+          "**/*.jsx"
+        ],
+        "license": "MIT",
+        "metadata": {
+          "author": "patterns.dev",
+          "version": "1.1"
+        },
+        "related_skills": [
+          "hooks-pattern",
+          "hoc-pattern"
+        ]
+      },
+      "source_files_sha256": {
+        "SKILL.md": "9e28474e9bbdc678987a2aa27614242c79a9fd44de74eb08fa80e8f379db8e16"
+      },
+      "adaptations": []
+    },
+    "routing": {
+      "source": "skills/frontend/react-router-framework-mode",
+      "source_metadata": {
+        "name": "react-router-framework-mode",
+        "description": "Build full-stack React applications using React Router's framework mode. Use when configuring routes, working with loaders and actions, handling forms, handling navigation, pending/optimistic UI, error boundaries, or working with react-router.config.ts or other react router conventions.",
+        "license": "MIT"
+      },
+      "source_files_sha256": {
+        "references/actions.md": "abf5215c8debaabcd77ffc9026f4f2675f365590bb915625fefaf126c46571bf",
+        "references/data-loading.md": "61322b7f6dbef4fbf3d459afb5c8731050e0dc418cc64b8b63c3cd2456f0eb1e",
+        "references/error-handling.md": "9469a7a95b3a5bf105bbb3254c7c5f9001e8528a1e2a4a11a6efa374898e20b4",
+        "references/middleware.md": "f588eb64c8c2627e7563b7565dd900169f1fb7f5dcea19a630dff796286e0bc9",
+        "references/navigation.md": "0c3f5c00708ceddf17003815ad5bcb46530a47e925a2162ccd0b3a5aa6ec923e",
+        "references/pending-ui.md": "a2f9f6997dbca6af584620f193cdc8c1afa6a13b4c5b95b63e395781ecab2a4c",
+        "references/rendering-strategies.md": "c1b2587f37e4d23b72c9ed56b1e6e7cbd2bbb517497ffd60c2a8c2487cf3baee",
+        "references/route-modules.md": "8941bd96440808d8d62783bd82f132bbfd7d96113da6d308f3e6bea1dbc0cefd",
+        "references/routing.md": "a87a3f59595c6044c5cb17e5c5bc5c3f9f20f44d66b0b1b0d3718d18506efc84",
+        "references/sessions.md": "2e2174f58bb375985b5aa08a5c257dad5d5f62ab87c0148f63ed5129183f92c1",
+        "references/special-files.md": "1b3d49ab010c7d4c6d8997f21349d073c8c66cdc9a1d05dc6119fd405825e984",
+        "references/type-safety.md": "920da7364df072d62529db89f148c3f94aa113bacdf976c7eb9021b62210737a",
+        "SKILL.md": "e75d984f18b736a18186d6b74f97d388fb02d17ce414bdee3debea26311ecc66"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/architecture/SPEC.md",
+    "references/specialties/architecture/guide.md",
+    "references/specialties/architecture/references/e2e-testing.md",
+    "references/specialties/architecture/references/testing.md",
+    "references/specialties/implementation/guide.md",
+    "references/specialties/implementation/references/component-templates.md",
+    "references/specialties/implementation/references/tanstack-query-patterns.md",
+    "references/specialties/modernization/guide.md",
+    "references/specialties/performance/guide.md",
+    "references/specialties/performance/rules/bundle-barrel-imports.md",
+    "references/specialties/performance/rules/bundle-conditional.md",
+    "references/specialties/performance/rules/bundle-preload.md",
+    "references/specialties/performance/rules/client-localstorage-schema.md",
+    "references/specialties/performance/rules/client-passive-event-listeners.md",
+    "references/specialties/performance/rules/composition-avoid-boolean-props.md",
+    "references/specialties/performance/rules/composition-avoid-overabstraction.md",
+    "references/specialties/performance/rules/composition-children-over-render-props.md",
+    "references/specialties/performance/rules/composition-compound-components.md",
+    "references/specialties/performance/rules/composition-explicit-variants.md",
+    "references/specialties/performance/rules/composition-state-provider.md",
+    "references/specialties/performance/rules/composition-typescript-namespaces.md",
+    "references/specialties/performance/rules/fault-tolerant-error-boundaries.md",
+    "references/specialties/performance/rules/hooks-limit-useeffect.md",
+    "references/specialties/performance/rules/hooks-useeffect-named-functions.md",
+    "references/specialties/performance/rules/rendering-animate-svg-wrapper.md",
+    "references/specialties/performance/rules/rendering-client-only.md",
+    "references/specialties/performance/rules/rendering-conditional-render.md",
+    "references/specialties/performance/rules/rendering-content-visibility.md",
+    "references/specialties/performance/rules/rendering-hoist-jsx.md",
+    "references/specialties/performance/rules/rendering-hydration-no-flicker.md",
+    "references/specialties/performance/rules/rendering-hydration-suppress-warning.md",
+    "references/specialties/performance/rules/rendering-svg-precision.md",
+    "references/specialties/performance/rules/rendering-use-hydrated.md",
+    "references/specialties/performance/rules/rendering-usetransition-loading.md",
+    "references/specialties/performance/rules/rerender-dependencies.md",
+    "references/specialties/performance/rules/rerender-derived-state-no-effect.md",
+    "references/specialties/performance/rules/rerender-derived-state.md",
+    "references/specialties/performance/rules/rerender-functional-setstate.md",
+    "references/specialties/performance/rules/rerender-lazy-state-init.md",
+    "references/specialties/performance/rules/rerender-memo-with-default-value.md",
+    "references/specialties/performance/rules/rerender-memo.md",
+    "references/specialties/performance/rules/rerender-move-effect-to-event.md",
+    "references/specialties/performance/rules/rerender-simple-expression-in-memo.md",
+    "references/specialties/performance/rules/rerender-transitions.md",
+    "references/specialties/performance/rules/rerender-use-ref-transient-values.md",
+    "references/specialties/routing/guide.md",
+    "references/specialties/routing/references/actions.md",
+    "references/specialties/routing/references/data-loading.md",
+    "references/specialties/routing/references/error-handling.md",
+    "references/specialties/routing/references/middleware.md",
+    "references/specialties/routing/references/navigation.md",
+    "references/specialties/routing/references/pending-ui.md",
+    "references/specialties/routing/references/rendering-strategies.md",
+    "references/specialties/routing/references/route-modules.md",
+    "references/specialties/routing/references/routing.md",
+    "references/specialties/routing/references/sessions.md",
+    "references/specialties/routing/references/special-files.md",
+    "references/specialties/routing/references/type-safety.md"
+  ]
+}

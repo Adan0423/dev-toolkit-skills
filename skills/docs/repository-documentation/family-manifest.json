@@ -1,0 +1,70 @@
+{
+  "family": "repository-documentation",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "audit": {
+      "source": "skills/docs/documentation-repository-curator",
+      "source_metadata": {
+        "name": "documentation-repository-curator",
+        "description": "Audit a software project before writing documentation; verify the real stack from dependency/config files, redesign README and project docs, consolidate duplicate documentation, identify obsolete files safely, and keep docs accurate, consistent, scalable, and maintainable. Use for any language, framework, monorepo, application, library, API, agent system, CLI, desktop, mobile, or web project."
+      },
+      "source_files_sha256": {
+        "README.md": "0ffc495271db0e381e479407ed61259c2430a3796daf1ee90c969dea5850679b",
+        "references/cleanup-policy.md": "74a959f0be5fc105785557b635f3d10140052e40bd268b96b5def7ee2bbdaa8f",
+        "references/document-map.md": "f98161f0e493339bea34ba09f0d35780247552f34b320dcc1001fba8de6920af",
+        "references/preflight-template.md": "5e13e26a5104544d374e0295a21beb1e48a3a8ea6bd8c0fcae9db297a8e60786",
+        "references/project-evidence.md": "a47a6baea356c115cadb8a99a0f8fe6b6432434a76182089dded38f460caa88a",
+        "references/readme-quality.md": "aa37e3330b3acf06271702886971408fed50c6744b2dfe4a20796cc850c98592",
+        "references/research-policy.md": "fe2423139f5c6e8eb61c20a87c909277705eb6e9d2df91b5c44e00b91649d248",
+        "references/source-baseline.md": "161a1afedebf677d47346d4524a224a9af2a3ac04c0f39fd4dc4ee00b85252b8",
+        "scripts/audit_docs.py": "7b8704a732f91bf29c52b87c3b6be9926ee1fe49377bcaf5f1ff5e6c862cee2f",
+        "scripts/validate_skill.py": "61d4e6ba559252a224e530a2a54e469950f7af590a705501c041e5b00957f568",
+        "SKILL.md": "ee2a8187b51840bd79485d00c6b492731ae67aa915db80fd570fb291ec37aaa5"
+      },
+      "adaptations": [
+        "Helper scripts/validate_skill.py: referencia SKILL.md adaptada a guide.md"
+      ]
+    },
+    "readme": {
+      "source": "skills/docs/project-readme-documentation",
+      "source_metadata": {
+        "name": "project-readme-documentation",
+        "description": "Analiza un repositorio real y crea o actualiza su README y documentación técnica con evidencia del código, dependencias y configuración. Úsala cuando el usuario pida documentar un proyecto, mejorar README.md, generar docs/ARCHITECTURE.md, docs/PROGRESS.md, docs/AGENTS.md, docs/SKILLS.md, docs/TODO.md o CONTRIBUTING.md, o estandarizar la documentación de un repositorio sin asumir su stack."
+      },
+      "source_files_sha256": {
+        "SKILL.md": "0f732b62cb7e45b5373d585ffce8a4de8ebd5f2f9d0053d44879fac4b8f63279"
+      },
+      "adaptations": []
+    },
+    "changes": {
+      "source": "skills/docs/docs-updater",
+      "source_metadata": {
+        "name": "docs-updater",
+        "description": "Provides automated documentation updates by analyzing git changes between the current branch and the last release tag. Performs git diff analysis to identify modifications, then updates README.md, CHANGELOG.md following Keep a Changelog standard, and discovers documentation folders for contextual updates. Use when preparing a release, maintaining documentation sync, or before creating a pull request. Triggers on \"update docs\", \"update changelog\", \"sync documentation\", \"update readme\", \"prepare release documentation\".",
+        "allowed-tools": "Read, Edit, Bash"
+      },
+      "source_files_sha256": {
+        "references/examples.md": "e577b240851734d2e10bad0d065d2c2233ac92141d5bfd4b768911ec2d6239a3",
+        "SKILL.md": "70c4d7c387610d126e2c33c0faff109211f5d663988aca458b582c56a11530b5"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/audit/README.md",
+    "references/specialties/audit/guide.md",
+    "references/specialties/audit/references/cleanup-policy.md",
+    "references/specialties/audit/references/document-map.md",
+    "references/specialties/audit/references/preflight-template.md",
+    "references/specialties/audit/references/project-evidence.md",
+    "references/specialties/audit/references/readme-quality.md",
+    "references/specialties/audit/references/research-policy.md",
+    "references/specialties/audit/references/source-baseline.md",
+    "references/specialties/audit/scripts/audit_docs.py",
+    "references/specialties/audit/scripts/validate_skill.py",
+    "references/specialties/changes/guide.md",
+    "references/specialties/changes/references/examples.md",
+    "references/specialties/readme/guide.md"
+  ]
+}

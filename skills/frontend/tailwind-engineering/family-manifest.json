@@ -1,0 +1,156 @@
+{
+  "family": "tailwind-engineering",
+  "generated_by": "scripts/build_skill_families.py",
+  "specialties": {
+    "setup-migration": {
+      "source": "skills/frontend/tailwindcss-v4-3-expert",
+      "source_metadata": {
+        "name": "tailwindcss-v4-3-expert",
+        "description": "Expert skill for analyzing, installing, migrating, designing, refactoring, and validating production interfaces with Tailwind CSS v4.3 across modern web stacks. Verifies the real project before changing code, prefers CSS-first v4 patterns, reusable components, design tokens, responsive/container-query design, accessibility, and minimal dependencies.",
+        "version": "1.0.0"
+      },
+      "source_files_sha256": {
+        "README.md": "029b833723f66adfd1d7dfcb10cd972aaab82050cb59f1f96b6785e9a220ca84",
+        "references/custom-utilities-and-variants.md": "226f68ecd86c90267460e6e760435b665d427c150d5c62aa4bba2c1521eee182",
+        "references/framework-integration.md": "94083bf1fa6b8959302a5546be253e4395dd1c9e59ea6b241851cfcbda1463fc",
+        "references/installation-routing.md": "0f5d059933bac7cd7d0e2f5883a33256f0421cdb7b1ae8433c47919c119a245d",
+        "references/migration-v3-v4.md": "4b0b30eefd983b2a942df8755c7ab60acf97d38127193f4a8abebc067ef457ba",
+        "references/official-sources.md": "65923a6991036cdc5803b09145879c19bd39524310174aad35a6e35677e2cdda",
+        "references/quality-and-accessibility.md": "af1d96192e188ccb5c01579266dbda792a840c582a56b2f0cd1586967325763c",
+        "references/responsive-and-containers.md": "4ddc709add112bcce74d806c7fa595f67db2f848575e8e4c99303c4e11442061",
+        "references/source-detection.md": "21e787211fcc539674a99d2b3e2d2eb5218d03557799ddb0606b7e9dfe91132f",
+        "references/theme-and-design-system.md": "ad96b04849fd7618a5541bd330eeb7889e4d5d686e79f9f619cd89d97051ba62",
+        "references/v4-3-features.md": "958ef7b36d7e2255c82046b2c78df216545f616aaf8d9897f3e9fb46a564c4a3",
+        "scripts/audit_tailwind.py": "1dbc5e092a30ca64041dbc2d13d68dec14df0eec011c01ded4ba46dfc98bef99",
+        "scripts/validate_skill.py": "3f25425c2c90106a53d12f07f81b874155701f65e8c06b6b63965d984f9cf18c",
+        "SKILL.md": "40484a30bfca1540fb9c4d52579e6bdc6c63ece8af62a4ea37ddcf9075cb03f1"
+      },
+      "adaptations": [
+        "Helper scripts/validate_skill.py: referencia SKILL.md adaptada a guide.md"
+      ]
+    },
+    "theming": {
+      "source": "skills/frontend/tailwind-theme-builder",
+      "source_metadata": {
+        "name": "tailwind-theme-builder",
+        "description": "Set up Tailwind v4 + shadcn/ui themed UI with dark mode. Install deps, configure CSS variables via @theme inline, wire dark mode toggle, verify. Use whenever the user mentions Tailwind v4, setting up Tailwind theming, shadcn/ui colours, dark mode, or troubleshooting colours not working, tw-animate-css errors, @theme inline conflicts, @apply breaking after upgrade, or v3 → v4 migration issues.",
+        "compatibility": "claude-code-only"
+      },
+      "source_files_sha256": {
+        "assets/components.json": "6cfbacfe2152a809d94f0d79d2915f97b3b3bb3f115c730a7df65d4a2b4757f0",
+        "assets/index.css": "6ff8dbfe8bc4bcf6d557d51329cd8a92a63cb1bc8a08183425ba081264e70dae",
+        "assets/theme-provider.tsx": "4aae26c538223a5e345ab70a73ba468e28e6818e7548cbd52608a06d9327115c",
+        "assets/tsconfig.app.json": "c547411de5c6a8869a54876ffb032a6cc8ca52b4ee68554e7c059e86d334f51e",
+        "assets/utils.ts": "7ff92063f6489f30a95e1963948aa830decc9757e733195eab72ce7928f436d3",
+        "assets/vite.config.ts": "d4d480e9946c2511b4682f6a4778e2b2f8ed521c0de2c94b942a9418e2b6516c",
+        "references/migration-guide.md": "cd71bf97fe58344bf132fa35d2a3beb8049be6c66f68a883ed6f8bc94076eb8a",
+        "SKILL.md": "e34396b3d048c4d0d6831c32119ef8f579fc9ea03289bd7252de9e5c29e558cd"
+      },
+      "adaptations": []
+    },
+    "shadcn": {
+      "source": "skills/frontend/tailwind-v4-shadcn",
+      "source_metadata": {
+        "name": "tailwind-v4-shadcn",
+        "description": "| Production-tested setup for Tailwind CSS v4 with shadcn/ui, Vite, and React. Use when: initializing React projects with Tailwind v4, setting up shadcn/ui, implementing dark mode, debugging CSS variable issues, fixing theme switching, migrating from Tailwind v3, or encountering color/theming problems. Covers: @theme inline pattern, CSS variable architecture, dark mode with ThemeProvider, component composition, vite.config setup, common v4 gotchas, and production-tested patterns.",
+        "metadata": {
+          "keywords": [
+            "Tailwind v4",
+            "shadcn/ui",
+            "@tailwindcss/vite",
+            "@theme inline",
+            "dark mode",
+            "CSS variables",
+            "hsl() wrapper",
+            "components.json",
+            "React theming",
+            "theme switching",
+            "colors not working",
+            "variables broken",
+            "theme not applying",
+            "@plugin directive",
+            "typography plugin",
+            "forms plugin",
+            "prose class",
+            "@tailwindcss/typography",
+            "@tailwindcss/forms"
+          ]
+        },
+        "license": "MIT"
+      },
+      "source_files_sha256": {
+        "references/advanced-usage.md": "f5b6a3993faa4d667265e27e9a9d30905fb529935bc3d4aa00bb7f8e5e82b65a",
+        "references/common-gotchas.md": "81962c632d174587bc39915ee6aa643f10c8fed56f36c79895a14cc020f4aed0",
+        "references/dark-mode.md": "b7c92b414df7d1f8761d36e206c4f28ecb44ef5690734eb307656028a730c6de",
+        "references/migration-guide.md": "cd71bf97fe58344bf132fa35d2a3beb8049be6c66f68a883ed6f8bc94076eb8a",
+        "references/plugins-reference.md": "0adf79a47de8b15158392a0729252087f02bfa42a2255e599ecd43fa7d789d85",
+        "SKILL.md": "b493522ee378ad08e93a35ca7672a1419c58ea97ecbbb345a815a2aa08b70133",
+        "templates/components.json": "6cfbacfe2152a809d94f0d79d2915f97b3b3bb3f115c730a7df65d4a2b4757f0",
+        "templates/index.css": "6ff8dbfe8bc4bcf6d557d51329cd8a92a63cb1bc8a08183425ba081264e70dae",
+        "templates/theme-provider.tsx": "4aae26c538223a5e345ab70a73ba468e28e6818e7548cbd52608a06d9327115c",
+        "templates/tsconfig.app.json": "c547411de5c6a8869a54876ffb032a6cc8ca52b4ee68554e7c059e86d334f51e",
+        "templates/utils.ts": "7ff92063f6489f30a95e1963948aa830decc9757e733195eab72ce7928f436d3",
+        "templates/vite.config.ts": "d4d480e9946c2511b4682f6a4778e2b2f8ed521c0de2c94b942a9418e2b6516c"
+      },
+      "adaptations": []
+    },
+    "documentation": {
+      "source": "skills/frontend/tailwind-4-docs",
+      "source_metadata": {
+        "name": "tailwind-4-docs",
+        "description": "Comprehensive Tailwind CSS v4 documentation snapshot and workflow guidance. Use when answering Tailwind v4 questions, selecting utilities/variants, configuring Tailwind v4, or migrating projects from v3 to v4 with official docs and gotcha checks.",
+        "compatibility": "Requires git, Python 3, and internet access to initialize the Tailwind docs snapshot from tailwindcss.com."
+      },
+      "source_files_sha256": {
+        "references/docs-source.txt": "1e2af62917531de3c5ea3340add673daa1b501c54f8fd4464527ea484291a9dd",
+        "references/engineering-playbook.md": "ea3ce55791f5d909a44c15d63d8abca3300c1e5caca322c3d08758c0bf90baa9",
+        "references/gotchas.md": "e661d2e962ebb3dba00d320c8ec3aff6f01c49ba63c4b7d555d8c3ad65e0508d",
+        "scripts/sync_tailwind_docs.py": "f3e942ca3b853900e11143016b41358e7fe80fa57f725d3d7b71a54cd6361543",
+        "SKILL.md": "240d1a68ef9d9d29f1f37efb501c5b149c20603635b818f9bdad1889ad450ca1"
+      },
+      "adaptations": []
+    }
+  },
+  "generated_files": [
+    "agents/openai.yaml",
+    "references/specialties/documentation/guide.md",
+    "references/specialties/documentation/references/docs-source.txt",
+    "references/specialties/documentation/references/engineering-playbook.md",
+    "references/specialties/documentation/references/gotchas.md",
+    "references/specialties/documentation/scripts/sync_tailwind_docs.py",
+    "references/specialties/setup-migration/README.md",
+    "references/specialties/setup-migration/guide.md",
+    "references/specialties/setup-migration/references/custom-utilities-and-variants.md",
+    "references/specialties/setup-migration/references/framework-integration.md",
+    "references/specialties/setup-migration/references/installation-routing.md",
+    "references/specialties/setup-migration/references/migration-v3-v4.md",
+    "references/specialties/setup-migration/references/official-sources.md",
+    "references/specialties/setup-migration/references/quality-and-accessibility.md",
+    "references/specialties/setup-migration/references/responsive-and-containers.md",
+    "references/specialties/setup-migration/references/source-detection.md",
+    "references/specialties/setup-migration/references/theme-and-design-system.md",
+    "references/specialties/setup-migration/references/v4-3-features.md",
+    "references/specialties/setup-migration/scripts/audit_tailwind.py",
+    "references/specialties/setup-migration/scripts/validate_skill.py",
+    "references/specialties/shadcn/guide.md",
+    "references/specialties/shadcn/references/advanced-usage.md",
+    "references/specialties/shadcn/references/common-gotchas.md",
+    "references/specialties/shadcn/references/dark-mode.md",
+    "references/specialties/shadcn/references/migration-guide.md",
+    "references/specialties/shadcn/references/plugins-reference.md",
+    "references/specialties/shadcn/templates/components.json",
+    "references/specialties/shadcn/templates/index.css",
+    "references/specialties/shadcn/templates/theme-provider.tsx",
+    "references/specialties/shadcn/templates/tsconfig.app.json",
+    "references/specialties/shadcn/templates/utils.ts",
+    "references/specialties/shadcn/templates/vite.config.ts",
+    "references/specialties/theming/assets/components.json",
+    "references/specialties/theming/assets/index.css",
+    "references/specialties/theming/assets/theme-provider.tsx",
+    "references/specialties/theming/assets/tsconfig.app.json",
+    "references/specialties/theming/assets/utils.ts",
+    "references/specialties/theming/assets/vite.config.ts",
+    "references/specialties/theming/guide.md",
+    "references/specialties/theming/references/migration-guide.md"
+  ]
+}
